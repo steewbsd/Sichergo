@@ -1,0 +1,4435 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "75f4b9a7-7702-4bda-abed-1a55a1b17359")
+	(paper "A5")
+	(title_block
+		(title "Simple Keyboard")
+		(date "2025-02-09")
+		(rev "0")
+		(company "Daniel Pérez (steewBSD)")
+	)
+	(lib_symbols
+		(symbol "Diode:CD4148W"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CD4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Switching Diode, 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CD4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CD4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 102.87 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "067de5c8-fcc5-47e8-bf9c-6dbf3ae81eed")
+	)
+	(junction
+		(at 44.45 33.02)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "07b10f9d-ba32-4ffe-9af5-2381d333c16a")
+	)
+	(junction
+		(at 115.57 67.31)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "0bbd98cb-12cb-47df-84fb-f891de9c04dd")
+	)
+	(junction
+		(at 139.7 67.31)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "0cfff056-4120-4e17-89fb-6c896dcc80b7")
+	)
+	(junction
+		(at 68.58 33.02)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "0dc8a38a-c283-4b73-86b3-d793fd9ed1bf")
+	)
+	(junction
+		(at 102.87 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f8e4559-a70c-490b-9f91-ddd0654e7bf5")
+	)
+	(junction
+		(at 44.45 49.53)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "2442bd36-a375-4527-b870-874252cc8fab")
+	)
+	(junction
+		(at 139.7 33.02)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "266a0fdd-8510-48ed-8985-87c488778373")
+	)
+	(junction
+		(at 115.57 49.53)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "2e211622-182d-471c-982b-ee4ec5423021")
+	)
+	(junction
+		(at 80.01 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52ff12f2-c0bd-4323-9173-2bb1ac126702")
+	)
+	(junction
+		(at 139.7 49.53)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "534e13da-cfbb-4c8f-aa38-939298cca63c")
+	)
+	(junction
+		(at 80.01 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fbf6c18-cd5d-47fa-aa19-e9d8aabe55ef")
+	)
+	(junction
+		(at 55.88 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85246d3c-ced0-4e9c-a202-2a666b5732f1")
+	)
+	(junction
+		(at 115.57 33.02)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "8950d126-cfe0-4d25-8cdd-6943e784422d")
+	)
+	(junction
+		(at 127 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9861c4bd-46f1-4f3b-9c11-8c9fadc9217d")
+	)
+	(junction
+		(at 91.44 33.02)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "9976c38b-0dd9-4975-837f-d902a7d5f009")
+	)
+	(junction
+		(at 80.01 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a26d5fcc-a2fd-4eb7-98a2-6a8c8ef07f80")
+	)
+	(junction
+		(at 55.88 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a35b231f-027a-46c5-94f1-954b64162399")
+	)
+	(junction
+		(at 55.88 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8cfc700-2170-4586-83af-263bcc4e5b4f")
+	)
+	(junction
+		(at 102.87 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be52a615-45e5-4465-9de4-184a116a83f6")
+	)
+	(junction
+		(at 127 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c67ec46f-a0b1-4998-ac64-a4ff15b74e4c")
+	)
+	(junction
+		(at 127 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd487653-f8d8-4269-8b06-0e412dadbad4")
+	)
+	(junction
+		(at 68.58 49.53)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "effb46e1-c1d4-4a0b-9e0b-167a0183f152")
+	)
+	(junction
+		(at 91.44 67.31)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "f0ebe46f-3f0c-46d6-b8c1-7342d895ba43")
+	)
+	(junction
+		(at 102.87 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f64b532d-a93d-40bb-bf6f-9052bd63882d")
+	)
+	(junction
+		(at 127 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9ffd7a7-0c99-4e59-8f47-6596171a1e7d")
+	)
+	(junction
+		(at 91.44 49.53)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "fcdb4e4d-5ef9-49ba-8760-195fc1ae3a8d")
+	)
+	(wire
+		(pts
+			(xy 91.44 49.53) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "03a84b8b-b38b-44e9-a735-d0701fd15a70")
+	)
+	(wire
+		(pts
+			(xy 102.87 41.91) (xy 127 41.91)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1207d705-dda5-4f09-ab74-2612e0cfe225")
+	)
+	(wire
+		(pts
+			(xy 55.88 41.91) (xy 80.01 41.91)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1a9e8835-3c97-4a98-8195-8e86f591d93d")
+	)
+	(wire
+		(pts
+			(xy 149.86 86.36) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a7b246-4a6c-49fb-8500-abca5f31c2e4")
+	)
+	(wire
+		(pts
+			(xy 54.61 67.31) (xy 55.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f8a3f0-14b0-48ec-932c-30becea955d0")
+	)
+	(wire
+		(pts
+			(xy 44.45 25.4) (xy 44.45 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "288de0de-5cd7-4f61-8338-51b5677fc3fe")
+	)
+	(wire
+		(pts
+			(xy 139.7 33.02) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "2c3f8867-3e6a-4969-8c47-045fac98d569")
+	)
+	(wire
+		(pts
+			(xy 68.58 49.53) (xy 68.58 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "2d9e635e-3816-4f8f-8303-848df6db529a")
+	)
+	(wire
+		(pts
+			(xy 101.6 49.53) (xy 102.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1eb56f-a0a0-4b82-9c1a-63627a916c03")
+	)
+	(wire
+		(pts
+			(xy 139.7 49.53) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "2e3b8b69-1250-4704-a696-6ab9d13a8902")
+	)
+	(wire
+		(pts
+			(xy 149.86 33.02) (xy 151.13 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3880e5c9-30b1-43ea-980f-21b55ade36e9")
+	)
+	(wire
+		(pts
+			(xy 115.57 25.4) (xy 115.57 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "3ad1f2f2-2aa4-4509-9fbf-7c375c71fef1")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 102.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45dd5efe-de31-46d7-ac91-09a7df8de131")
+	)
+	(wire
+		(pts
+			(xy 91.44 67.31) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "483a01c1-6ef7-468c-8a3f-48fcec305be1")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 115.57 86.36)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "4a6e212f-bb90-4ec6-9668-1977fab61c5c")
+	)
+	(wire
+		(pts
+			(xy 44.45 49.53) (xy 44.45 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "4b7024ef-361c-4b99-863e-1b50b9f047ab")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 151.13 58.42)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4db40338-e6b0-445e-9c7b-c3ae96de2bb3")
+	)
+	(wire
+		(pts
+			(xy 87.63 95.25) (xy 102.87 95.25)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5114fb7c-b2cd-49a2-a98c-ee2249f993de")
+	)
+	(wire
+		(pts
+			(xy 54.61 33.02) (xy 55.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527e3c63-adc1-4fd7-89ce-aa54c0fe7f1f")
+	)
+	(wire
+		(pts
+			(xy 149.86 67.31) (xy 151.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55249cab-f1e1-4a61-89c1-96c9f30c83cc")
+	)
+	(wire
+		(pts
+			(xy 80.01 41.91) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "55fd962b-dc8d-4a3b-a296-49acde756e6b")
+	)
+	(wire
+		(pts
+			(xy 55.88 58.42) (xy 80.01 58.42)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "59d636f0-319b-4161-8e76-e45417719d75")
+	)
+	(wire
+		(pts
+			(xy 55.88 76.2) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5a5d308b-9594-4a75-81d0-5c7d93f599ca")
+	)
+	(wire
+		(pts
+			(xy 102.87 58.42) (xy 127 58.42)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5f4b80db-501c-4534-abf2-1bfa1c6ac64c")
+	)
+	(wire
+		(pts
+			(xy 80.01 49.53) (xy 80.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fdae201-b1d0-423f-b456-1a74bc06951f")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 127 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a4106d-2a49-45bc-9f7d-5f104762f99c")
+	)
+	(wire
+		(pts
+			(xy 149.86 49.53) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6431d21e-83a2-4bba-b43b-ccf6b0703588")
+	)
+	(wire
+		(pts
+			(xy 78.74 67.31) (xy 80.01 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677514a3-6566-4afc-91c6-2f10e8ec8f93")
+	)
+	(wire
+		(pts
+			(xy 151.13 67.31) (xy 151.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67eca03e-4bb2-4282-b1e3-d1c0088f5745")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6a296215-0f7a-4f3e-ab97-7d9e71f3bf20")
+	)
+	(wire
+		(pts
+			(xy 102.87 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7160f3d5-be92-4af7-8f9c-c3d6ca79d33a")
+	)
+	(wire
+		(pts
+			(xy 44.45 33.02) (xy 44.45 49.53)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "718f5630-01f4-4099-9df2-77391810c770")
+	)
+	(wire
+		(pts
+			(xy 102.87 49.53) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74571839-bf3c-4988-b756-f9f1647ea400")
+	)
+	(wire
+		(pts
+			(xy 127 41.91) (xy 151.13 41.91)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "78dfb8a7-229e-4e83-8ec0-79e50e9aa8bb")
+	)
+	(wire
+		(pts
+			(xy 125.73 49.53) (xy 127 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3bd153-19b6-4f69-a97e-5990c0a700e0")
+	)
+	(wire
+		(pts
+			(xy 102.87 95.25) (xy 127 95.25)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7ef7887b-a5f4-4683-a499-ff4988c37dcb")
+	)
+	(wire
+		(pts
+			(xy 91.44 25.4) (xy 91.44 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "8175e2b3-25e5-4162-96ca-67371d34bb55")
+	)
+	(wire
+		(pts
+			(xy 127 49.53) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f6d1b6-626d-4374-801e-d9a316f2345a")
+	)
+	(wire
+		(pts
+			(xy 151.13 49.53) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e045a00-9c7d-4125-821a-705dc5c9e80f")
+	)
+	(wire
+		(pts
+			(xy 34.29 58.42) (xy 55.88 58.42)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "91a8f0ac-1093-4b3f-baad-c1fad45c8eea")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 102.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93edff3a-8d2d-4ea8-ace4-5d8f5afea3bf")
+	)
+	(wire
+		(pts
+			(xy 125.73 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f1e5f8-fb90-4621-ba86-075aa35cd199")
+	)
+	(wire
+		(pts
+			(xy 54.61 49.53) (xy 55.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f34c18-b3f5-4468-8092-9d03090ed25b")
+	)
+	(wire
+		(pts
+			(xy 127 33.02) (xy 127 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f574d4-085f-4d5b-9074-8e8a9ee9a852")
+	)
+	(wire
+		(pts
+			(xy 127 95.25) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "99823d78-dc10-48a4-8fb9-b39cb25e9852")
+	)
+	(wire
+		(pts
+			(xy 139.7 25.4) (xy 139.7 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "9addb307-29c4-45bc-a3c6-53fcedd4c7ed")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 55.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eeed6b7-88e6-42f6-a71c-e6005e93ee77")
+	)
+	(wire
+		(pts
+			(xy 127 67.31) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4bc0f2-d62f-46ff-98d7-911e4b0bcf6a")
+	)
+	(wire
+		(pts
+			(xy 68.58 33.02) (xy 68.58 49.53)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "a08e6079-ea8e-4104-afe4-9583f70034c5")
+	)
+	(wire
+		(pts
+			(xy 80.01 58.42) (xy 102.87 58.42)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a68c2caa-ee7b-4ef6-b004-d1dcfb7ac9df")
+	)
+	(wire
+		(pts
+			(xy 151.13 33.02) (xy 151.13 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c98d8f-a74b-4ac2-b510-3f090b06733a")
+	)
+	(wire
+		(pts
+			(xy 91.44 33.02) (xy 91.44 49.53)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "b141fe7d-f003-4deb-88f0-cacba87ee960")
+	)
+	(wire
+		(pts
+			(xy 34.29 76.2) (xy 55.88 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b5d4c4d3-9a88-4d32-bf20-21e13d68d2c2")
+	)
+	(wire
+		(pts
+			(xy 55.88 49.53) (xy 55.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8618fc9-47e4-4059-89ff-589349ff380c")
+	)
+	(wire
+		(pts
+			(xy 102.87 86.36) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb00195a-972d-4653-b12b-6c7e0b575b8c")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 102.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becc119d-1b72-4e81-98f1-b8b803d5d62e")
+	)
+	(wire
+		(pts
+			(xy 101.6 33.02) (xy 102.87 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c994980f-0087-496d-9d61-d2c9e0f0646f")
+	)
+	(wire
+		(pts
+			(xy 78.74 49.53) (xy 80.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1dadfd-f8d1-4278-afe4-3942507171d7")
+	)
+	(wire
+		(pts
+			(xy 102.87 33.02) (xy 102.87 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f2f988-78a0-47b6-a681-b23780350b6e")
+	)
+	(wire
+		(pts
+			(xy 80.01 67.31) (xy 80.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62b9a60-8640-467c-94aa-691bf25c7859")
+	)
+	(wire
+		(pts
+			(xy 68.58 25.4) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "d78774d8-83c0-4514-99fc-606fcc061236")
+	)
+	(wire
+		(pts
+			(xy 34.29 41.91) (xy 55.88 41.91)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d9bd7d7c-d9ec-4a58-bd5d-d5411bf0accb")
+	)
+	(wire
+		(pts
+			(xy 115.57 33.02) (xy 115.57 49.53)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "da358de5-5892-4391-9765-d60564a5f1dd")
+	)
+	(wire
+		(pts
+			(xy 115.57 49.53) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "e0d78942-828f-4210-83fa-f0a8ec7cdfa9")
+	)
+	(wire
+		(pts
+			(xy 125.73 33.02) (xy 127 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6141b22-d0a5-4399-9bce-afc4ae952fbc")
+	)
+	(wire
+		(pts
+			(xy 151.13 86.36) (xy 151.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0d22c7-b909-4c37-aea7-e77aa9af7cf4")
+	)
+	(wire
+		(pts
+			(xy 80.01 76.2) (xy 102.87 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f033f656-1322-406f-b6b5-7c7e5b0a6c33")
+	)
+	(wire
+		(pts
+			(xy 55.88 67.31) (xy 55.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2eb78be-87ac-4823-9116-22320ad85379")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "f46c462b-d1ba-4846-b54e-0c35d0d9336b")
+	)
+	(wire
+		(pts
+			(xy 78.74 33.02) (xy 80.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b803b1-17f7-49b0-9e2d-583249dd2b3c")
+	)
+	(wire
+		(pts
+			(xy 125.73 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83feecc-079e-4ca1-b0bc-21aabd9d2d39")
+	)
+	(wire
+		(pts
+			(xy 80.01 33.02) (xy 80.01 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facf79e0-b075-461b-a8db-02379c7859e5")
+	)
+	(rectangle
+		(start 89.662 29.972)
+		(end 105.156 44.704)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 1799d61d-d38a-4dc3-aa3e-bb92d1d6d05d)
+	)
+	(rectangle
+		(start 42.926 64.008)
+		(end 58.42 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 2062cab7-18d5-4439-ae40-4b84be9080df)
+	)
+	(rectangle
+		(start 137.922 83.058)
+		(end 153.416 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 424e355c-e874-4dd5-8145-e8e2416e54ed)
+	)
+	(rectangle
+		(start 66.802 63.754)
+		(end 82.296 78.486)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 4f6a40b1-fc76-4d01-a3f7-77a0e6a326b1)
+	)
+	(rectangle
+		(start 42.926 29.972)
+		(end 58.42 44.704)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 6e7826af-7e7f-4e82-8406-59f47fa4b0d1)
+	)
+	(rectangle
+		(start 113.538 63.754)
+		(end 129.032 78.486)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 6e7f1b9c-5a48-45d7-8926-2c4ed5fb54f1)
+	)
+	(rectangle
+		(start 113.538 83.058)
+		(end 129.032 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 6f14f003-8ec6-4408-8ca5-b0262016ac5f)
+	)
+	(rectangle
+		(start 89.662 46.228)
+		(end 105.156 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 79049c4a-36a7-4fa8-a3cd-c6ccf35183b6)
+	)
+	(rectangle
+		(start 89.662 83.312)
+		(end 105.156 98.044)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 8da206c2-40e8-42de-a83e-66ac02df7fbb)
+	)
+	(rectangle
+		(start 137.922 29.718)
+		(end 153.416 44.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid ab1c774f-22c7-455d-aa3a-364a0a438725)
+	)
+	(rectangle
+		(start 137.922 63.754)
+		(end 153.416 78.486)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid aef3705c-1f02-4d75-aba5-5035a32ee8be)
+	)
+	(rectangle
+		(start 89.662 64.008)
+		(end 105.156 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid bc85461c-5216-47e3-beb1-7127cb1a4ac1)
+	)
+	(rectangle
+		(start 137.922 45.974)
+		(end 153.416 60.706)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid bdcb6df4-6450-4d55-81ba-9b7150033b70)
+	)
+	(rectangle
+		(start 42.926 46.228)
+		(end 58.42 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid dc25894b-9099-42cd-9dd1-0e99e91f1e2f)
+	)
+	(rectangle
+		(start 66.802 29.718)
+		(end 82.296 44.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid dfa5d56b-5e68-4d8f-8692-a32b9092e367)
+	)
+	(rectangle
+		(start 66.802 45.974)
+		(end 82.296 60.706)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid e018e8fc-ff40-4238-85b1-29957cdaf055)
+	)
+	(rectangle
+		(start 113.538 29.718)
+		(end 129.032 44.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid f2c41035-d3b3-4f5f-83dd-fcd4c45cbf12)
+	)
+	(rectangle
+		(start 113.538 45.974)
+		(end 129.032 60.706)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid fa023a55-4a91-4957-960b-44d60266dbb6)
+	)
+	(text "Matrix Left"
+		(exclude_from_sim no)
+		(at 158.496 112.014 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "f86ee659-5c90-47e4-bfd8-af0d019fae8b")
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 151.13 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "035ca9b9-2e74-422a-a296-35bfd7de6c19")
+		(property "Reference" "D11"
+			(at 153.67 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 153.67 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 151.13 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12ed7d60-f4cd-4268-9cb5-664a8b7e6868")
+		)
+		(pin "1"
+			(uuid "fdee6fee-087e-4139-b218-771171ece124")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 80.01 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "038f3790-6c65-4b08-8ef7-c6b84294fa16")
+		(property "Reference" "D3"
+			(at 82.55 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 82.55 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 80.01 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf1f98dc-3aaa-4dd1-a928-d24d93953dbe")
+		)
+		(pin "1"
+			(uuid "cb0d6647-aa56-4f3b-998a-90a8aa527f7a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 144.78 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09846464-ef6a-4be8-b108-f44d54245858")
+		(property "Reference" "SW6"
+			(at 144.78 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c29d424-5aba-4ed7-90b6-ce1ed681eae8")
+		)
+		(pin "1"
+			(uuid "c5203397-bd3d-4f90-826d-ac4ec1673943")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 102.87 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aa3e113-bb3e-4ad2-9477-a173a83309aa")
+		(property "Reference" "D4"
+			(at 105.41 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 105.41 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 102.87 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74f3479f-b8a9-4e17-834b-bfe64dfb9f4b")
+		)
+		(pin "1"
+			(uuid "98181577-2ab3-4dd9-b229-a6a4255a8c33")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 73.66 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ca9b0d1-497f-48e1-bcc1-a8e96eba220b")
+		(property "Reference" "SW3"
+			(at 73.406 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23ca1174-5cd2-4a01-bbf5-9ae7fc067a81")
+		)
+		(pin "1"
+			(uuid "5f8a21fe-2832-49ba-9260-fdd63f251f85")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 127 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f801d13-508a-4a3f-8c06-e5ef6fac3ed0")
+		(property "Reference" "D20"
+			(at 129.54 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 129.54 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 127 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fef6594b-ed29-43c8-a8c7-df14043f4394")
+		)
+		(pin "1"
+			(uuid "77ef5c76-5829-4688-ba96-5b4e6c8150ed")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 96.52 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30351521-5c52-4647-9151-021e560e8e3f")
+		(property "Reference" "SW19"
+			(at 96.52 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 96.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed10aacd-f86d-4b44-af6a-c77a7c8ac5c5")
+		)
+		(pin "1"
+			(uuid "f689928f-3924-474e-ac3c-91fcd8de1b70")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 144.78 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33ca1518-0989-42e4-ad7d-19d7959e234d")
+		(property "Reference" "SW11"
+			(at 144.78 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d07ec99-4198-4760-a959-e83d5477f9b5")
+		)
+		(pin "1"
+			(uuid "57f9e15e-4300-4f78-8abc-aca8e596c918")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 120.65 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37965e4c-f688-49fa-a672-06d47f1faa9e")
+		(property "Reference" "SW20"
+			(at 120.65 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a58ffd8e-37aa-4003-a37a-365068a6341c")
+		)
+		(pin "1"
+			(uuid "720ae831-8a0f-49be-8bd4-54eb42edb43f")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 96.52 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "448c0347-6595-41e2-ae94-45ca93d75c15")
+		(property "Reference" "SW14"
+			(at 96.52 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 96.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8dc8881a-2c87-43a1-863f-88359c13fcb5")
+		)
+		(pin "1"
+			(uuid "3c248575-0f16-4cd4-898d-b0f60c01cda1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 151.13 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5faba3bc-564f-401a-9265-839648bdc699")
+		(property "Reference" "D16"
+			(at 153.67 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 153.67 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 151.13 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01ee07c1-92c8-4874-9a9e-6cbeb7549c7a")
+		)
+		(pin "1"
+			(uuid "567d73d9-a816-4996-b2f7-8009a199f6e1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 127 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "617e4dea-b5a2-48d7-8700-67480ac6ba6b")
+		(property "Reference" "D15"
+			(at 129.54 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 129.54 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 127 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d67b131-000a-44f6-8056-233f540f8b53")
+		)
+		(pin "1"
+			(uuid "161b59d1-9c21-4297-b142-a5ef9877719b")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 102.87 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b9d3c30-a40f-44d1-ba96-35e391deefb5")
+		(property "Reference" "D9"
+			(at 105.41 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 105.41 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 107.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 102.87 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c90c8150-db79-4320-a29c-19d4a46d09dc")
+		)
+		(pin "1"
+			(uuid "4c0e6d8e-f86a-4fc2-9a6f-9022b97cbe1d")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 120.65 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fd01314-5cf1-4c3e-9dd0-93426483220f")
+		(property "Reference" "SW5"
+			(at 120.65 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d962c9ab-7dba-448e-86dc-f30a2b4a6e8a")
+		)
+		(pin "1"
+			(uuid "b5a02269-71b2-4fd2-b174-6737c6eecb5c")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "700fe615-a163-4d5d-81f3-fbec1ee12711")
+		(property "Reference" "SW12"
+			(at 49.53 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16674b58-5956-4e45-963c-32b9d1479c40")
+		)
+		(pin "1"
+			(uuid "93524961-0783-44fb-be2f-cffaec4460b5")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 80.01 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f1098f-1849-4b5b-8e57-f08731320d30")
+		(property "Reference" "D8"
+			(at 82.55 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 82.55 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 80.01 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74c26657-834f-44de-883d-c6baaf5146bb")
+		)
+		(pin "1"
+			(uuid "ff11c083-93c4-459c-bfc6-df2b9feb695a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 96.52 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c215a15-803b-4bd2-9f4a-756d49f42449")
+		(property "Reference" "SW9"
+			(at 96.52 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 96.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3881946-4750-46d7-9851-a758bba01ecd")
+		)
+		(pin "1"
+			(uuid "7fe451f0-7838-4ed3-9b3b-ee38ab20d9a5")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 120.65 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ee28cbf-64b1-4879-82ae-951a3d942256")
+		(property "Reference" "SW10"
+			(at 120.65 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94d47bb0-a3e5-4f41-8683-e04febe42121")
+		)
+		(pin "1"
+			(uuid "f3bcffed-3adf-43f4-841e-128635aae18b")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 102.87 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fbdc279-4139-4675-9dc3-5e2cc618968b")
+		(property "Reference" "D14"
+			(at 105.41 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 105.41 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 107.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 102.87 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb757c58-8cc4-4451-91e6-8ec5f3ba6bd5")
+		)
+		(pin "1"
+			(uuid "5c1a416e-773f-4977-9b75-5563fcbf9e8a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 96.52 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "912f4479-4158-4533-b5c6-d24c226f3167")
+		(property "Reference" "SW4"
+			(at 96.52 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 96.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 96.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7393bea4-706d-4463-a70f-d2297fb37c00")
+		)
+		(pin "1"
+			(uuid "6f49a98f-f5ad-4b07-8a8a-ddfd8a5c114a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91a0ffe1-2106-4381-92a2-58c2b0f34d5d")
+		(property "Reference" "SW1"
+			(at 49.53 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 49.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3afe5782-5734-4a55-818d-2b66bb9be424")
+		)
+		(pin "1"
+			(uuid "678ce61e-9dde-45d9-902a-cdacf4fdbdd5")
+		)
+		(instances
+			(project ""
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 102.87 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9309b0ed-e7f2-475f-b1df-7da53b9f22e2")
+		(property "Reference" "D19"
+			(at 105.41 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 105.41 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 102.87 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cec69b13-5b5f-4961-bc2b-308c6ffaa105")
+		)
+		(pin "1"
+			(uuid "809befb1-9286-4339-90f0-d52bd01d6222")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 127 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99330c3b-e69d-4063-9a8e-581448948fc9")
+		(property "Reference" "D10"
+			(at 129.54 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 129.54 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 127 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab202dcb-c260-44ca-8622-c25b2dc2a40d")
+		)
+		(pin "1"
+			(uuid "4139d628-5ead-4ff9-95cc-db0e1d9e5484")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 151.13 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b9dbc0e-8758-4c55-97ff-75c42506ae36")
+		(property "Reference" "D21"
+			(at 153.67 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 153.67 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 151.13 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26f5964d-2abd-469d-89a4-9dc76c724517")
+		)
+		(pin "1"
+			(uuid "70839a0f-258c-4cb9-9b10-cd5ef4663f7c")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 73.66 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7a3c503-817f-4bd6-a435-6f52488a7faf")
+		(property "Reference" "SW8"
+			(at 73.66 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 73.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d74bf61-a8d5-49a9-bc14-319c2ace5cc7")
+		)
+		(pin "1"
+			(uuid "1c04e47a-e753-45eb-aa48-0103b8feb682")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 73.66 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1c6efeb-f382-41fe-b5c5-371c26bddc45")
+		(property "Reference" "SW13"
+			(at 73.66 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 73.66 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74f3a0fb-8591-4dd4-93d6-9f3735178461")
+		)
+		(pin "1"
+			(uuid "031bcf0c-c700-49e4-8192-738ef3f2417a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 55.88 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca88675c-c38b-42ec-a8a2-8059af30329d")
+		(property "Reference" "D7"
+			(at 58.42 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 58.42 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 60.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 55.88 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b8c86ae-db55-4c23-af4a-c76dc5455f13")
+		)
+		(pin "1"
+			(uuid "eeac8d73-8617-4847-b5a2-3c2c708fcc56")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 151.13 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb0aafe5-9603-4493-bc10-c1aa8c9d1716")
+		(property "Reference" "D6"
+			(at 153.67 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 153.67 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 151.13 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5203890b-aa4e-4301-9e5b-c7eccf536bcb")
+		)
+		(pin "1"
+			(uuid "0240266c-770f-457c-b605-16300d810caf")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 80.01 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfbe4b3a-2774-4cda-b993-18e04adeb917")
+		(property "Reference" "D13"
+			(at 82.55 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 82.55 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 80.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 80.01 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "785556e1-df97-43d2-89f8-2a28aecd531c")
+		)
+		(pin "1"
+			(uuid "d51ace83-8a7c-4f3f-847c-09df90338c46")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 120.65 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2c4714b-c946-4dd9-9825-3cdc32c4ba7e")
+		(property "Reference" "SW15"
+			(at 120.65 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca75a27a-9797-478d-99f7-77ef119f7c60")
+		)
+		(pin "1"
+			(uuid "4c670773-0618-4ea3-b410-c296c37e7158")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 144.78 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc2d0932-e2a8-4498-bce8-cbd41c3031c8")
+		(property "Reference" "SW21"
+			(at 144.78 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0816cae5-fda0-4b94-b028-e7757f17dc6a")
+		)
+		(pin "1"
+			(uuid "fd144555-12ce-481a-925e-814eb5d2f169")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd5f9e87-d47c-4e03-9f89-4d6e7a86f756")
+		(property "Reference" "SW7"
+			(at 49.53 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6cc94f0-9ab4-458f-bf5c-e4e8eec97e80")
+		)
+		(pin "1"
+			(uuid "b3de793f-54a3-4f05-baca-c7d61bbfa3cc")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 55.88 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e29d2f14-da14-40b7-be44-21190ef47de8")
+		(property "Reference" "D2"
+			(at 58.42 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 58.42 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 55.88 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c064d5ec-1b0f-4bbc-8860-7103670c2b4f")
+		)
+		(pin "1"
+			(uuid "fb8f72e1-da63-46d8-85c4-6e94442dbb43")
+		)
+		(instances
+			(project ""
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 127 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed0a9678-5fb4-43b0-8216-0fb1137ef375")
+		(property "Reference" "D5"
+			(at 129.54 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 129.54 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 127 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c84a964-851d-404d-94ca-08f0cbbc0fa9")
+		)
+		(pin "1"
+			(uuid "692ee1cd-2650-4b71-9595-022c189efbdc")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 144.78 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fee71fd9-6f3f-4051-9560-494039144759")
+		(property "Reference" "SW16"
+			(at 144.78 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 144.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4ea09a8-8957-4da9-ab61-a039e828a22b")
+		)
+		(pin "1"
+			(uuid "b2df88fc-eb5d-4bea-8620-a594065ba4e6")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 55.88 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fff3b3e7-1827-4ba7-90b6-c3a5ca69d605")
+		(property "Reference" "D12"
+			(at 58.42 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 58.42 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 55.88 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "194184a9-158d-425f-a060-515340680024")
+		)
+		(pin "1"
+			(uuid "fb7a04c2-0888-4c4e-a739-923789dbd591")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

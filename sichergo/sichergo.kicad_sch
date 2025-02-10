@@ -1,0 +1,115 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd")
+	(paper "A4")
+	(title_block
+		(title "Simple Keyboard")
+		(date "2025-02-09")
+		(rev "0")
+		(company "Daniel Pérez (steewBSD)")
+	)
+	(lib_symbols)
+	(text "RIGHT"
+		(exclude_from_sim no)
+		(at 209.042 98.806 0)
+		(effects
+			(font
+				(size 15.24 15.24)
+			)
+		)
+		(uuid "293e5884-3789-4499-b225-e76a84fa191f")
+	)
+	(text "LEFT"
+		(exclude_from_sim no)
+		(at 84.074 98.806 0)
+		(effects
+			(font
+				(size 15.24 15.24)
+			)
+		)
+		(uuid "5085c7eb-2418-41c9-8065-f9a419908044")
+	)
+	(sheet
+		(at 174.244 44.704)
+		(size 70.612 105.664)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 72 0 1.0000)
+		)
+		(uuid "006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a")
+		(property "Sheetname" "KBD_R"
+			(at 174.244 43.9924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KbdR.kicad_sch"
+			(at 174.244 150.9526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.276 44.958)
+		(size 70.612 105.664)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 72 0 1.0000)
+		)
+		(uuid "83708fae-998d-4c1d-8b4c-c5f78cd3524c")
+		(property "Sheetname" "KBD_L"
+			(at 49.276 44.2464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KbdL.kicad_sch"
+			(at 49.276 151.2066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

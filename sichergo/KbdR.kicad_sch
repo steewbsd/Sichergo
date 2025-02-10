@@ -1,0 +1,9368 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "07668073-b69b-40fc-98b0-fbb0fc949b0e")
+	(paper "A4")
+	(title_block
+		(title "Simple Keyboard")
+		(date "2025-02-09")
+		(rev "0")
+		(company "Daniel Pérez (steewBSD)")
+	)
+	(lib_symbols
+		(symbol "#inventree:CL21B104KBCNNNC"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.1 µF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "0805 (2012 Metric)"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "18"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "Surface Mount, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://10.0.0.41:7333/part/18/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Voltage" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL21B104KBCNNNC_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL21B104KBCNNNC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "#inventree:CL21B105KAFNNNE"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1 µF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "0805 (2012 Metric)"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://10.0.0.41/media/attachments/part/21/CL21B105KAFNNNE_Spec.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 1UF 25V X7R 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "21"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "Surface Mount, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://10.0.0.41:7333/part/21/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Voltage" "25V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL21B105KAFNNNE_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL21B105KAFNNNE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "#inventree:CL21C100CBANNNC"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10 pF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "0805 (2012 Metric)"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://10.0.0.41/media/attachments/part/11/2411272102_Samsung-Electro-Mechanics-CL21C100CBANNNC_C2991182.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 10PF 50V C0G/NP0 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "11"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "Surface Mount, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://10.0.0.41:7333/part/11/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Voltage" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "C0G, NP0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "0.25pF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL21C100CBANNNC_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL21C100CBANNNC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "#inventree:ERJ-6GEYJ472V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7 kohm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 4.7K OHM 5% 1/8W 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "43"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://10.0.0.41:7333/part/43/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Power" "0.125W, 1/8W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ERJ-6GEYJ472V_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ERJ-6GEYJ472V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "#inventree:RC0603FR-074K7L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7 kohm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "59"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://10.0.0.41:7333/part/59/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Power" "0.1W, 1/10W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-074K7L_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RC0603FR-074K7L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CL21A106KOQNNNE_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10 µF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "0805 (2012 Metric)"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://10.0.0.41/media/attachments/part/23/CL21A106KOQNNNE_Spec.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 10UF 16V X5R 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "Surface Mount, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://10.0.0.41:7333/part/23/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Voltage" "16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "X5R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL21A106KOQNNNE_1_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL21A106KOQNNNE_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CL21B104KBCNNNC_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.1 µF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "0805 (2012 Metric)"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "18"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "Surface Mount, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://10.0.0.41:7333/part/18/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Voltage" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL21B104KBCNNNC_1_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL21B104KBCNNNC_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MCU_ST_STM32F1:STM32F103C8Tx"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -15.24 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "STM32F103C8Tx"
+				(at 7.62 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+				(at -15.24 -38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Arm Cortex-M3 STM32F1 STM32F103"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LQFP*7x7mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "STM32F103C8Tx_0_1"
+				(rectangle
+					(start -15.24 -38.1)
+					(end 15.24 38.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "STM32F103C8Tx_1_1"
+				(pin power_in line
+					(at -5.08 40.64 270)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 33.02 180)
+					(length 2.54)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN0" bidirectional line)
+					(alternate "ADC2_IN0" bidirectional line)
+					(alternate "SYS_WKUP" bidirectional line)
+					(alternate "TIM2_CH1" bidirectional line)
+					(alternate "TIM2_ETR" bidirectional line)
+					(alternate "USART2_CTS" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 30.48 180)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN1" bidirectional line)
+					(alternate "ADC2_IN1" bidirectional line)
+					(alternate "TIM2_CH2" bidirectional line)
+					(alternate "USART2_RTS" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 27.94 180)
+					(length 2.54)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN2" bidirectional line)
+					(alternate "ADC2_IN2" bidirectional line)
+					(alternate "TIM2_CH3" bidirectional line)
+					(alternate "USART2_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 25.4 180)
+					(length 2.54)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN3" bidirectional line)
+					(alternate "ADC2_IN3" bidirectional line)
+					(alternate "TIM2_CH4" bidirectional line)
+					(alternate "USART2_RX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 22.86 180)
+					(length 2.54)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN4" bidirectional line)
+					(alternate "ADC2_IN4" bidirectional line)
+					(alternate "SPI1_NSS" bidirectional line)
+					(alternate "USART2_CK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 20.32 180)
+					(length 2.54)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN5" bidirectional line)
+					(alternate "ADC2_IN5" bidirectional line)
+					(alternate "SPI1_SCK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 17.78 180)
+					(length 2.54)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN6" bidirectional line)
+					(alternate "ADC2_IN6" bidirectional line)
+					(alternate "SPI1_MISO" bidirectional line)
+					(alternate "TIM1_BKIN" bidirectional line)
+					(alternate "TIM3_CH1" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 15.24 180)
+					(length 2.54)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN7" bidirectional line)
+					(alternate "ADC2_IN7" bidirectional line)
+					(alternate "SPI1_MOSI" bidirectional line)
+					(alternate "TIM1_CH1N" bidirectional line)
+					(alternate "TIM3_CH2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 5.08 0)
+					(length 2.54)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN8" bidirectional line)
+					(alternate "ADC2_IN8" bidirectional line)
+					(alternate "TIM1_CH2N" bidirectional line)
+					(alternate "TIM3_CH3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN9" bidirectional line)
+					(alternate "ADC2_IN9" bidirectional line)
+					(alternate "TIM1_CH3N" bidirectional line)
+					(alternate "TIM3_CH4" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 15.24 0)
+					(length 2.54)
+					(name "PC13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RTC_OUT" bidirectional line)
+					(alternate "RTC_TAMPER" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 2.54)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -20.32 0)
+					(length 2.54)
+					(name "PB10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C2_SCL" bidirectional line)
+					(alternate "TIM2_CH3" bidirectional line)
+					(alternate "USART3_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -22.86 0)
+					(length 2.54)
+					(name "PB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI11" bidirectional line)
+					(alternate "ADC2_EXTI11" bidirectional line)
+					(alternate "I2C2_SDA" bidirectional line)
+					(alternate "TIM2_CH4" bidirectional line)
+					(alternate "USART3_RX" bidirectional line)
+				)
+				(pin power_in line
+					(at 0 -40.64 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 40.64 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -25.4 0)
+					(length 2.54)
+					(name "PB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C2_SMBA" bidirectional line)
+					(alternate "SPI2_NSS" bidirectional line)
+					(alternate "TIM1_BKIN" bidirectional line)
+					(alternate "USART3_CK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -27.94 0)
+					(length 2.54)
+					(name "PB13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPI2_SCK" bidirectional line)
+					(alternate "TIM1_CH1N" bidirectional line)
+					(alternate "USART3_CTS" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -30.48 0)
+					(length 2.54)
+					(name "PB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPI2_MISO" bidirectional line)
+					(alternate "TIM1_CH2N" bidirectional line)
+					(alternate "USART3_RTS" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -33.02 0)
+					(length 2.54)
+					(name "PB15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI15" bidirectional line)
+					(alternate "ADC2_EXTI15" bidirectional line)
+					(alternate "SPI2_MOSI" bidirectional line)
+					(alternate "TIM1_CH3N" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RCC_MCO" bidirectional line)
+					(alternate "TIM1_CH1" bidirectional line)
+					(alternate "USART1_CK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 12.7 0)
+					(length 2.54)
+					(name "PC14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RCC_OSC32_IN" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TIM1_CH2" bidirectional line)
+					(alternate "USART1_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TIM1_CH3" bidirectional line)
+					(alternate "USART1_RX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI11" bidirectional line)
+					(alternate "ADC2_EXTI11" bidirectional line)
+					(alternate "CAN_RX" bidirectional line)
+					(alternate "TIM1_CH4" bidirectional line)
+					(alternate "USART1_CTS" bidirectional line)
+					(alternate "USB_DM" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CAN_TX" bidirectional line)
+					(alternate "TIM1_ETR" bidirectional line)
+					(alternate "USART1_RTS" bidirectional line)
+					(alternate "USB_DP" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SYS_JTMS-SWDIO" bidirectional line)
+				)
+				(pin passive line
+					(at 0 -40.64 90)
+					(length 2.54) hide
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 40.64 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SYS_JTCK-SWCLK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI15" bidirectional line)
+					(alternate "ADC2_EXTI15" bidirectional line)
+					(alternate "SPI1_NSS" bidirectional line)
+					(alternate "SYS_JTDI" bidirectional line)
+					(alternate "TIM2_CH1" bidirectional line)
+					(alternate "TIM2_ETR" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPI1_SCK" bidirectional line)
+					(alternate "SYS_JTDO-TRACESWO" bidirectional line)
+					(alternate "TIM2_CH2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 10.16 0)
+					(length 2.54)
+					(name "PC15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI15" bidirectional line)
+					(alternate "ADC2_EXTI15" bidirectional line)
+					(alternate "RCC_OSC32_OUT" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPI1_MISO" bidirectional line)
+					(alternate "SYS_NJTRST" bidirectional line)
+					(alternate "TIM3_CH1" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 2.54)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SMBA" bidirectional line)
+					(alternate "SPI1_MOSI" bidirectional line)
+					(alternate "TIM3_CH2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 2.54)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SCL" bidirectional line)
+					(alternate "TIM4_CH1" bidirectional line)
+					(alternate "USART1_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -12.7 0)
+					(length 2.54)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "TIM4_CH2" bidirectional line)
+					(alternate "USART1_RX" bidirectional line)
+				)
+				(pin input line
+					(at -17.78 27.94 0)
+					(length 2.54)
+					(name "BOOT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -15.24 0)
+					(length 2.54)
+					(name "PB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CAN_RX" bidirectional line)
+					(alternate "I2C1_SCL" bidirectional line)
+					(alternate "TIM4_CH3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -17.78 0)
+					(length 2.54)
+					(name "PB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CAN_TX" bidirectional line)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "TIM4_CH4" bidirectional line)
+				)
+				(pin passive line
+					(at 0 -40.64 90)
+					(length 2.54) hide
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 40.64 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 22.86 0)
+					(length 2.54)
+					(name "PD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RCC_OSC_IN" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 20.32 0)
+					(length 2.54)
+					(name "PD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RCC_OSC_OUT" bidirectional line)
+				)
+				(pin input line
+					(at -17.78 33.02 0)
+					(length 2.54)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -40.64 90)
+					(length 2.54)
+					(name "VSSA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 40.64 270)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0603FR-074K7L_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7 kohm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "59"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://10.0.0.41:7333/part/59/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Power" "0.1W, 1/10W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-074K7L_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RC0603FR-074K7L_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push_DPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_DPDT"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary Switch, dual pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_DPDT_0_0"
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_DPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -4.826) (xy 2.3368 -3.0988)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.334) (xy 2.3368 7.0612)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.874) (xy 0 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_DPDT_1_1"
+				(rectangle
+					(start -3.175 8.89)
+					(end 3.175 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:PJ-327E-SMT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Audio"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PJ-327E-SMT"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-327E-SMT"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_XKB-Enterprise-PJ-327E-SMT_C319105.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C319105"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PJ-327E-SMT_0_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end -6.6 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.11 5.08) (xy -7.11 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -4.83 -2.54) (xy -5.33 -1.52) (xy -5.84 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -3.81 2.54) (xy -4.32 1.52) (xy -4.83 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.79 0) (xy -2.29 0) (xy -2.79 1.02) (xy -3.3 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 5.08 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:YTS1C0033BBG01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "YTS1C0033BBG01"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_YIYUAN_YTS1C003XXX"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5188566"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "YTS1C0033BBG01_0_1"
+				(circle
+					(center -1.52 0)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.52 0.51) (xy 1.52 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.78 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 156.21 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "012a8731-d370-42e1-97b8-b67e8d4fd148")
+	)
+	(junction
+		(at 199.39 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "169a38f3-379f-41d2-b043-6d972c459538")
+	)
+	(junction
+		(at 135.89 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22f53feb-0bbc-4f2e-80ff-2d522d0a4b38")
+	)
+	(junction
+		(at 172.72 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b257bf7-9ab7-4af4-9ff9-03251ab3053f")
+	)
+	(junction
+		(at 165.1 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39159211-c6e9-4ece-80d3-4397aafbe74a")
+	)
+	(junction
+		(at 200.66 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de27a17-b01d-47a3-9511-cfeafae909e5")
+	)
+	(junction
+		(at 148.59 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7be2f5d7-9b0d-44b9-b49b-9f1e699e8775")
+	)
+	(junction
+		(at 212.09 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d04d05c-a0f6-4fa4-a0a3-0704adf25b24")
+	)
+	(junction
+		(at 170.18 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a43bd192-f233-4560-a9e3-05031bc07618")
+	)
+	(junction
+		(at 148.59 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9cf38de-2e24-439f-89db-ff4ea28b59e3")
+	)
+	(junction
+		(at 224.79 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df87eb5e-7f2a-4099-a540-08c0501cf7c8")
+	)
+	(junction
+		(at 181.61 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e53583e2-5170-4924-8d28-ffe20cd442bf")
+	)
+	(junction
+		(at 248.92 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fefaffba-6b92-414e-b20e-b1085025b4fd")
+	)
+	(wire
+		(pts
+			(xy 135.89 49.53) (xy 135.89 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042bf39c-dad0-440a-bc70-fc941facf823")
+	)
+	(wire
+		(pts
+			(xy 135.89 46.99) (xy 137.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096316e5-d3e2-423b-aa50-5a81962e55f3")
+	)
+	(wire
+		(pts
+			(xy 217.17 92.71) (xy 222.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6704dd-1be7-4dd8-8d3f-0d4ceac78901")
+	)
+	(wire
+		(pts
+			(xy 175.26 58.42) (xy 172.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf3e6e3-56ec-4b68-a500-91aa9fe5f5d0")
+	)
+	(wire
+		(pts
+			(xy 224.79 36.83) (xy 233.68 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec4dacd-95eb-4675-a557-acc5592e12fc")
+	)
+	(wire
+		(pts
+			(xy 251.46 116.84) (xy 251.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143ae35a-872b-4ce8-b334-a75d1bb6b2f0")
+	)
+	(wire
+		(pts
+			(xy 168.91 82.55) (xy 168.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c7d881-144d-4ad0-b268-45254958cb86")
+	)
+	(wire
+		(pts
+			(xy 199.39 133.35) (xy 199.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193d4f68-9859-47b7-a08b-f300bbceaae2")
+	)
+	(wire
+		(pts
+			(xy 224.79 33.02) (xy 224.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1efc65-aa95-494d-8219-49eddfef5a58")
+	)
+	(wire
+		(pts
+			(xy 194.31 52.07) (xy 194.31 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e6464f-c604-4c01-afcd-c287eaec23ff")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29205174-abec-498c-aad0-8c69c01e248a")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 148.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299da4b4-cdd4-4b2f-95f6-d6874ca5ac41")
+	)
+	(wire
+		(pts
+			(xy 135.89 46.99) (xy 135.89 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d812977-3d3f-4ffe-b3a6-f38ff3d8d3eb")
+	)
+	(wire
+		(pts
+			(xy 234.95 129.54) (xy 240.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc8c497-d5c6-4607-8869-2116ebbf20ac")
+	)
+	(wire
+		(pts
+			(xy 201.93 52.07) (xy 201.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd163e6-43f6-4d38-bf3c-bcf403a138d6")
+	)
+	(wire
+		(pts
+			(xy 243.84 36.83) (xy 248.92 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3291f56d-5fef-442c-b50a-44458bfa7095")
+	)
+	(wire
+		(pts
+			(xy 220.98 49.53) (xy 220.98 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36498e02-3102-480c-8d7f-b2f067869353")
+	)
+	(wire
+		(pts
+			(xy 170.18 100.33) (xy 170.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382734bc-b3b4-475a-9515-b6d1a6469438")
+	)
+	(wire
+		(pts
+			(xy 148.59 82.55) (xy 168.91 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b051468-d5a8-419a-9a8e-5cb511751c05")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 181.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4f78c2-b242-4abc-a795-b4d4e30db010")
+	)
+	(wire
+		(pts
+			(xy 156.21 46.99) (xy 177.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44417921-0de3-4e27-af9c-e3e9c14f046e")
+	)
+	(wire
+		(pts
+			(xy 234.95 124.46) (xy 240.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45565e61-ded9-40fb-b226-f7f0742f6a6c")
+	)
+	(wire
+		(pts
+			(xy 250.19 114.3) (xy 250.19 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c34ca4-7be0-4566-8207-84a0a919b4cf")
+	)
+	(wire
+		(pts
+			(xy 177.8 46.99) (xy 177.8 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3c0cef-f64f-4ae0-80e6-ae37e115f792")
+	)
+	(wire
+		(pts
+			(xy 248.92 36.83) (xy 257.81 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5613d3ce-dba4-4484-94b9-b241f37ece7a")
+	)
+	(wire
+		(pts
+			(xy 147.32 46.99) (xy 156.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3cc39c-2ab5-419f-9be7-46cd6e99a7a5")
+	)
+	(wire
+		(pts
+			(xy 148.59 80.01) (xy 148.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623d5baf-dac6-4384-a0ef-cb169e280fd0")
+	)
+	(wire
+		(pts
+			(xy 168.91 72.39) (xy 181.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63623b2d-8991-4f65-b4f9-37e9a990e804")
+	)
+	(wire
+		(pts
+			(xy 199.39 133.35) (xy 201.93 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f8eebd-878f-4746-87a2-63a15d050036")
+	)
+	(wire
+		(pts
+			(xy 212.09 33.02) (xy 212.09 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6becef26-9040-4b92-9655-bccd8df163b1")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 154.94 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffc3f80-e588-4ca8-8823-3e0da94a69bf")
+	)
+	(wire
+		(pts
+			(xy 165.1 102.87) (xy 181.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804f69ef-9ac5-4730-b2a9-42c802d5ead0")
+	)
+	(wire
+		(pts
+			(xy 194.31 36.83) (xy 181.61 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813a4ffc-ba4a-4a70-856e-ebeef43cd3f2")
+	)
+	(wire
+		(pts
+			(xy 204.47 52.07) (xy 243.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8659d44a-7ca7-4e83-ad63-ffded3351af5")
+	)
+	(wire
+		(pts
+			(xy 251.46 116.84) (xy 260.35 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4451ba-96f7-43b5-8fa9-24bb951be59e")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.87) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc58d2c-d64a-4405-9fd5-28ed41951189")
+	)
+	(wire
+		(pts
+			(xy 181.61 64.77) (xy 175.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901058d2-2c3c-4f59-96cd-6e0cb882f561")
+	)
+	(wire
+		(pts
+			(xy 208.28 48.26) (xy 208.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912accab-80e1-4d2e-b809-d6b267c3280a")
+	)
+	(wire
+		(pts
+			(xy 156.21 45.72) (xy 156.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91328280-8b38-4a61-9870-3a840dd9dea5")
+	)
+	(wire
+		(pts
+			(xy 250.19 127) (xy 251.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d5e10d-5525-4d5a-8d73-e3a6c4e080f6")
+	)
+	(wire
+		(pts
+			(xy 250.19 114.3) (xy 260.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ceda249-8e99-44df-b189-605772e43cf6")
+	)
+	(wire
+		(pts
+			(xy 148.59 49.53) (xy 147.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a59b8a-183a-4d62-a23e-0e27fc1b270e")
+	)
+	(wire
+		(pts
+			(xy 134.62 69.85) (xy 134.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d367a1-f6dc-4981-b0fa-b8c52f6ab360")
+	)
+	(wire
+		(pts
+			(xy 199.39 48.26) (xy 208.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a236cec3-b8c8-4238-b5fe-39c318eff81b")
+	)
+	(wire
+		(pts
+			(xy 134.62 69.85) (xy 148.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a265ec3c-d7bb-4489-b47d-57e88c9b58fa")
+	)
+	(wire
+		(pts
+			(xy 260.35 121.92) (xy 260.35 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15dad77-a0fd-4c9c-bce2-8f36d1a0bf13")
+	)
+	(wire
+		(pts
+			(xy 234.95 119.38) (xy 240.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b7f97e-196e-45c0-b69f-297cd9cfe668")
+	)
+	(wire
+		(pts
+			(xy 142.24 76.2) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad9c9ef-79cc-4455-a34f-1f5bd3384b15")
+	)
+	(wire
+		(pts
+			(xy 208.28 36.83) (xy 212.09 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9ea381-fcab-4ab8-94bb-d3d7a86fa917")
+	)
+	(wire
+		(pts
+			(xy 200.66 33.02) (xy 200.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd475e45-7938-43a9-9476-df9019271aaf")
+	)
+	(wire
+		(pts
+			(xy 196.85 36.83) (xy 200.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be15fb65-9814-4128-a1dd-0bf4601dd6b2")
+	)
+	(wire
+		(pts
+			(xy 243.84 52.07) (xy 243.84 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5e2d11-7d62-4060-833e-5e9b934adf67")
+	)
+	(wire
+		(pts
+			(xy 181.61 45.72) (xy 181.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c432d1-7a3f-4c9d-91ff-b9719ad4190c")
+	)
+	(wire
+		(pts
+			(xy 143.51 76.2) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf35275f-7be0-45d6-bdb3-1d84b453977f")
+	)
+	(wire
+		(pts
+			(xy 199.39 52.07) (xy 199.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08be6c1-9b64-4a78-aafd-1d8a003b9578")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 153.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1192750-de68-495d-8dae-1e41295fd8d4")
+	)
+	(wire
+		(pts
+			(xy 175.26 64.77) (xy 175.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1afdfcd-3896-4036-8de3-71f214e72561")
+	)
+	(wire
+		(pts
+			(xy 160.02 105.41) (xy 170.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f5932f-78d3-42ee-81e1-fa1eb7e38661")
+	)
+	(wire
+		(pts
+			(xy 217.17 95.25) (xy 222.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d66764-0acf-4b97-ae37-31b4b74225e4")
+	)
+	(wire
+		(pts
+			(xy 220.98 36.83) (xy 224.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1b315e-28df-48f1-9278-7737d43db1d5")
+	)
+	(wire
+		(pts
+			(xy 135.89 49.53) (xy 137.16 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d16683-776f-4afb-ae22-91ec13f4bdea")
+	)
+	(wire
+		(pts
+			(xy 196.85 52.07) (xy 196.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49daa33-86a8-4868-94c2-11ff4f454ae7")
+	)
+	(wire
+		(pts
+			(xy 201.93 49.53) (xy 220.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f051ca-3d46-4df2-bd5e-3146cc914f39")
+	)
+	(wire
+		(pts
+			(xy 134.62 82.55) (xy 148.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed68c5f0-be4a-4ff1-a04c-1714c3bc593f")
+	)
+	(wire
+		(pts
+			(xy 248.92 33.02) (xy 248.92 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29b43f1-130f-41c0-8df5-0c0e20bad123")
+	)
+	(wire
+		(pts
+			(xy 234.95 114.3) (xy 240.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37460d8-1eea-4538-ae52-f6204049dafb")
+	)
+	(wire
+		(pts
+			(xy 181.61 33.02) (xy 181.61 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50e7028-b95d-4d9f-84e0-63ae9d7cce2a")
+	)
+	(wire
+		(pts
+			(xy 148.59 49.53) (xy 148.59 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f676f5c7-2e0a-4100-8a27-613e5192d316")
+	)
+	(wire
+		(pts
+			(xy 177.8 59.69) (xy 181.61 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b8a609-b6df-4492-804d-bbabe426304a")
+	)
+	(wire
+		(pts
+			(xy 170.18 105.41) (xy 181.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd22a385-ea04-4b4a-bb6c-e3a67a728c75")
+	)
+	(rectangle
+		(start 225.806 121.412)
+		(end 234.95 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0b2c92a3-8818-4b96-bf80-fc9a5c9d737c)
+	)
+	(rectangle
+		(start 222.25 90.424)
+		(end 231.394 96.012)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6510816a-d976-4c63-a1da-d76e3670d1f3)
+	)
+	(rectangle
+		(start 150.114 100.33)
+		(end 160.02 106.426)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 66979499-a104-4651-8587-42b8ac5cc6b1)
+	)
+	(rectangle
+		(start 225.806 110.998)
+		(end 234.95 115.316)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7655b394-477d-4f3b-8d51-9f82adeb2e05)
+	)
+	(rectangle
+		(start 225.806 116.078)
+		(end 234.95 120.396)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ccbbbbe5-d2cb-413f-a0ad-8197439722cf)
+	)
+	(rectangle
+		(start 225.806 126.746)
+		(end 234.95 131.064)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f0462558-8087-456f-a9b3-996bfa715d2f)
+	)
+	(text_box "OLED I2C Module\n________________\n\nSWDIO Interface"
+		(exclude_from_sim no)
+		(at 252.73 101.346 0)
+		(size 24.13 9.144)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "549908e3-996a-41e3-8d07-a49785ef3535")
+	)
+	(text "Keyboard Matrix"
+		(exclude_from_sim no)
+		(at 83.312 152.146 0)
+		(effects
+			(font
+				(size 8.89 8.89)
+			)
+		)
+		(uuid "d4e75f29-dc06-4913-b248-c0b10342ddd4")
+	)
+	(label "OLED_SDA"
+		(at 160.02 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2df315e0-aea0-4d01-84ee-5d806dd585db")
+	)
+	(label "SWCLK"
+		(at 234.95 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d2fc397-1c77-4757-8303-b4237feedf59")
+	)
+	(label "SWDIO"
+		(at 234.95 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5873bb18-ba03-45f0-804d-f9ec8a8b56e0")
+	)
+	(label "SWDIO"
+		(at 222.25 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dae4690-e958-41db-bdfd-28cda341a589")
+	)
+	(label "SWCLK"
+		(at 222.25 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92c5c22c-5e98-4ef3-a029-dd5d295547f6")
+	)
+	(label "OLED_SCL"
+		(at 234.95 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af835fa6-a443-4a8e-907c-e39aaf3c3e42")
+	)
+	(label "OLED_SCL"
+		(at 160.02 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8ae0d1e-13dc-457f-be9a-9ca0420e09da")
+	)
+	(label "OLED_SDA"
+		(at 234.95 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fdc1f7ab-9ab4-43ba-bd3f-4458c6242a0d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "055a0ed3-720b-4a12-a202-937fe963bb48")
+		(property "Reference" "#PWR064"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad4a97b0-8b52-41b6-b946-876efe6a876a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b29a986-2cb6-4383-831a-02c49c643c38")
+		(property "Reference" "#PWR066"
+			(at 212.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d65b98b1-aa74-4ff4-a71f-984d4f07089b")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c0a8ef2-b628-42e7-a8c0-714a7b67387a")
+		(property "Reference" "#PWR050"
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb0ca436-a3bf-42f3-b906-747afcdaf431")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ddd1aff-2ffa-4ed2-904c-aff44717dc2d")
+		(property "Reference" "#PWR068"
+			(at 224.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a41f33d-bc79-4331-852a-610b46833580")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21B104KBCNNNC")
+		(at 224.79 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1074270e-91a7-4a4a-be73-46ec786eea09")
+		(property "Reference" "C21"
+			(at 225.298 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 225.298 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 225.7552 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "18"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/18/"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "691350fc-e5c4-4ab7-b9a1-9ffa63ef0253")
+		)
+		(pin "1"
+			(uuid "835de33f-50cb-4bd1-b87c-cb1560012a35")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_ST_STM32F1:STM32F103C8Tx")
+		(at 199.39 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1566db99-f3b7-45ea-a23d-ad277e38bac2")
+		(property "Reference" "U8"
+			(at 204.1241 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STM32F103C8Tx"
+			(at 204.1241 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+			(at 184.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "48"
+			(uuid "d2985055-2d32-440e-8e00-e75f61f5a951")
+		)
+		(pin "37"
+			(uuid "4224bbff-f3f0-494c-8ddd-7f0b996651b7")
+		)
+		(pin "30"
+			(uuid "af486d30-c1fe-4afa-9ecb-5002294ce12a")
+		)
+		(pin "25"
+			(uuid "3acbd39f-881e-44b8-97c1-61534622b56f")
+		)
+		(pin "5"
+			(uuid "fb534509-da7a-49db-b251-aa9a6cb99dc7")
+		)
+		(pin "42"
+			(uuid "e7572366-7908-4859-bc84-95d1fe468c12")
+		)
+		(pin "45"
+			(uuid "96c0dcbf-c456-4bc5-ad32-5cb3053caa45")
+		)
+		(pin "31"
+			(uuid "b1136ac8-f84b-406c-abd3-f8def75c285a")
+		)
+		(pin "7"
+			(uuid "0f956933-72ff-49a5-a16b-ddfe7c9ce27e")
+		)
+		(pin "6"
+			(uuid "3a9569ca-e271-4644-8b06-5b1f27ac3669")
+		)
+		(pin "41"
+			(uuid "65fcf5e3-d217-4bbb-9631-62c87abe2e72")
+		)
+		(pin "4"
+			(uuid "d4786175-2631-4fac-baf9-89d62ab0dbcf")
+		)
+		(pin "21"
+			(uuid "fe1572bb-22e4-47cc-86de-3132baf3c695")
+		)
+		(pin "23"
+			(uuid "56e9c9db-afc8-430e-aaf9-f9d09154ebce")
+		)
+		(pin "46"
+			(uuid "9366d784-e356-467d-8f48-136a30c58398")
+		)
+		(pin "27"
+			(uuid "0b111ea5-ea8c-455e-a4e1-eed657e3683b")
+		)
+		(pin "29"
+			(uuid "08b25c2e-e34f-44de-bb3f-1aae9480f24a")
+		)
+		(pin "47"
+			(uuid "526b7167-3f40-4511-8469-af65e72b10e8")
+		)
+		(pin "24"
+			(uuid "8d143a26-8bce-41ee-a3e0-ba70a29c3443")
+		)
+		(pin "18"
+			(uuid "c4647a70-8316-4021-bec7-74bdd755a84f")
+		)
+		(pin "2"
+			(uuid "6d039722-1a33-4883-a696-6ba09de4dc70")
+		)
+		(pin "3"
+			(uuid "d2fc04b0-fb7e-409f-a9f8-ce2d01f8e649")
+		)
+		(pin "10"
+			(uuid "18c67249-f8a7-45ee-b59f-6c671a33c96d")
+		)
+		(pin "13"
+			(uuid "3a6ed7e0-5812-43c4-a576-c69f5f72c198")
+		)
+		(pin "11"
+			(uuid "52064165-63ed-4ef2-96a9-4fc81d602227")
+		)
+		(pin "36"
+			(uuid "ca735de3-03d7-4df1-a18f-7abc4b15bb17")
+		)
+		(pin "28"
+			(uuid "19579e9c-52d3-4491-b960-285f744c5c7a")
+		)
+		(pin "20"
+			(uuid "72a4c636-2d34-4df1-af19-8c6c558cb00e")
+		)
+		(pin "15"
+			(uuid "92b061cd-391c-405c-b0b6-6d592ee0e819")
+		)
+		(pin "33"
+			(uuid "6d2c3b42-8629-49ee-9b13-55df2c707044")
+		)
+		(pin "12"
+			(uuid "11ca3bef-7c6d-4b4b-8885-ccb06df19118")
+		)
+		(pin "1"
+			(uuid "700d54a3-b253-48cc-9467-c0ec47ab2200")
+		)
+		(pin "14"
+			(uuid "c3008df8-9626-4d69-a510-23c9510721ec")
+		)
+		(pin "32"
+			(uuid "b6b86efe-c7ed-4303-8e67-0c46c887c548")
+		)
+		(pin "35"
+			(uuid "2506f552-3598-4bf2-8203-2a806ef37513")
+		)
+		(pin "19"
+			(uuid "1347b771-3f4f-4bf2-8fbb-bde10ad1bff4")
+		)
+		(pin "44"
+			(uuid "b3626f1a-2fec-4052-a28f-8dcf3baf64b2")
+		)
+		(pin "39"
+			(uuid "7c0fda5e-092b-430e-a4ab-fa0775c29414")
+		)
+		(pin "34"
+			(uuid "1617aa30-aa41-414f-98fe-af944b9467d5")
+		)
+		(pin "26"
+			(uuid "034017b7-ee20-4092-b6d3-53e058f2407c")
+		)
+		(pin "17"
+			(uuid "c4e6c994-d499-42c9-b313-7430887c0e2f")
+		)
+		(pin "22"
+			(uuid "f908076d-2470-4df4-bb35-88da8f796961")
+		)
+		(pin "16"
+			(uuid "c849f0cc-0b10-4f0d-a674-015f3db613f2")
+		)
+		(pin "9"
+			(uuid "bcdb87af-aff2-451a-b200-4cd5ead46e5b")
+		)
+		(pin "43"
+			(uuid "98bbc7d9-f838-4674-93ef-4e03742a1f15")
+		)
+		(pin "40"
+			(uuid "031c3071-90ab-458c-a95f-c572bf28748a")
+		)
+		(pin "38"
+			(uuid "fa625b4b-0d9a-48d3-b88a-def5224fc595")
+		)
+		(pin "8"
+			(uuid "bb646718-cf9e-40c4-9683-eb26ba2a7b8d")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17bca631-2a04-457b-b4a6-98fe40c1b738")
+		(property "Reference" "#PWR049"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67bda61e-3c20-4719-a996-b601ca2c369f")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RC0603FR-074K7L_1")
+		(lib_id "#inventree:RC0603FR-074K7L")
+		(at 165.1 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a343cc0-4026-489e-a671-cca60f425aac")
+		(property "Reference" "R9"
+			(at 165.1 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kohm"
+			(at 162.814 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.322 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "59"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/59/"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4da129ec-f624-42d6-955f-4bc425dd0ca7")
+		)
+		(pin "1"
+			(uuid "4b2632b4-bc71-443b-b178-09aad39cc628")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 181.61 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f5c282-bebe-43bc-8912-6154bc471520")
+		(property "Reference" "#PWR060"
+			(at 181.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 181.61 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48181bb6-2a3e-479f-b4d1-7f77387de408")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:YTS1C0033BBG01")
+		(at 142.24 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25cf34d4-c77f-483f-828e-a765e035b085")
+		(property "Reference" "U7"
+			(at 142.24 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YTS1C0033BBG01"
+			(at 142.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_YIYUAN_YTS1C003XXX"
+			(at 142.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5188566"
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "60"
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "69b6499b-9f65-4a51-b074-0b4e4a321641")
+		)
+		(pin "3"
+			(uuid "3696f7d4-e45d-44c5-a757-ad601cc79f70")
+		)
+		(pin "2"
+			(uuid "a3cc7e20-b4fa-4dc0-a588-d2df6c23003d")
+		)
+		(pin "1"
+			(uuid "d1178b64-bce3-4f73-b175-70439dac9b2f")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
+		(at 245.11 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27af668d-cab4-4633-acbf-17156034594a")
+		(property "Reference" "SW2"
+			(at 244.856 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, dual pole double throw"
+			(at 245.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "62"
+			(at 245.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d9fa526c-be08-4829-b2af-4da8c82c39e8")
+		)
+		(pin "3"
+			(uuid "ef6d0cdc-fa28-4f79-9f8d-fa6561c27238")
+		)
+		(pin "2"
+			(uuid "03757851-fbc8-46fc-b026-a6b64477ccce")
+		)
+		(pin "6"
+			(uuid "34cf9d90-d0bc-4cd7-9d2e-7991c9257bac")
+		)
+		(pin "1"
+			(uuid "5b037e63-70c4-40c8-99aa-6f416a63915f")
+		)
+		(pin "5"
+			(uuid "5862302e-b5c3-48e7-86e5-31eeb97da7e5")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 265.43 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28b300a1-ec88-4a23-8a4d-b5afcf8c6c9e")
+		(property "Reference" "J2"
+			(at 274.066 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 257.81 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal"
+			(at 265.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 265.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "53"
+			(at 265.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "95aa2c2d-f84a-4024-9cf4-eafbc3632273")
+		)
+		(pin "2"
+			(uuid "ed669561-a28c-45c5-ab8a-2344356a39bf")
+		)
+		(pin "4"
+			(uuid "f8d2cc91-ceb1-434a-ac09-b1fe33416d47")
+		)
+		(pin "1"
+			(uuid "7109fd1b-4cd5-4ed9-9bed-54589e31e5e0")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 172.72 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e5c2954-7cd6-474a-b522-59235e51e04b")
+		(property "Reference" "#PWR058"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fbd8a79-8ee1-46f5-bead-8b1b6f728082")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 224.79 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eb19715-7ab9-4bbf-bfb7-d85739e5dabe")
+		(property "Reference" "#PWR067"
+			(at 224.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 224.79 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b27deda-f8d3-4757-9197-39e39ed807a9")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f1230cd-e0b0-4b14-a0f2-c21cb6267e26")
+		(property "Reference" "#PWR059"
+			(at 172.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5d10edc-19fb-4734-a85e-ed5d47c0b545")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RC0603FR-074K7L_1")
+		(lib_id "#inventree:RC0603FR-074K7L")
+		(at 170.18 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38c6a649-63e6-4ad5-b050-c1bdada42f04")
+		(property "Reference" "R10"
+			(at 170.18 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kohm"
+			(at 167.894 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.402 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "59"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/59/"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae26d668-9726-4f36-a8f9-43ded8209e4b")
+		)
+		(pin "1"
+			(uuid "e8f22ac6-404b-4e4c-bc9a-784715c54f91")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21B104KBCNNNC")
+		(at 200.66 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4189f628-eeb1-4652-9b52-eb36be2e3c05")
+		(property "Reference" "C19"
+			(at 201.168 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 201.168 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 201.6252 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "18"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/18/"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d857d1d6-9769-4ca5-8ba9-fd7e412b38e8")
+		)
+		(pin "1"
+			(uuid "3d266863-0e89-4bd6-bf72-3c15549e08e0")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "467f1074-a301-442e-9812-cb5f11057266")
+		(property "Reference" "#PWR054"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 156.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42f06e69-26cd-4ce8-a80e-65d8945584e1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f519033-eb2e-4d7a-ba3e-ff59c32797f5")
+		(property "Reference" "#PWR055"
+			(at 156.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a825d891-cb50-4585-b41b-772c19a0b7d1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 260.35 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62f6f2f7-04bd-4049-bac9-5f70986a2b98")
+		(property "Reference" "#PWR073"
+			(at 264.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 255.016 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 260.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8dce4cf-a229-4292-ae16-371e9a12eb4d")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76dac4af-ab0d-413b-9729-80b5964b5dfe")
+		(property "Reference" "#PWR069"
+			(at 233.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "483668c1-5618-455a-aa7a-7239addab521")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CL21A106KOQNNNE_1")
+		(lib_id "#inventree:CL21A106KOQNNNE")
+		(at 233.68 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ed57b81-a98d-46e2-8e92-a0c88633acee")
+		(property "Reference" "C22"
+			(at 234.442 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 234.442 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 234.6452 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/23/CL21A106KOQNNNE_Spec.pdf"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 16V X5R 0805"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "23"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/23/"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "16V"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d7f9d18-759c-4a9d-b0a4-d5d0741a5d4c")
+		)
+		(pin "1"
+			(uuid "7bf0413e-09c6-4b65-8a01-60b182eba2e1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 165.1 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f1ee8f4-d4ff-438c-aae1-2d5927cc89cf")
+		(property "Reference" "#PWR056"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69c7e088-9539-4c51-a9bc-ef0731dc62b9")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21B104KBCNNNC")
+		(at 212.09 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fe73a70-37ee-4ee7-9b16-72eb3cf16196")
+		(property "Reference" "C20"
+			(at 212.598 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 212.598 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 213.0552 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "18"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/18/"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae2bcd25-1681-4731-860c-bc7813b8de6c")
+		)
+		(pin "1"
+			(uuid "d1a3147f-e2ce-48df-ae00-5f6b026ef7fe")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21B105KAFNNNE")
+		(at 257.81 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b1c10df-3382-4de5-be51-d432eac0894a")
+		(property "Reference" "C24"
+			(at 258.826 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 µF"
+			(at 259.08 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 258.7752 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/21/CL21B105KAFNNNE_Spec.pdf"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X7R 0805"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "21"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/21/"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "25V"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7ba36d0-6336-44d1-97f6-48287a757788")
+		)
+		(pin "2"
+			(uuid "1def4255-3d47-49f8-8651-984732e50af6")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 212.09 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91f4d89f-2c03-4375-97fb-cb047159bffd")
+		(property "Reference" "#PWR065"
+			(at 212.09 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 212.09 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 212.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9109666-e053-4dba-9789-d2f9486f403a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-074K7L")
+		(at 156.21 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "946339e8-c20e-4024-af8d-295faab38e4c")
+		(property "Reference" "R8"
+			(at 157.734 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kohm"
+			(at 157.734 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 154.432 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "59"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/59/"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "879774e9-623a-49de-ac1e-3fbfd00a39f8")
+		)
+		(pin "2"
+			(uuid "3b115b3b-7d64-465e-84a2-6f6c43cd505e")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e37b931-0793-48f3-9602-ae66f7132a3f")
+		(property "Reference" "#PWR053"
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3a8843b-5e6e-4afd-82ea-a1653ec7f0bb")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eb17616-5a05-4091-af7f-939b90c1cbf5")
+		(property "Reference" "#PWR062"
+			(at 199.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5fb8010-1f12-493a-9d4c-1cd2c3bc69a1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PJ-327E-SMT")
+		(at 250.19 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4ea440d-ace6-41c0-9a57-a55d93d15070")
+		(property "Reference" "Audio2"
+			(at 259.08 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJ-327E-SMT"
+			(at 259.08 74.9301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-327E-SMT"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_XKB-Enterprise-PJ-327E-SMT_C319105.html"
+			(at 250.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C319105"
+			(at 250.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2604d784-f509-40b0-9f30-a69bdfd1af54")
+		)
+		(pin "1"
+			(uuid "3ab54176-eff3-48dc-bf4c-45522740eecb")
+		)
+		(pin "5"
+			(uuid "84128769-a30d-4ddd-a73b-283a6755556b")
+		)
+		(pin "3"
+			(uuid "3b834ad2-9397-449f-bd37-60a9cf782c0d")
+		)
+		(pin "4"
+			(uuid "4887a094-b386-4811-ae76-29c6dd236375")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "Audio2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CL21B104KBCNNNC_1")
+		(lib_id "#inventree:CL21B104KBCNNNC")
+		(at 156.21 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6571874-8750-4992-b659-b8ca2e5a9319")
+		(property "Reference" "C17"
+			(at 156.972 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 156.972 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 157.1752 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "18"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/18/"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5235d3a6-d165-433c-8f83-d1855ae7bc91")
+		)
+		(pin "2"
+			(uuid "937b39c9-9e99-4183-9c56-308fbc3ad200")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "affce194-05bf-42be-87f7-7cd4b33cf05b")
+		(property "Reference" "#PWR051"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78c286f8-fef0-43b9-9079-79fce8b30161")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7cddde2-6ee9-4949-afd8-4a7a09c2b323")
+		(property "Reference" "#PWR072"
+			(at 257.81 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9f3a98e-8262-46cf-b624-4a93f8b8a863")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca8aca97-3309-4eb8-9a3d-51f7a2694531")
+		(property "Reference" "#PWR074"
+			(at 260.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "759be8e1-c972-4068-94e9-3dd5561c939a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf6b71e8-26e5-4651-a72b-015c1e8d6ca1")
+		(property "Reference" "#PWR052"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59a33a07-b186-4134-ae02-de2560f22b57")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 200.66 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0307757-5a7f-4084-bca7-7f0e8e72f7c8")
+		(property "Reference" "#PWR063"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 200.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8541471a-3ed5-40a8-8d54-a9b2834e5c0f")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21B104KBCNNNC")
+		(at 248.92 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d36e72df-57a1-4490-8fdc-a168a3ab11d0")
+		(property "Reference" "C23"
+			(at 249.428 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 249.428 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 249.8852 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "18"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/18/"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c925b95e-73fa-4f46-83bb-b1494dc13454")
+		)
+		(pin "1"
+			(uuid "06a7ee51-c933-42a5-9dc7-4787b82abf38")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d756227f-f798-49b4-94c6-1788d6402f2c")
+		(property "Reference" "#PWR071"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a4632b4-6104-4e80-8e18-80c7006469d7")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21B104KBCNNNC")
+		(at 181.61 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9cc9f3d-95fb-421d-9f9e-2bb4ef98ab31")
+		(property "Reference" "C18"
+			(at 185.42 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 185.42 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 182.5752 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "18"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/18/"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92332185-ee00-472e-85da-fc784a500f44")
+		)
+		(pin "1"
+			(uuid "5c588d0a-da8d-49ff-8e39-602270aa35d5")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21C100CBANNNC")
+		(at 134.62 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbffb79f-ac3f-4376-a7c3-fe1f4b435c11")
+		(property "Reference" "C16"
+			(at 130.048 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 pF"
+			(at 128.524 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 135.5852 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/11/2411272102_Samsung-Electro-Mechanics-CL21C100CBANNNC_C2991182.pdf"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10PF 50V C0G/NP0 0805"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "11"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/11/"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "C0G, NP0"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.25pF"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cbf945e-88e1-41e9-995f-a27821e3bf07")
+		)
+		(pin "2"
+			(uuid "faf860ee-7dc9-485d-9b50-8456714445d9")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de05d8f1-ce8d-4836-b358-e2df6ffed41c")
+		(property "Reference" "#PWR048"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d286df74-33e9-45ab-b36c-347e65f7aeaf")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 148.59 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea21d258-086e-4103-98e1-f746fcfc226b")
+		(property "Reference" "Y2"
+			(at 143.002 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND24"
+			(at 144.8114 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "61"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5623f95-4921-45b9-b298-26e6f1e1dcc1")
+		)
+		(pin "2"
+			(uuid "6de8f3d8-58a2-4d7f-8878-a6cd5cc2802e")
+		)
+		(pin "3"
+			(uuid "7df0370e-3278-4ebb-8a93-03df7593ae2c")
+		)
+		(pin "4"
+			(uuid "d5a33897-be6b-45dd-816b-49a6a3ff47f5")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21C100CBANNNC")
+		(at 134.62 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eae77ee9-df13-4284-9660-5e79e7cd56a7")
+		(property "Reference" "C15"
+			(at 130.302 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 pF"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 135.5852 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/11/2411272102_Samsung-Electro-Mechanics-CL21C100CBANNNC_C2991182.pdf"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10PF 50V C0G/NP0 0805"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "11"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/11/"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "C0G, NP0"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.25pF"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "619f89d8-0873-4387-96f1-70ff690c5ba3")
+		)
+		(pin "2"
+			(uuid "c2cefde9-3a4e-44b4-bfd7-0145dc5b5162")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:ERJ-6GEYJ472V")
+		(at 172.72 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ecba36d4-8739-4975-a1b5-95217b0f37d3")
+		(property "Reference" "R11"
+			(at 167.894 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kohm"
+			(at 161.798 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.942 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 5% 1/8W 0805"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "43"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0805"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/43/"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.125W, 1/8W"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82caa216-4dae-4af3-b559-deffc97acfd0")
+		)
+		(pin "1"
+			(uuid "c69108ce-3587-4a6d-ae24-4f7a6bcecd39")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 170.18 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efa0986e-7551-44ca-a9e4-ead84c529491")
+		(property "Reference" "#PWR057"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db8a2aee-de7e-4d72-b776-58c40bd1cfb1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 248.92 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f182bba8-5f82-4c61-849e-7fb049ce302b")
+		(property "Reference" "#PWR070"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 248.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "328cb875-0f07-4833-ba86-6f02c6f7fcb1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:ERJ-6GEYJ472V")
+		(at 172.72 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6416683-b03a-4644-afc8-9f6e6b712783")
+		(property "Reference" "R12"
+			(at 167.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kohm"
+			(at 162.052 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.942 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 5% 1/8W 0805"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "43"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0805"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/43/"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.125W, 1/8W"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "912a8527-4a72-4232-a328-3a44215fb5cf")
+		)
+		(pin "1"
+			(uuid "0f4c4996-fd37-4b9b-ba0f-f5930c8829d6")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7273e78-dfaf-41a8-aac7-542f7d62f3e4")
+		(property "Reference" "#PWR061"
+			(at 181.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76beaa51-cdc5-4c35-bb2a-dc2cc45be5b3")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 124.46)
+		(size 123.19 54.61)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 72 0 1.0000)
+		)
+		(uuid "d1901edb-f5ad-4981-8b5b-356be458a7e2")
+		(property "Sheetname" "MatrixR"
+			(at 21.59 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MatrixR.kicad_sch"
+			(at 21.59 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(page "5")
+				)
+			)
+		)
+	)
+)
