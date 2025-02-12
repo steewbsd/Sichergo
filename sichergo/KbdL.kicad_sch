@@ -9643,7 +9643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36adea23-a173-4cfd-a87f-55763e51f35d")
-		(property "Reference" "SW1"
+		(property "Reference" "SW_HDR_L1"
 			(at 248.666 70.612 0)
 			(effects
 				(font
@@ -9717,7 +9717,7 @@
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c"
-					(reference "SW1")
+					(reference "SW_HDR_L1")
 					(unit 1)
 				)
 			)
@@ -9958,6 +9958,15 @@
 			)
 		)
 		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
+			(at 234.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "66"
 			(at 234.95 146.05 0)
 			(effects
 				(font
@@ -12484,6 +12493,15 @@
 			)
 		)
 		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
+			(at 238.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "66"
 			(at 238.76 123.19 0)
 			(effects
 				(font

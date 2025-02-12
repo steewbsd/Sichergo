@@ -1463,6 +1463,105 @@
 		)
 		(uuid "f86ee659-5c90-47e4-bfd8-af0d019fae8b")
 	)
+	(hierarchical_label "KB_ROW_0"
+		(shape input)
+		(at 34.29 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26fe5037-db2b-4f50-a322-3fa1f8ea68fc")
+	)
+	(hierarchical_label "KB_COL_3"
+		(shape input)
+		(at 115.57 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cbfa389-49b7-4377-aef7-0c7fb15fd5d8")
+	)
+	(hierarchical_label "KB_COL_1"
+		(shape input)
+		(at 68.58 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5916cdc5-78be-43fa-9493-feb874e0f017")
+	)
+	(hierarchical_label "KB_ROW_2"
+		(shape input)
+		(at 34.29 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e7ea0f1-0f11-4f8b-baf8-8ef0ee933ae9")
+	)
+	(hierarchical_label "KB_COL_2"
+		(shape input)
+		(at 91.44 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f265521-3ef3-4d6f-a04a-df5f25cb90ed")
+	)
+	(hierarchical_label "KB_COL_0"
+		(shape input)
+		(at 44.45 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e2a70fa-074c-4236-9f7f-22f9bc66452b")
+	)
+	(hierarchical_label "KB_ROW_3"
+		(shape input)
+		(at 87.63 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86b39df8-5822-4216-8a44-3898d866ea6f")
+	)
+	(hierarchical_label "KB_ROW_1"
+		(shape input)
+		(at 34.29 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b467ca82-3821-4d07-bab7-1056a0e13c71")
+	)
+	(hierarchical_label "KB_COL_4"
+		(shape input)
+		(at 139.7 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9ef7fa6-91c2-4146-8c78-dff797d13c20")
+	)
 	(symbol
 		(lib_id "Diode:CD4148W")
 		(at 151.13 54.61 90)
@@ -1683,7 +1782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 144.78 27.94 0)
 			(effects
 				(font
@@ -1848,7 +1947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -2013,7 +2112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -2081,7 +2180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 144.78 44.45 0)
 			(effects
 				(font
@@ -2149,7 +2248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 120.65 81.28 0)
 			(effects
 				(font
@@ -2217,7 +2316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -2576,7 +2675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 120.65 27.94 0)
 			(effects
 				(font
@@ -2644,7 +2743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 49.53 62.23 0)
 			(effects
 				(font
@@ -2809,7 +2908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -2877,7 +2976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -3042,7 +3141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 96.52 27.94 0)
 			(effects
 				(font
@@ -3110,7 +3209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -3469,7 +3568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 73.66 44.45 0)
 			(effects
 				(font
@@ -3537,7 +3636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 73.66 62.23 0)
 			(effects
 				(font
@@ -3896,7 +3995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 120.65 62.23 0)
 			(effects
 				(font
@@ -3964,7 +4063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 144.78 81.28 0)
 			(effects
 				(font
@@ -4032,7 +4131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 49.53 44.45 0)
 			(effects
 				(font
@@ -4293,7 +4392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
 			(at 144.78 62.23 0)
 			(effects
 				(font
