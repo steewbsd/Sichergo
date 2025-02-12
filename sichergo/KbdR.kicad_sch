@@ -581,6 +581,172 @@
 				)
 			)
 		)
+		(symbol "#inventree:ERJ-6GEYJ101V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100 ohm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "40"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://10.0.0.41:7333/part/40/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Power" "0.125W, 1/8W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ERJ-6GEYJ101V_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ERJ-6GEYJ101V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "#inventree:ERJ-6GEYJ472V"
 			(pin_numbers hide)
 			(pin_names
@@ -904,6 +1070,178 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74xGxx:SN74LVC1G125DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1G125DBV"
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC1G125DBV_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN74LVC1G125DBV_1_1"
+				(pin input inverted
+					(at 0 10.16 270)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3982,786 +4320,972 @@
 		)
 	)
 	(junction
-		(at 156.21 46.99)
+		(at 256.54 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "012a8731-d370-42e1-97b8-b67e8d4fd148")
+		(uuid "104f5389-7109-45c2-b390-2966c183b88b")
 	)
 	(junction
-		(at 199.39 133.35)
+		(at 119.38 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "169a38f3-379f-41d2-b043-6d972c459538")
+		(uuid "28bc0638-a1f2-4942-b828-2ac49ac6d06e")
 	)
 	(junction
-		(at 135.89 49.53)
+		(at 236.22 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22f53feb-0bbc-4f2e-80ff-2d522d0a4b38")
+		(uuid "3d699b41-7825-4c72-b43d-4c4b659b9f7e")
 	)
 	(junction
-		(at 172.72 58.42)
+		(at 195.58 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b257bf7-9ab7-4af4-9ff9-03251ab3053f")
+		(uuid "52561c15-2110-4c55-bf5f-79cd5e427a60")
 	)
 	(junction
-		(at 165.1 102.87)
+		(at 148.59 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39159211-c6e9-4ece-80d3-4397aafbe74a")
+		(uuid "671945c3-d834-48a2-b78d-be7def7dcbad")
 	)
 	(junction
-		(at 200.66 36.83)
+		(at 165.1 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4de27a17-b01d-47a3-9511-cfeafae909e5")
+		(uuid "6ec56e3f-6a2e-4844-bef9-ac947a03be2d")
 	)
 	(junction
-		(at 148.59 69.85)
+		(at 132.08 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7be2f5d7-9b0d-44b9-b49b-9f1e699e8775")
+		(uuid "783267cf-8144-4af4-9de4-41b2d8d92a1e")
 	)
 	(junction
-		(at 212.09 36.83)
+		(at 182.88 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d04d05c-a0f6-4fa4-a0a3-0704adf25b24")
+		(uuid "818f24d7-a0c6-4aba-8700-2abf79be61a2")
 	)
 	(junction
-		(at 170.18 105.41)
+		(at 139.7 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a43bd192-f233-4560-a9e3-05031bc07618")
+		(uuid "ca3fbca1-5f56-430c-bc7b-7a8e5d488df7")
 	)
 	(junction
-		(at 148.59 82.55)
+		(at 208.28 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9cf38de-2e24-439f-89db-ff4ea28b59e3")
+		(uuid "ca9d0579-f87b-4b87-92d9-3171078609a7")
 	)
 	(junction
-		(at 224.79 36.83)
+		(at 156.21 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df87eb5e-7f2a-4099-a540-08c0501cf7c8")
+		(uuid "ccb3c0ae-b6c7-4cfe-8060-cff84a16d10a")
 	)
 	(junction
-		(at 181.61 36.83)
+		(at 132.08 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e53583e2-5170-4924-8d28-ffe20cd442bf")
+		(uuid "d8322334-0f26-4f33-b229-585b4eac5ede")
 	)
 	(junction
-		(at 248.92 36.83)
+		(at 153.67 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fefaffba-6b92-414e-b20e-b1085025b4fd")
+		(uuid "efaa1900-dc82-4bb7-93d2-93007a46a888")
 	)
+	(junction
+		(at 184.15 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa0b470d-ac71-4edb-bf64-1add96a360d4")
+	)
+	(wire
+		(pts
+			(xy 132.08 74.93) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01441873-8495-4a59-99de-6a2aaf2867c0")
+	)
+	(wire
+		(pts
+			(xy 185.42 44.45) (xy 185.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023db1bd-772a-4274-a213-bf89469eb7c5")
+	)
+	(wire
+		(pts
+			(xy 185.42 41.91) (xy 204.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048fdc94-1eb4-4bfc-9f1d-e2c997e04735")
+	)
+	(wire
+		(pts
+			(xy 208.28 25.4) (xy 208.28 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0624c5f5-ae71-4550-9bb2-8fa36e328ad2")
+	)
+	(wire
+		(pts
+			(xy 130.81 39.37) (xy 139.7 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071bc30b-5c5c-4adc-835d-2bdb32ca8f74")
+	)
+	(wire
+		(pts
+			(xy 125.73 68.58) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bec1833-f91e-4e06-9d0a-05b1cda90d29")
+	)
+	(wire
+		(pts
+			(xy 195.58 25.4) (xy 195.58 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebe5f01-7370-4c4b-8698-cc044930f5ac")
+	)
+	(wire
+		(pts
+			(xy 118.11 62.23) (xy 118.11 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a3ff6a-0744-406f-b36e-7101a54ddc29")
+	)
+	(wire
+		(pts
+			(xy 118.11 62.23) (xy 132.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125f54c9-d25e-40d7-b0d7-ad4cf1ad2d7f")
+	)
+	(wire
+		(pts
+			(xy 213.36 146.05) (xy 215.9 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c584dd-a888-4d62-a482-f00199b9a6f9")
+	)
+	(wire
+		(pts
+			(xy 184.15 25.4) (xy 184.15 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197c8220-f14a-4407-97aa-5e0911d181be")
+	)
+	(wire
+		(pts
+			(xy 153.67 97.79) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1998b39c-fc10-478c-ae09-4fccdfd12590")
+	)
+	(wire
+		(pts
+			(xy 177.8 29.21) (xy 165.1 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b327230-8022-41fc-a762-04476a6a34dc")
+	)
+	(wire
+		(pts
+			(xy 246.38 72.39) (xy 246.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cda3c1f-c4a2-413b-9049-ad48f2b72229")
+	)
+	(wire
+		(pts
+			(xy 200.66 87.63) (xy 205.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0d5408-32e7-4e0c-ac76-8723b24838a1")
+	)
+	(wire
+		(pts
+			(xy 180.34 44.45) (xy 180.34 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2041ad27-100b-438f-9f39-515b9ce2cd8a")
+	)
+	(wire
+		(pts
+			(xy 182.88 40.64) (xy 191.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26088078-bc06-491c-8cb5-aa44c154be77")
+	)
+	(wire
+		(pts
+			(xy 231.14 87.63) (xy 236.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2f4168-32bb-43df-9b5a-00510112b800")
+	)
 	(wire
 		(pts
-			(xy 135.89 49.53) (xy 135.89 54.61)
+			(xy 256.54 129.54) (xy 257.81 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "042bf39c-dad0-440a-bc70-fc941facf823")
+		(uuid "2d7ae18d-09e3-4505-bf24-7eb709222b9e")
 	)
 	(wire
 		(pts
-			(xy 135.89 46.99) (xy 137.16 46.99)
+			(xy 257.81 127) (xy 256.54 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "096316e5-d3e2-423b-aa50-5a81962e55f3")
+		(uuid "439e1019-c7c3-49d4-9faf-5e9bf7cc9127")
 	)
 	(wire
 		(pts
-			(xy 217.17 92.71) (xy 222.25 92.71)
+			(xy 143.51 97.79) (xy 153.67 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b6704dd-1be7-4dd8-8d3f-0d4ceac78901")
+		(uuid "4a17543c-33c3-46cc-b3f7-abc98cb31b39")
 	)
 	(wire
 		(pts
-			(xy 175.26 58.42) (xy 172.72 58.42)
+			(xy 119.38 39.37) (xy 119.38 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bf3e6e3-56ec-4b68-a500-91aa9fe5f5d0")
+		(uuid "4ba2f131-b0ca-41d8-af08-7df2a540deb7")
 	)
 	(wire
 		(pts
-			(xy 224.79 36.83) (xy 233.68 36.83)
+			(xy 132.08 62.23) (xy 165.1 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ec4dacd-95eb-4675-a557-acc5592e12fc")
+		(uuid "4dbbfa15-96c0-4861-a15c-3749b921ad98")
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 251.46 127)
+			(xy 191.77 40.64) (xy 191.77 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "143ae35a-872b-4ce8-b334-a75d1bb6b2f0")
+		(uuid "4f3f8766-070e-4da7-bca3-d577c8329c97")
 	)
 	(wire
 		(pts
-			(xy 168.91 82.55) (xy 168.91 72.39)
+			(xy 187.96 44.45) (xy 224.79 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15c7d881-144d-4ad0-b268-45254958cb86")
+		(uuid "537c014d-502b-4959-a426-c47b043ff4c3")
 	)
 	(wire
 		(pts
-			(xy 199.39 133.35) (xy 199.39 137.16)
+			(xy 152.4 74.93) (xy 152.4 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "193d4f68-9859-47b7-a08b-f300bbceaae2")
+		(uuid "5588916f-1561-4d88-bd32-c07745b5e375")
 	)
 	(wire
 		(pts
-			(xy 224.79 33.02) (xy 224.79 36.83)
+			(xy 132.08 41.91) (xy 130.81 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b1efc65-aa95-494d-8219-49eddfef5a58")
+		(uuid "5d402ac6-b056-458d-89af-373ed0eb6003")
 	)
 	(wire
 		(pts
-			(xy 194.31 52.07) (xy 194.31 36.83)
+			(xy 204.47 29.21) (xy 208.28 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24e6464f-c604-4c01-afcd-c287eaec23ff")
+		(uuid "5f4645c8-3550-4cb5-883d-b229d152e8d9")
 	)
 	(wire
 		(pts
-			(xy 165.1 100.33) (xy 165.1 102.87)
+			(xy 148.59 92.71) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29205174-abec-498c-aad0-8c69c01e248a")
+		(uuid "5f911443-cb54-4cb5-b44a-3ab0662ed1cc")
 	)
 	(wire
 		(pts
-			(xy 148.59 69.85) (xy 148.59 72.39)
+			(xy 139.7 39.37) (xy 161.29 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "299da4b4-cdd4-4b2f-95f6-d6874ca5ac41")
+		(uuid "5ff506bd-4c46-4bc3-883b-3309946da5ca")
 	)
 	(wire
 		(pts
-			(xy 135.89 46.99) (xy 135.89 49.53)
+			(xy 158.75 57.15) (xy 158.75 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d812977-3d3f-4ffe-b3a6-f38ff3d8d3eb")
+		(uuid "60b69cdc-de92-4d37-8774-311d3835c437")
 	)
 	(wire
 		(pts
-			(xy 234.95 129.54) (xy 240.03 129.54)
+			(xy 132.08 62.23) (xy 132.08 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dc8c497-d5c6-4607-8869-2116ebbf20ac")
+		(uuid "62081cdf-d65f-4349-8572-38936085ec0c")
 	)
 	(wire
 		(pts
-			(xy 201.93 52.07) (xy 201.93 49.53)
+			(xy 191.77 29.21) (xy 195.58 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dd163e6-43f6-4d38-bf3c-bcf403a138d6")
+		(uuid "62e5e502-76a8-4a79-954d-2b7f0c25b99d")
 	)
 	(wire
 		(pts
-			(xy 243.84 36.83) (xy 248.92 36.83)
+			(xy 165.1 25.4) (xy 165.1 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3291f56d-5fef-442c-b50a-44458bfa7095")
+		(uuid "653b6beb-1282-4edb-bae3-1cc6efe902a1")
 	)
 	(wire
 		(pts
-			(xy 220.98 49.53) (xy 220.98 36.83)
+			(xy 256.54 115.57) (xy 256.54 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36498e02-3102-480c-8d7f-b2f067869353")
+		(uuid "68a83bce-47eb-41f3-9fdf-c119e94576be")
 	)
 	(wire
 		(pts
-			(xy 170.18 100.33) (xy 170.18 105.41)
+			(xy 119.38 41.91) (xy 119.38 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "382734bc-b3b4-475a-9515-b6d1a6469438")
+		(uuid "6be43da3-3934-4b62-b7fc-b383b604503e")
 	)
 	(wire
 		(pts
-			(xy 148.59 82.55) (xy 168.91 82.55)
+			(xy 118.11 74.93) (xy 132.08 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b051468-d5a8-419a-9a8e-5cb511751c05")
+		(uuid "714f5999-a63b-4e30-9e31-89d43be2935e")
 	)
 	(wire
 		(pts
-			(xy 148.59 69.85) (xy 181.61 69.85)
+			(xy 242.57 121.92) (xy 257.81 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f4f78c2-b242-4abc-a795-b4d4e30db010")
+		(uuid "71f0ab7a-f267-4b58-b866-8e9dd8b91a33")
 	)
 	(wire
 		(pts
-			(xy 156.21 46.99) (xy 177.8 46.99)
+			(xy 148.59 95.25) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44417921-0de3-4e27-af9c-e3e9c14f046e")
+		(uuid "76401a91-07c8-479d-b73c-c103180a7ceb")
 	)
 	(wire
 		(pts
-			(xy 234.95 124.46) (xy 240.03 124.46)
+			(xy 153.67 92.71) (xy 153.67 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45565e61-ded9-40fb-b226-f7f0742f6a6c")
+		(uuid "7757053b-4fdf-423e-9010-194059be14c4")
 	)
 	(wire
 		(pts
-			(xy 250.19 114.3) (xy 250.19 116.84)
+			(xy 127 68.58) (xy 125.73 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47c34ca4-7be0-4566-8207-84a0a919b4cf")
+		(uuid "7943a9b6-9a4e-42b8-b1be-16d42ab58a34")
 	)
 	(wire
 		(pts
-			(xy 177.8 46.99) (xy 177.8 59.69)
+			(xy 204.47 41.91) (xy 204.47 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f3c0cef-f64f-4ae0-80e6-ae37e115f792")
+		(uuid "7975eae3-d205-4d01-8747-73ab45b2dff2")
 	)
 	(wire
 		(pts
-			(xy 248.92 36.83) (xy 257.81 36.83)
+			(xy 208.28 29.21) (xy 217.17 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5613d3ce-dba4-4484-94b9-b241f37ece7a")
+		(uuid "82a21366-9f8d-4a8b-95b5-724d30c5f2e8")
 	)
 	(wire
 		(pts
-			(xy 147.32 46.99) (xy 156.21 46.99)
+			(xy 132.08 41.91) (xy 132.08 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b3cc39c-2ab5-419f-9be7-46cd6e99a7a5")
+		(uuid "8470d047-15c3-46f5-a7c4-35e73cf7578f")
 	)
 	(wire
 		(pts
-			(xy 148.59 80.01) (xy 148.59 82.55)
+			(xy 138.43 68.58) (xy 138.43 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "623d5baf-dac6-4384-a0ef-cb169e280fd0")
+		(uuid "849bb2c1-f3fa-4ae9-a09c-02b17d2750d2")
 	)
 	(wire
 		(pts
-			(xy 168.91 72.39) (xy 181.61 72.39)
+			(xy 161.29 52.07) (xy 165.1 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63623b2d-8991-4f65-b4f9-37e9a990e804")
+		(uuid "8785f1e0-bfe0-4de2-8593-7bc2d12a1d30")
 	)
 	(wire
 		(pts
-			(xy 199.39 133.35) (xy 201.93 133.35)
+			(xy 246.38 146.05) (xy 243.84 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68f8eebd-878f-4746-87a2-63a15d050036")
+		(uuid "8b4c9b7b-5835-4a5a-aa33-0575cd0e8bd3")
 	)
 	(wire
 		(pts
-			(xy 212.09 33.02) (xy 212.09 36.83)
+			(xy 158.75 50.8) (xy 156.21 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6becef26-9040-4b92-9655-bccd8df163b1")
+		(uuid "923c6a61-e894-4ff5-9afc-0e95e1b53445")
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 154.94 77.47)
+			(xy 224.79 44.45) (xy 224.79 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ffc3f80-e588-4ca8-8823-3e0da94a69bf")
+		(uuid "92a9bdf0-9c33-451b-8f75-20a06e84b729")
 	)
 	(wire
 		(pts
-			(xy 165.1 102.87) (xy 181.61 102.87)
+			(xy 200.66 77.47) (xy 205.74 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "804f69ef-9ac5-4730-b2a9-42c802d5ead0")
+		(uuid "980ce95c-fd82-4b7e-93d5-a0a184bd4fde")
 	)
 	(wire
 		(pts
-			(xy 194.31 36.83) (xy 181.61 36.83)
+			(xy 231.14 77.47) (xy 236.22 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "813a4ffc-ba4a-4a70-856e-ebeef43cd3f2")
+		(uuid "9880592f-79d0-4981-bf4b-6ba2451e18b8")
 	)
 	(wire
 		(pts
-			(xy 204.47 52.07) (xy 243.84 52.07)
+			(xy 143.51 95.25) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8659d44a-7ca7-4e83-ad63-ffded3351af5")
+		(uuid "9a0889b6-0218-4ec4-895a-bff981bab07b")
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 260.35 116.84)
+			(xy 231.14 72.39) (xy 236.22 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a4451ba-96f7-43b5-8fa9-24bb951be59e")
+		(uuid "9a9de976-ecd9-4b37-9b42-78f43ba0bd14")
 	)
 	(wire
 		(pts
-			(xy 160.02 102.87) (xy 165.1 102.87)
+			(xy 236.22 25.4) (xy 236.22 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cc58d2c-d64a-4405-9fd5-28ed41951189")
+		(uuid "9ddf6a45-c623-4314-883f-117d968785dc")
 	)
 	(wire
 		(pts
-			(xy 181.61 64.77) (xy 175.26 64.77)
+			(xy 139.7 38.1) (xy 139.7 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "901058d2-2c3c-4f59-96cd-6e0cb882f561")
+		(uuid "a2899828-c252-4910-96f7-a3fac1aabbb2")
 	)
 	(wire
 		(pts
-			(xy 208.28 48.26) (xy 208.28 36.83)
+			(xy 256.54 127) (xy 256.54 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "912accab-80e1-4d2e-b809-d6b267c3280a")
+		(uuid "a582e840-4ddf-41e3-a7ca-eb1a1513c961")
 	)
 	(wire
 		(pts
-			(xy 156.21 45.72) (xy 156.21 46.99)
+			(xy 165.1 57.15) (xy 158.75 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91328280-8b38-4a61-9870-3a840dd9dea5")
+		(uuid "a64f53d5-22a5-49a7-878b-dadbf954a622")
 	)
 	(wire
 		(pts
-			(xy 250.19 127) (xy 251.46 127)
+			(xy 165.1 38.1) (xy 165.1 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98d5e10d-5525-4d5a-8d73-e3a6c4e080f6")
+		(uuid "a6e8fb41-ca12-4a25-8c20-759a5b8e8143")
 	)
 	(wire
 		(pts
-			(xy 250.19 114.3) (xy 260.35 114.3)
+			(xy 180.34 29.21) (xy 184.15 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ceda249-8e99-44df-b189-605772e43cf6")
+		(uuid "a789df91-e134-407b-8ede-534efb2b731d")
 	)
 	(wire
 		(pts
-			(xy 148.59 49.53) (xy 147.32 49.53)
+			(xy 256.54 140.97) (xy 256.54 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0a59b8a-183a-4d62-a23e-0e27fc1b270e")
+		(uuid "a956922b-e9f1-40f2-be54-fe5a288182c2")
 	)
 	(wire
 		(pts
-			(xy 134.62 69.85) (xy 134.62 71.12)
+			(xy 200.66 74.93) (xy 205.74 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1d367a1-f6dc-4981-b0fa-b8c52f6ab360")
+		(uuid "aaf50896-cca5-41b3-8c5b-5e3e4745c319")
 	)
 	(wire
 		(pts
-			(xy 199.39 48.26) (xy 208.28 48.26)
+			(xy 256.54 129.54) (xy 256.54 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a236cec3-b8c8-4238-b5fe-39c318eff81b")
+		(uuid "ad998a38-7858-4d65-858f-5fc9eaa8da5f")
 	)
 	(wire
 		(pts
-			(xy 134.62 69.85) (xy 148.59 69.85)
+			(xy 132.08 72.39) (xy 132.08 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a265ec3c-d7bb-4489-b47d-57e88c9b58fa")
+		(uuid "b4d2b715-cbd0-4489-86bd-a4b8b2ad03d5")
 	)
 	(wire
 		(pts
-			(xy 260.35 121.92) (xy 260.35 123.19)
+			(xy 231.14 135.89) (xy 233.68 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b15dad77-a0fd-4c9c-bce2-8f36d1a0bf13")
+		(uuid "b80162d9-9576-49a1-aec4-53c12775df20")
 	)
 	(wire
 		(pts
-			(xy 234.95 119.38) (xy 240.03 119.38)
+			(xy 200.66 85.09) (xy 205.74 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5b7f97e-196e-45c0-b69f-297cd9cfe668")
+		(uuid "ba170a84-333d-48e4-9b75-0177e5bb3679")
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 142.24 77.47)
+			(xy 246.38 85.09) (xy 247.65 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bad9c9ef-79cc-4455-a34f-1f5bd3384b15")
+		(uuid "bdb3c601-20cc-4472-94d9-4e80ddda9ec8")
 	)
 	(wire
 		(pts
-			(xy 208.28 36.83) (xy 212.09 36.83)
+			(xy 119.38 41.91) (xy 120.65 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb9ea381-fcab-4ab8-94bb-d3d7a86fa917")
+		(uuid "bf496c45-e4cf-4d46-a7cd-cd67705546e0")
 	)
 	(wire
 		(pts
-			(xy 200.66 33.02) (xy 200.66 36.83)
+			(xy 229.87 111.76) (xy 227.33 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd475e45-7938-43a9-9476-df9019271aaf")
+		(uuid "c96f899d-f705-41f7-9147-4b7cc2894aa8")
 	)
 	(wire
 		(pts
-			(xy 196.85 36.83) (xy 200.66 36.83)
+			(xy 256.54 119.38) (xy 257.81 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be15fb65-9814-4128-a1dd-0bf4601dd6b2")
+		(uuid "ca4d26ac-9fb8-4c79-9405-6d51488dd579")
 	)
 	(wire
 		(pts
-			(xy 243.84 52.07) (xy 243.84 36.83)
+			(xy 256.54 80.01) (xy 256.54 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be5e2d11-7d62-4060-833e-5e9b934adf67")
+		(uuid "cf175be2-e9fb-4ca8-9d8e-9025da26e677")
 	)
 	(wire
 		(pts
-			(xy 181.61 45.72) (xy 181.61 44.45)
+			(xy 247.65 74.93) (xy 247.65 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2c432d1-7a3f-4c9d-91ff-b9719ad4190c")
+		(uuid "cf2cc19d-dd6c-4b70-9346-07bca32cbb9a")
 	)
 	(wire
 		(pts
-			(xy 143.51 76.2) (xy 142.24 76.2)
+			(xy 236.22 29.21) (xy 245.11 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf35275f-7be0-45d6-bdb3-1d84b453977f")
+		(uuid "d01c04c8-9c2c-4030-a6fb-dcbd1a2f37c1")
 	)
 	(wire
 		(pts
-			(xy 199.39 52.07) (xy 199.39 48.26)
+			(xy 257.81 124.46) (xy 246.38 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d08be6c1-9b64-4a78-aafd-1d8a003b9578")
+		(uuid "d73c43bc-05eb-4fed-b84b-96e3c485dc74")
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 153.67 76.2)
+			(xy 139.7 25.4) (xy 139.7 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1192750-de68-495d-8dae-1e41295fd8d4")
+		(uuid "d79db6e9-fcc9-4c34-aeab-f6228a385b0f")
 	)
 	(wire
 		(pts
-			(xy 175.26 64.77) (xy 175.26 58.42)
+			(xy 246.38 72.39) (xy 256.54 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1afdfcd-3896-4036-8de3-71f214e72561")
+		(uuid "d9d6fcdc-e7e8-4219-9dc6-56ba410ffcf8")
 	)
 	(wire
 		(pts
-			(xy 160.02 105.41) (xy 170.18 105.41)
+			(xy 213.36 121.92) (xy 214.63 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1f5932f-78d3-42ee-81e1-fa1eb7e38661")
+		(uuid "de5ee772-70af-4dd4-aa05-c1c748fd1a99")
 	)
 	(wire
 		(pts
-			(xy 217.17 95.25) (xy 222.25 95.25)
+			(xy 152.4 64.77) (xy 165.1 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8d66764-0acf-4b97-ae37-31b4b74225e4")
+		(uuid "df68a786-2a14-4ced-8c26-5cc7b993621d")
 	)
 	(wire
 		(pts
-			(xy 220.98 36.83) (xy 224.79 36.83)
+			(xy 177.8 44.45) (xy 177.8 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df1b315e-28df-48f1-9278-7737d43db1d5")
+		(uuid "e06c9b24-07c5-4606-a10a-90580fadfbea")
 	)
 	(wire
 		(pts
-			(xy 135.89 49.53) (xy 137.16 49.53)
+			(xy 119.38 39.37) (xy 120.65 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3d16683-776f-4afb-ae22-91ec13f4bdea")
+		(uuid "eb06b8a4-a58b-4c3c-8781-f18e8f422334")
 	)
 	(wire
 		(pts
-			(xy 196.85 52.07) (xy 196.85 36.83)
+			(xy 182.88 44.45) (xy 182.88 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e49daa33-86a8-4868-94c2-11ff4f454ae7")
+		(uuid "eb3d2b4f-5136-4010-a62a-2561e4e2b062")
 	)
 	(wire
 		(pts
-			(xy 201.93 49.53) (xy 220.98 49.53)
+			(xy 182.88 125.73) (xy 185.42 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8f051ca-3d46-4df2-bd5e-3146cc914f39")
+		(uuid "ebd3989e-1f4a-4024-a49e-321041a4b2c7")
 	)
 	(wire
 		(pts
-			(xy 134.62 82.55) (xy 148.59 82.55)
+			(xy 247.65 74.93) (xy 256.54 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed68c5f0-be4a-4ff1-a04c-1714c3bc593f")
+		(uuid "ef0ece97-e508-4070-ad62-41d4ee390584")
 	)
 	(wire
 		(pts
-			(xy 248.92 33.02) (xy 248.92 36.83)
+			(xy 246.38 124.46) (xy 246.38 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f29b43f1-130f-41c0-8df5-0c0e20bad123")
+		(uuid "f2acae71-6e9d-4e28-a348-1d2522c49daa")
 	)
 	(wire
 		(pts
-			(xy 234.95 114.3) (xy 240.03 114.3)
+			(xy 224.79 29.21) (xy 236.22 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f37460d8-1eea-4538-ae52-f6204049dafb")
+		(uuid "f490c016-670e-449b-94e5-50da78acf7fd")
 	)
 	(wire
 		(pts
-			(xy 181.61 33.02) (xy 181.61 36.83)
+			(xy 161.29 39.37) (xy 161.29 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f50e7028-b95d-4d9f-84e0-63ae9d7cce2a")
+		(uuid "f59eba85-555c-4697-8305-b2652dff3e44")
 	)
 	(wire
 		(pts
-			(xy 148.59 49.53) (xy 148.59 54.61)
+			(xy 138.43 68.58) (xy 137.16 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f676f5c7-2e0a-4100-8a27-613e5192d316")
+		(uuid "f919c45a-5550-460e-96f3-554cde7fdfee")
 	)
 	(wire
 		(pts
-			(xy 177.8 59.69) (xy 181.61 59.69)
+			(xy 231.14 82.55) (xy 236.22 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6b8a609-b6df-4492-804d-bbabe426304a")
+		(uuid "fcd67f43-efc7-4fb4-82bd-6b2d4779066a")
 	)
 	(wire
 		(pts
-			(xy 170.18 105.41) (xy 181.61 105.41)
+			(xy 182.88 125.73) (xy 182.88 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd22a385-ea04-4b4a-bb6c-e3a67a728c75")
+		(uuid "fe90c7bf-9863-4a71-9392-afea3620389a")
 	)
 	(rectangle
-		(start 225.806 121.412)
-		(end 234.95 125.73)
+		(start 221.996 69.088)
+		(end 231.14 73.406)
 		(stroke
 			(width 0)
 			(type default)
@@ -4769,23 +5293,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 0b2c92a3-8818-4b96-bf80-fc9a5c9d737c)
+		(uuid 1e2ea4b1-57f8-4e06-9c7a-4e7ad4f3f9cc)
 	)
 	(rectangle
-		(start 222.25 90.424)
-		(end 231.394 96.012)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6510816a-d976-4c63-a1da-d76e3670d1f3)
-	)
-	(rectangle
-		(start 150.114 100.33)
-		(end 160.02 106.426)
+		(start 133.604 92.71)
+		(end 143.51 98.806)
 		(stroke
 			(width 0)
 			(type default)
@@ -4794,11 +5306,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 66979499-a104-4651-8587-42b8ac5cc6b1)
+		(uuid 5de3407a-60a1-4e71-9102-4bb8a0008949)
 	)
 	(rectangle
-		(start 225.806 110.998)
-		(end 234.95 115.316)
+		(start 113.792 30.226)
+		(end 137.414 52.324)
 		(stroke
 			(width 0)
 			(type default)
@@ -4806,11 +5318,48 @@
 		(fill
 			(type none)
 		)
-		(uuid 7655b394-477d-4f3b-8d51-9f82adeb2e05)
+		(uuid 6ee1225b-0377-4a74-aed1-3ff69dbf5acb)
 	)
 	(rectangle
-		(start 225.806 116.078)
-		(end 234.95 120.396)
+		(start 205.74 72.39)
+		(end 214.884 77.978)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9082f28c-5a75-444a-b58b-a182d8fa61e5)
+	)
+	(rectangle
+		(start 201.168 104.14)
+		(end 275.59 160.274)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a32a4ab8-d085-462d-b73a-905cbd3c9758)
+	)
+	(rectangle
+		(start 205.74 82.804)
+		(end 214.884 88.392)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad7d559d-fc76-4c52-93eb-ba442523573a)
+	)
+	(rectangle
+		(start 221.996 84.836)
+		(end 231.14 89.154)
 		(stroke
 			(width 0)
 			(type default)
@@ -4819,11 +5368,23 @@
 		(fill
 			(type none)
 		)
-		(uuid ccbbbbe5-d2cb-413f-a0ad-8197439722cf)
+		(uuid d75a7b50-2e8f-4998-800b-72e490a8712a)
 	)
 	(rectangle
-		(start 225.806 126.746)
-		(end 234.95 131.064)
+		(start 221.996 79.502)
+		(end 231.14 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de9dc696-8ac1-4e01-b572-f98b0e5db0f0)
+	)
+	(rectangle
+		(start 221.996 74.168)
+		(end 231.14 78.486)
 		(stroke
 			(width 0)
 			(type default)
@@ -4832,11 +5393,11 @@
 		(fill
 			(type none)
 		)
-		(uuid f0462558-8087-456f-a9b3-996bfa715d2f)
+		(uuid ff402401-7eac-4f64-a2ee-f481a53490b5)
 	)
 	(text_box "OLED I2C Module\n________________\n\nSWDIO Interface"
 		(exclude_from_sim no)
-		(at 252.73 101.346 0)
+		(at 248.92 59.436 0)
 		(size 24.13 9.144)
 		(stroke
 			(width 0)
@@ -4851,7 +5412,17 @@
 			)
 			(justify left top)
 		)
-		(uuid "549908e3-996a-41e3-8d07-a49785ef3535")
+		(uuid "a99be08c-00f1-482f-a76e-eb3023de73bc")
+	)
+	(text "RST BTN"
+		(exclude_from_sim no)
+		(at 118.618 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b68b2cfa-ba7e-47bd-9e66-3c62ef0835a8")
 	)
 	(text "Keyboard Matrix"
 		(exclude_from_sim no)
@@ -4863,98 +5434,138 @@
 		)
 		(uuid "d4e75f29-dc06-4913-b248-c0b10342ddd4")
 	)
-	(label "OLED_SDA"
-		(at 160.02 105.41 180)
+	(label "OLED_SCL"
+		(at 231.14 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "2df315e0-aea0-4d01-84ee-5d806dd585db")
+		(uuid "048b02ed-a9e8-4033-b530-dbe3c624620e")
 	)
 	(label "SWCLK"
-		(at 234.95 124.46 180)
+		(at 231.14 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3d2fc397-1c77-4757-8303-b4237feedf59")
+		(uuid "1bdf07bf-5e8f-4755-a8c0-9799d16177dc")
 	)
-	(label "SWDIO"
-		(at 234.95 114.3 180)
+	(label "OLED_SDA"
+		(at 231.14 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5873bb18-ba03-45f0-804d-f9ec8a8b56e0")
+		(uuid "3eda3351-0fad-4523-85b0-d8619b77de8b")
 	)
-	(label "SWDIO"
-		(at 222.25 92.71 0)
+	(label "UART_TX"
+		(at 213.36 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45043f32-3a7b-4404-8a9e-1e94c7d6ace4")
+	)
+	(label "UART_TX"
+		(at 205.74 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7dae4690-e958-41db-bdfd-28cda341a589")
+		(uuid "6fecc1dd-c866-43e5-8b32-87a06ee51b26")
 	)
-	(label "SWCLK"
-		(at 222.25 95.25 0)
+	(label "UART_RX"
+		(at 213.36 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "940645a8-2c9b-44fe-a599-918bbd6d3af9")
+	)
+	(label "UART_RX"
+		(at 205.74 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "92c5c22c-5e98-4ef3-a029-dd5d295547f6")
+		(uuid "9cc153d7-ae2f-46a4-92ea-f83a01bef8df")
 	)
-	(label "OLED_SCL"
-		(at 234.95 129.54 180)
+	(label "SWDIO"
+		(at 205.74 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "af835fa6-a443-4a8e-907c-e39aaf3c3e42")
+		(uuid "a388c115-fa1a-4d17-96cc-c795b06a6bd0")
 	)
-	(label "OLED_SCL"
-		(at 160.02 102.87 180)
+	(label "SWCLK"
+		(at 205.74 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "b8ae0d1e-13dc-457f-be9a-9ca0420e09da")
+		(uuid "a4368424-9a0e-408e-8e4d-32da0b5c9fb5")
 	)
 	(label "OLED_SDA"
-		(at 234.95 119.38 180)
+		(at 143.51 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "fdc1f7ab-9ab4-43ba-bd3f-4458c6242a0d")
+		(uuid "cba0bf1e-c20e-4c35-bbd5-b28409752714")
+	)
+	(label "SWDIO"
+		(at 231.14 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df9d944f-1005-4494-b02a-5588cc5e4bc6")
+	)
+	(label "OLED_SCL"
+		(at 143.51 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efed9a2e-7a4a-40e6-a68c-b4e941329f7d")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 44.45 0)
+		(at 118.11 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "055a0ed3-720b-4a12-a202-937fe963bb48")
-		(property "Reference" "#PWR064"
-			(at 200.66 50.8 0)
+		(uuid "005f3de1-c173-4fe8-afcc-bf062b329f34")
+		(property "Reference" "#PWR041"
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +5574,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 49.53 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +5583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 44.45 0)
+			(at 118.11 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,7 +5592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 44.45 0)
+			(at 118.11 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +5601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 44.45 0)
+			(at 118.11 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,213 +5610,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad4a97b0-8b52-41b6-b946-876efe6a876a")
+			(uuid "49cd86de-3e59-4a19-a3c2-c0bd88cfd46b")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b29a986-2cb6-4383-831a-02c49c643c38")
-		(property "Reference" "#PWR066"
-			(at 212.09 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d65b98b1-aa74-4ff4-a71f-984d4f07089b")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c0a8ef2-b628-42e7-a8c0-714a7b67387a")
-		(property "Reference" "#PWR050"
-			(at 135.89 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb0ca436-a3bf-42f3-b906-747afcdaf431")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 224.79 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ddd1aff-2ffa-4ed2-904c-aff44717dc2d")
-		(property "Reference" "#PWR068"
-			(at 224.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a41f33d-bc79-4331-852a-610b46833580")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR068")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5213,15 +5623,16 @@
 	)
 	(symbol
 		(lib_id "#inventree:CL21B104KBCNNNC")
-		(at 224.79 40.64 0)
+		(at 165.1 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1074270e-91a7-4a4a-be73-46ec786eea09")
-		(property "Reference" "C21"
-			(at 225.298 38.1 0)
+		(fields_autoplaced yes)
+		(uuid "0235a25e-297f-4fe2-9830-408ab410c36d")
+		(property "Reference" "C16"
+			(at 168.91 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5641,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 225.298 43.18 0)
+			(at 168.91 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5650,7 @@
 			)
 		)
 		(property "Footprint" "0805 (2012 Metric)"
-			(at 225.7552 44.45 0)
+			(at 166.0652 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5659,7 @@
 			)
 		)
 		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
-			(at 224.79 40.64 0)
+			(at 165.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5668,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 224.79 40.64 0)
+			(at 165.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5677,7 @@
 			)
 		)
 		(property "InvenTree" "18"
-			(at 224.79 40.64 0)
+			(at 165.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5686,7 @@
 			)
 		)
 		(property "Mounting Type" "Surface Mount, MLCC"
-			(at 224.79 40.64 0)
+			(at 165.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5695,7 @@
 			)
 		)
 		(property "Package Type" "0805 (2012 Metric)"
-			(at 224.79 40.64 0)
+			(at 165.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5704,7 @@
 			)
 		)
 		(property "Part URL" "http://10.0.0.41:7333/part/18/"
-			(at 224.79 40.64 0)
+			(at 165.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5713,7 @@
 			)
 		)
 		(property "Rated Voltage" "50V"
-			(at 224.79 40.64 0)
+			(at 165.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5722,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 224.79 40.64 0)
+			(at 165.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5731,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 224.79 40.64 0)
+			(at 165.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,60 +5740,39 @@
 			)
 		)
 		(pin "2"
-			(uuid "691350fc-e5c4-4ab7-b9a1-9ffa63ef0253")
+			(uuid "f6295fb0-340d-47e8-94ea-4fb5620a7bf2")
 		)
 		(pin "1"
-			(uuid "835de33f-50cb-4bd1-b87c-cb1560012a35")
+			(uuid "e123dc81-138f-4720-b5c0-a56578009845")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "C21")
+					(reference "C16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32F1:STM32F103C8Tx")
-		(at 199.39 92.71 0)
+		(lib_id "Device:Crystal_GND24")
+		(at 132.08 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1566db99-f3b7-45ea-a23d-ad277e38bac2")
-		(property "Reference" "U8"
-			(at 204.1241 133.35 0)
+		(uuid "0baf10a3-0725-4eb1-83c3-23fd7c0716ae")
+		(property "Reference" "Y2"
+			(at 126.492 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "STM32F103C8Tx"
-			(at 204.1241 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 184.15 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
-			(at 199.39 92.71 0)
+		(property "Value" "Crystal_GND24"
+			(at 128.3014 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,546 +5780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
-			(at 199.39 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "48"
-			(uuid "d2985055-2d32-440e-8e00-e75f61f5a951")
-		)
-		(pin "37"
-			(uuid "4224bbff-f3f0-494c-8ddd-7f0b996651b7")
-		)
-		(pin "30"
-			(uuid "af486d30-c1fe-4afa-9ecb-5002294ce12a")
-		)
-		(pin "25"
-			(uuid "3acbd39f-881e-44b8-97c1-61534622b56f")
-		)
-		(pin "5"
-			(uuid "fb534509-da7a-49db-b251-aa9a6cb99dc7")
-		)
-		(pin "42"
-			(uuid "e7572366-7908-4859-bc84-95d1fe468c12")
-		)
-		(pin "45"
-			(uuid "96c0dcbf-c456-4bc5-ad32-5cb3053caa45")
-		)
-		(pin "31"
-			(uuid "b1136ac8-f84b-406c-abd3-f8def75c285a")
-		)
-		(pin "7"
-			(uuid "0f956933-72ff-49a5-a16b-ddfe7c9ce27e")
-		)
-		(pin "6"
-			(uuid "3a9569ca-e271-4644-8b06-5b1f27ac3669")
-		)
-		(pin "41"
-			(uuid "65fcf5e3-d217-4bbb-9631-62c87abe2e72")
-		)
-		(pin "4"
-			(uuid "d4786175-2631-4fac-baf9-89d62ab0dbcf")
-		)
-		(pin "21"
-			(uuid "fe1572bb-22e4-47cc-86de-3132baf3c695")
-		)
-		(pin "23"
-			(uuid "56e9c9db-afc8-430e-aaf9-f9d09154ebce")
-		)
-		(pin "46"
-			(uuid "9366d784-e356-467d-8f48-136a30c58398")
-		)
-		(pin "27"
-			(uuid "0b111ea5-ea8c-455e-a4e1-eed657e3683b")
-		)
-		(pin "29"
-			(uuid "08b25c2e-e34f-44de-bb3f-1aae9480f24a")
-		)
-		(pin "47"
-			(uuid "526b7167-3f40-4511-8469-af65e72b10e8")
-		)
-		(pin "24"
-			(uuid "8d143a26-8bce-41ee-a3e0-ba70a29c3443")
-		)
-		(pin "18"
-			(uuid "c4647a70-8316-4021-bec7-74bdd755a84f")
-		)
-		(pin "2"
-			(uuid "6d039722-1a33-4883-a696-6ba09de4dc70")
-		)
-		(pin "3"
-			(uuid "d2fc04b0-fb7e-409f-a9f8-ce2d01f8e649")
-		)
-		(pin "10"
-			(uuid "18c67249-f8a7-45ee-b59f-6c671a33c96d")
-		)
-		(pin "13"
-			(uuid "3a6ed7e0-5812-43c4-a576-c69f5f72c198")
-		)
-		(pin "11"
-			(uuid "52064165-63ed-4ef2-96a9-4fc81d602227")
-		)
-		(pin "36"
-			(uuid "ca735de3-03d7-4df1-a18f-7abc4b15bb17")
-		)
-		(pin "28"
-			(uuid "19579e9c-52d3-4491-b960-285f744c5c7a")
-		)
-		(pin "20"
-			(uuid "72a4c636-2d34-4df1-af19-8c6c558cb00e")
-		)
-		(pin "15"
-			(uuid "92b061cd-391c-405c-b0b6-6d592ee0e819")
-		)
-		(pin "33"
-			(uuid "6d2c3b42-8629-49ee-9b13-55df2c707044")
-		)
-		(pin "12"
-			(uuid "11ca3bef-7c6d-4b4b-8885-ccb06df19118")
-		)
-		(pin "1"
-			(uuid "700d54a3-b253-48cc-9467-c0ec47ab2200")
-		)
-		(pin "14"
-			(uuid "c3008df8-9626-4d69-a510-23c9510721ec")
-		)
-		(pin "32"
-			(uuid "b6b86efe-c7ed-4303-8e67-0c46c887c548")
-		)
-		(pin "35"
-			(uuid "2506f552-3598-4bf2-8203-2a806ef37513")
-		)
-		(pin "19"
-			(uuid "1347b771-3f4f-4bf2-8fbb-bde10ad1bff4")
-		)
-		(pin "44"
-			(uuid "b3626f1a-2fec-4052-a28f-8dcf3baf64b2")
-		)
-		(pin "39"
-			(uuid "7c0fda5e-092b-430e-a4ab-fa0775c29414")
-		)
-		(pin "34"
-			(uuid "1617aa30-aa41-414f-98fe-af944b9467d5")
-		)
-		(pin "26"
-			(uuid "034017b7-ee20-4092-b6d3-53e058f2407c")
-		)
-		(pin "17"
-			(uuid "c4e6c994-d499-42c9-b313-7430887c0e2f")
-		)
-		(pin "22"
-			(uuid "f908076d-2470-4df4-bb35-88da8f796961")
-		)
-		(pin "16"
-			(uuid "c849f0cc-0b10-4f0d-a674-015f3db613f2")
-		)
-		(pin "9"
-			(uuid "bcdb87af-aff2-451a-b200-4cd5ead46e5b")
-		)
-		(pin "43"
-			(uuid "98bbc7d9-f838-4674-93ef-4e03742a1f15")
-		)
-		(pin "40"
-			(uuid "031c3071-90ab-458c-a95f-c572bf28748a")
-		)
-		(pin "38"
-			(uuid "fa625b4b-0d9a-48d3-b88a-def5224fc595")
-		)
-		(pin "8"
-			(uuid "bb646718-cf9e-40c4-9683-eb26ba2a7b8d")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17bca631-2a04-457b-b4a6-98fe40c1b738")
-		(property "Reference" "#PWR049"
-			(at 134.62 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67bda61e-3c20-4719-a996-b601ca2c369f")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "RC0603FR-074K7L_1")
-		(lib_id "#inventree:RC0603FR-074K7L")
-		(at 165.1 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a343cc0-4026-489e-a671-cca60f425aac")
-		(property "Reference" "R9"
-			(at 165.1 98.044 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 kohm"
-			(at 162.814 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.322 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "59"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0603"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0603 (1608 Metric)"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/59/"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.1W, 1/10W"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4da129ec-f624-42d6-955f-4bc425dd0ca7")
-		)
-		(pin "1"
-			(uuid "4b2632b4-bc71-443b-b178-09aad39cc628")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 181.61 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20f5c282-bebe-43bc-8912-6154bc471520")
-		(property "Reference" "#PWR060"
-			(at 181.61 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 181.61 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48181bb6-2a3e-479f-b4d1-7f77387de408")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:YTS1C0033BBG01")
-		(at 142.24 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25cf34d4-c77f-483f-828e-a765e035b085")
-		(property "Reference" "U7"
-			(at 142.24 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YTS1C0033BBG01"
-			(at 142.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_YIYUAN_YTS1C003XXX"
-			(at 142.24 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5188566"
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "60"
-			(at 142.24 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "69b6499b-9f65-4a51-b074-0b4e4a321641")
-		)
-		(pin "3"
-			(uuid "3696f7d4-e45d-44c5-a757-ad601cc79f70")
-		)
-		(pin "2"
-			(uuid "a3cc7e20-b4fa-4dc0-a588-d2df6c23003d")
-		)
-		(pin "1"
-			(uuid "d1178b64-bce3-4f73-b175-70439dac9b2f")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_DPDT")
-		(at 245.11 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27af668d-cab4-4633-acbf-17156034594a")
-		(property "Reference" "SW2"
-			(at 244.856 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_DPDT"
-			(at 245.11 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 116.84 0)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +5790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 116.84 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,8 +5798,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Momentary Switch, dual pole double throw"
-			(at 245.11 121.92 0)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,8 +5807,8 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "62"
-			(at 245.11 121.92 0)
+		(property "InvenTree" "61"
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,1377 +5816,38 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "d9fa526c-be08-4829-b2af-4da8c82c39e8")
+		(pin "1"
+			(uuid "b11f4cad-19bb-48f0-a3c2-6eadc5e2824a")
+		)
+		(pin "2"
+			(uuid "0fbdb8f0-7da8-48b2-959c-cdcce80ff7c5")
 		)
 		(pin "3"
-			(uuid "ef6d0cdc-fa28-4f79-9f8d-fa6561c27238")
-		)
-		(pin "2"
-			(uuid "03757851-fbc8-46fc-b026-a6b64477ccce")
-		)
-		(pin "6"
-			(uuid "34cf9d90-d0bc-4cd7-9d2e-7991c9257bac")
-		)
-		(pin "1"
-			(uuid "5b037e63-70c4-40c8-99aa-6f416a63915f")
-		)
-		(pin "5"
-			(uuid "5862302e-b5c3-48e7-86e5-31eeb97da7e5")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 265.43 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28b300a1-ec88-4a23-8a4d-b5afcf8c6c9e")
-		(property "Reference" "J2"
-			(at 274.066 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 257.81 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal"
-			(at 265.43 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 265.43 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "53"
-			(at 265.43 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "95aa2c2d-f84a-4024-9cf4-eafbc3632273")
-		)
-		(pin "2"
-			(uuid "ed669561-a28c-45c5-ab8a-2344356a39bf")
+			(uuid "793b281d-ddff-4f13-ba9f-d3f13c56ec19")
 		)
 		(pin "4"
-			(uuid "f8d2cc91-ceb1-434a-ac09-b1fe33416d47")
-		)
-		(pin "1"
-			(uuid "7109fd1b-4cd5-4ed9-9bed-54589e31e5e0")
+			(uuid "83144f37-1337-4839-b95f-2a811730c678")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "J2")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 172.72 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e5c2954-7cd6-474a-b522-59235e51e04b")
-		(property "Reference" "#PWR058"
-			(at 172.72 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 168.91 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fbd8a79-8ee1-46f5-bead-8b1b6f728082")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 224.79 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eb19715-7ab9-4bbf-bfb7-d85739e5dabe")
-		(property "Reference" "#PWR067"
-			(at 224.79 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 224.79 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b27deda-f8d3-4757-9197-39e39ed807a9")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f1230cd-e0b0-4b14-a0f2-c21cb6267e26")
-		(property "Reference" "#PWR059"
-			(at 172.72 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5d10edc-19fb-4734-a85e-ed5d47c0b545")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "RC0603FR-074K7L_1")
-		(lib_id "#inventree:RC0603FR-074K7L")
-		(at 170.18 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38c6a649-63e6-4ad5-b050-c1bdada42f04")
-		(property "Reference" "R10"
-			(at 170.18 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 kohm"
-			(at 167.894 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.402 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 170.18 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
-			(at 170.18 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "59"
-			(at 170.18 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0603"
-			(at 170.18 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0603 (1608 Metric)"
-			(at 170.18 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/59/"
-			(at 170.18 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.1W, 1/10W"
-			(at 170.18 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 170.18 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae26d668-9726-4f36-a8f9-43ded8209e4b")
-		)
-		(pin "1"
-			(uuid "e8f22ac6-404b-4e4c-bc9a-784715c54f91")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:CL21B104KBCNNNC")
-		(at 200.66 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4189f628-eeb1-4652-9b52-eb36be2e3c05")
-		(property "Reference" "C19"
-			(at 201.168 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 201.168 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0805 (2012 Metric)"
-			(at 201.6252 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "18"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "Surface Mount, MLCC"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/18/"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" "50V"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d857d1d6-9769-4ca5-8ba9-fd7e412b38e8")
-		)
-		(pin "1"
-			(uuid "3d266863-0e89-4bd6-bf72-3c15549e08e0")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 156.21 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "467f1074-a301-442e-9812-cb5f11057266")
-		(property "Reference" "#PWR054"
-			(at 156.21 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 156.21 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 156.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42f06e69-26cd-4ce8-a80e-65d8945584e1")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
+		(lib_id "#inventree:ERJ-6GEYJ472V")
 		(at 156.21 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f519033-eb2e-4d7a-ba3e-ff59c32797f5")
-		(property "Reference" "#PWR055"
-			(at 156.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a825d891-cb50-4585-b41b-772c19a0b7d1")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 260.35 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62f6f2f7-04bd-4049-bac9-5f70986a2b98")
-		(property "Reference" "#PWR073"
-			(at 264.16 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 255.016 118.618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 260.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8dce4cf-a229-4292-ae16-371e9a12eb4d")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 233.68 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76dac4af-ab0d-413b-9729-80b5964b5dfe")
-		(property "Reference" "#PWR069"
-			(at 233.68 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "483668c1-5618-455a-aa7a-7239addab521")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CL21A106KOQNNNE_1")
-		(lib_id "#inventree:CL21A106KOQNNNE")
-		(at 233.68 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ed57b81-a98d-46e2-8e92-a0c88633acee")
-		(property "Reference" "C22"
-			(at 234.442 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 µF"
-			(at 234.442 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0805 (2012 Metric)"
-			(at 234.6452 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/23/CL21A106KOQNNNE_Spec.pdf"
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 16V X5R 0805"
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "23"
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "Surface Mount, MLCC"
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/23/"
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" "16V"
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d7f9d18-759c-4a9d-b0a4-d5d0741a5d4c")
-		)
-		(pin "1"
-			(uuid "7bf0413e-09c6-4b65-8a01-60b182eba2e1")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 165.1 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f1ee8f4-d4ff-438c-aae1-2d5927cc89cf")
-		(property "Reference" "#PWR056"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69c7e088-9539-4c51-a9bc-ef0731dc62b9")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:CL21B104KBCNNNC")
-		(at 212.09 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7fe73a70-37ee-4ee7-9b16-72eb3cf16196")
-		(property "Reference" "C20"
-			(at 212.598 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 212.598 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0805 (2012 Metric)"
-			(at 213.0552 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "18"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "Surface Mount, MLCC"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/18/"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" "50V"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae2bcd25-1681-4731-860c-bc7813b8de6c")
-		)
-		(pin "1"
-			(uuid "d1a3147f-e2ce-48df-ae00-5f6b026ef7fe")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:CL21B105KAFNNNE")
-		(at 257.81 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b1c10df-3382-4de5-be51-d432eac0894a")
-		(property "Reference" "C24"
-			(at 258.826 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 µF"
-			(at 259.08 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0805 (2012 Metric)"
-			(at 258.7752 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/21/CL21B105KAFNNNE_Spec.pdf"
-			(at 257.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1UF 25V X7R 0805"
-			(at 257.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "21"
-			(at 257.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "Surface Mount, MLCC"
-			(at 257.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 257.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/21/"
-			(at 257.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" "25V"
-			(at 257.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 257.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 257.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7ba36d0-6336-44d1-97f6-48287a757788")
-		)
-		(pin "2"
-			(uuid "1def4255-3d47-49f8-8651-984732e50af6")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 212.09 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91f4d89f-2c03-4375-97fb-cb047159bffd")
-		(property "Reference" "#PWR065"
-			(at 212.09 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 212.09 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 212.09 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9109666-e053-4dba-9789-d2f9486f403a")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:RC0603FR-074K7L")
-		(at 156.21 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "946339e8-c20e-4024-af8d-295faab38e4c")
-		(property "Reference" "R8"
-			(at 157.734 40.386 0)
+		(uuid "11333b1b-571e-4a07-9f79-efec8dfffffd")
+		(property "Reference" "R12"
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7343,7 +5856,7 @@
 			)
 		)
 		(property "Value" "4.7 kohm"
-			(at 157.734 42.672 0)
+			(at 145.542 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7351,8 +5864,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 154.432 41.91 90)
+		(property "Footprint" ""
+			(at 154.432 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,8 +5873,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 156.21 41.91 0)
+		(property "Datasheet" ""
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7369,8 +5882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
-			(at 156.21 41.91 0)
+		(property "Description" "RES SMD 4.7K OHM 5% 1/8W 0805"
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,8 +5891,8 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "59"
-			(at 156.21 41.91 0)
+		(property "InvenTree" "43"
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,8 +5900,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" "0603"
-			(at 156.21 41.91 0)
+		(property "Mounting Type" "0805"
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,8 +5909,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package Type" "0603 (1608 Metric)"
-			(at 156.21 41.91 0)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,8 +5918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "http://10.0.0.41:7333/part/59/"
-			(at 156.21 41.91 0)
+		(property "Part URL" "http://10.0.0.41:7333/part/43/"
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,8 +5927,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Power" "0.1W, 1/10W"
-			(at 156.21 41.91 0)
+		(property "Rated Power" "0.125W, 1/8W"
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,159 +5936,25 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 156.21 41.91 0)
+		(property "Tolerance" "5%"
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "879774e9-623a-49de-ac1e-3fbfd00a39f8")
 		)
 		(pin "2"
-			(uuid "3b115b3b-7d64-465e-84a2-6f6c43cd505e")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e37b931-0793-48f3-9602-ae66f7132a3f")
-		(property "Reference" "#PWR053"
-			(at 154.94 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "86c48092-bdd2-4d21-a37a-f49c51b0916e")
 		)
 		(pin "1"
-			(uuid "f3a8843b-5e6e-4afd-82ea-a1653ec7f0bb")
+			(uuid "8fe6d29a-5154-4bfe-adb7-77bd7a8e1dc4")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eb17616-5a05-4091-af7f-939b90c1cbf5")
-		(property "Reference" "#PWR062"
-			(at 199.39 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5fb8010-1f12-493a-9d4c-1cd2c3bc69a1")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR062")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7583,16 +5962,16 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:PJ-327E-SMT")
-		(at 250.19 76.2 0)
+		(at 262.89 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a4ea440d-ace6-41c0-9a57-a55d93d15070")
+		(uuid "18aef81d-691c-4b80-af1e-67b62a102c00")
 		(property "Reference" "Audio2"
-			(at 259.08 77.4701 0)
+			(at 259.334 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +5980,7 @@
 			)
 		)
 		(property "Value" "PJ-327E-SMT"
-			(at 259.08 74.9301 0)
+			(at 259.08 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7610,7 +5989,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-327E-SMT"
-			(at 250.19 88.9 0)
+			(at 262.89 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +5998,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_XKB-Enterprise-PJ-327E-SMT_C319105.html"
-			(at 250.19 91.44 0)
+			(at 262.89 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7628,7 +6007,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 76.2 0)
+			(at 262.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7637,7 +6016,7 @@
 			)
 		)
 		(property "LCSC Part" "C319105"
-			(at 250.19 93.98 0)
+			(at 262.89 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,19 +6025,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "2604d784-f509-40b0-9f30-a69bdfd1af54")
+			(uuid "ceda52fc-2ef2-45a1-8763-f3f962002d1b")
 		)
 		(pin "1"
-			(uuid "3ab54176-eff3-48dc-bf4c-45522740eecb")
+			(uuid "aedaf8d5-65df-4118-96c1-51df6fc759e6")
 		)
 		(pin "5"
-			(uuid "84128769-a30d-4ddd-a73b-283a6755556b")
+			(uuid "dc845006-6b3f-4a8d-b8c6-6bc73063bf3c")
 		)
 		(pin "3"
-			(uuid "3b834ad2-9397-449f-bd37-60a9cf782c0d")
+			(uuid "ed25fd53-3f9e-4dfc-8bf3-f8357845eb41")
 		)
 		(pin "4"
-			(uuid "4887a094-b386-4811-ae76-29c6dd236375")
+			(uuid "5a14baee-ece3-4c2e-ad50-c31b4c759b86")
 		)
 		(instances
 			(project "sichergo"
@@ -7670,217 +6049,17 @@
 		)
 	)
 	(symbol
-		(lib_name "CL21B104KBCNNNC_1")
-		(lib_id "#inventree:CL21B104KBCNNNC")
-		(at 156.21 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6571874-8750-4992-b659-b8ca2e5a9319")
-		(property "Reference" "C17"
-			(at 156.972 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 156.972 53.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0805 (2012 Metric)"
-			(at 157.1752 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "18"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "Surface Mount, MLCC"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/18/"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" "50V"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5235d3a6-d165-433c-8f83-d1855ae7bc91")
-		)
-		(pin "2"
-			(uuid "937b39c9-9e99-4183-9c56-308fbc3ad200")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 142.24 77.47 0)
+		(at 232.41 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "affce194-05bf-42be-87f7-7cd4b33cf05b")
-		(property "Reference" "#PWR051"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78c286f8-fef0-43b9-9079-79fce8b30161")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7cddde2-6ee9-4949-afd8-4a7a09c2b323")
+		(uuid "1a538ecc-e06a-483d-aed5-80f38d6169be")
 		(property "Reference" "#PWR072"
-			(at 257.81 50.8 0)
+			(at 232.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +6068,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 49.53 0)
+			(at 232.41 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +6077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 44.45 0)
+			(at 232.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,7 +6086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 44.45 0)
+			(at 232.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,7 +6095,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 44.45 0)
+			(at 232.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,7 +6104,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9f3a98e-8262-46cf-b624-4a93f8b8a863")
+			(uuid "5ec49d61-1b2b-4e87-8513-1a488fb720cb")
 		)
 		(instances
 			(project "sichergo"
@@ -7938,16 +6117,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 123.19 0)
+		(at 125.73 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca8aca97-3309-4eb8-9a3d-51f7a2694531")
-		(property "Reference" "#PWR074"
-			(at 260.35 129.54 0)
+		(uuid "1a791318-24e9-4dd9-bf93-c52449a68c7c")
+		(property "Reference" "#PWR049"
+			(at 125.73 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +6135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 128.27 0)
+			(at 125.73 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +6144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 123.19 0)
+			(at 125.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +6153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 123.19 0)
+			(at 125.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +6162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 123.19 0)
+			(at 125.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +6171,2361 @@
 			)
 		)
 		(pin "1"
-			(uuid "759be8e1-c972-4068-94e9-3dd5561c939a")
+			(uuid "334c2cc3-126b-42c9-849a-a2fff862c143")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 184.15 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20039302-f4b8-4cfd-9aaf-06e99e6e0b61")
+		(property "Reference" "#PWR061"
+			(at 184.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 184.15 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 184.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6668962-dc5e-49a4-b56e-74443cf6948a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "290f9612-1bd9-4cc2-bcb4-536bb9d5b029")
+		(property "Reference" "#PWR067"
+			(at 217.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7f0400a-0de0-4569-aa81-852979ce16db")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35c0fdb1-1d4c-4d5d-baec-8f0be7c5bc30")
+		(property "Reference" "#PWR070"
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df888bce-41b7-4c0a-a865-e9424bc5b1aa")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 256.54 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5181cc7b-1115-4cdf-9bd9-9d68419a8518")
+		(property "Reference" "#PWR080"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 256.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c648773-af30-46b2-ab2c-5ba0bb31574f")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 208.28 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53718ea8-68c8-4406-8972-bdef40b05365")
+		(property "Reference" "#PWR065"
+			(at 208.28 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 208.28 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f38aaa5-7df0-4af9-80fc-24a936771488")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_ST_STM32F1:STM32F103C8Tx")
+		(at 182.88 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "568bf593-1cd5-43fd-8ee9-31cccae2359f")
+		(property "Reference" "U8"
+			(at 187.6141 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STM32F103C8Tx"
+			(at 164.846 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "48"
+			(uuid "3e83e014-2e72-4981-a8db-32bb693329fa")
+		)
+		(pin "37"
+			(uuid "f7a7f200-74ca-4eb4-8c6d-4b2a08b8b422")
+		)
+		(pin "30"
+			(uuid "3ff6aca1-9b36-4ace-9b8b-e51fdf1c25dd")
+		)
+		(pin "25"
+			(uuid "611d7e4f-8a5f-4704-877b-ed30089dfff5")
+		)
+		(pin "5"
+			(uuid "215edd19-988e-49fc-9143-982ce17cfd79")
+		)
+		(pin "42"
+			(uuid "d318d1dd-c55d-4305-98c0-78e7b55c3733")
+		)
+		(pin "45"
+			(uuid "12a0e5de-7d0e-4946-a789-61a0bcccd9d1")
+		)
+		(pin "31"
+			(uuid "c2bcbab7-d9f5-4fdc-96d1-2d7a1310b451")
+		)
+		(pin "7"
+			(uuid "37854fb5-2984-46a4-9ac5-a1b78fce7d30")
+		)
+		(pin "6"
+			(uuid "9baabca7-57cc-4654-841f-88e1afd75873")
+		)
+		(pin "41"
+			(uuid "c32d4b9c-febf-4c2b-9f0b-7f925f8ae7c5")
+		)
+		(pin "4"
+			(uuid "d26ad0c6-6a70-403f-8965-61b7298f79df")
+		)
+		(pin "21"
+			(uuid "195b7d33-8562-41a8-b374-eaf99de370fd")
+		)
+		(pin "23"
+			(uuid "02dfb959-accc-4aee-9e61-dfa9150697bf")
+		)
+		(pin "46"
+			(uuid "7b6af3c9-bd83-442a-8181-eadd0ab03e15")
+		)
+		(pin "27"
+			(uuid "53825943-7ea9-4fb8-9e5e-da0f83e73213")
+		)
+		(pin "29"
+			(uuid "25de180b-3116-4bd9-bdb8-1757a0621762")
+		)
+		(pin "47"
+			(uuid "eeaa43a6-64e8-431d-b59e-f0790b56fa31")
+		)
+		(pin "24"
+			(uuid "9abe52f7-1df0-432f-9b8d-25ca6a2d856d")
+		)
+		(pin "18"
+			(uuid "ad777541-0755-479e-bc22-3eafc4e4f1e2")
+		)
+		(pin "2"
+			(uuid "ec669f85-5030-4a9d-83dd-bc1f2fee170d")
+		)
+		(pin "3"
+			(uuid "65e0327b-59b0-403b-ad0f-7b78098f34d8")
+		)
+		(pin "10"
+			(uuid "ba633c95-06fa-4c56-92ad-4ab9879c0e56")
+		)
+		(pin "13"
+			(uuid "a7e51493-10b8-445d-b593-252e5f7d7447")
+		)
+		(pin "11"
+			(uuid "93b77ae8-001d-4c88-b824-c0106b20e2d5")
+		)
+		(pin "36"
+			(uuid "959d02a5-66e5-474f-9922-beca10ff0abe")
+		)
+		(pin "28"
+			(uuid "b360db38-cd42-4501-aa69-464beae8adfe")
+		)
+		(pin "20"
+			(uuid "346b331f-1916-441d-8301-47e796c9b5ee")
+		)
+		(pin "15"
+			(uuid "7ab409db-3816-4771-8e0f-63d64af08763")
+		)
+		(pin "33"
+			(uuid "01898e18-b014-43d6-a6ce-f2a7c4de2844")
+		)
+		(pin "12"
+			(uuid "fcd9a4b5-cf3d-41a8-89f2-e231bebe76f4")
+		)
+		(pin "1"
+			(uuid "80f9d785-0353-46f1-8438-511f857d1c1b")
+		)
+		(pin "14"
+			(uuid "2869997d-1ed9-4a02-98e0-ce67c2b3cfe1")
+		)
+		(pin "32"
+			(uuid "aa6c33f7-144a-40b8-8a1e-2999ea89b5a9")
+		)
+		(pin "35"
+			(uuid "41d2f854-2d69-4129-af1a-4a07dcc5048e")
+		)
+		(pin "19"
+			(uuid "3745be7c-618a-4e5f-82c9-31147ce9f9ab")
+		)
+		(pin "44"
+			(uuid "e0450bcd-bb2f-48e9-9980-e07e5a8fe418")
+		)
+		(pin "39"
+			(uuid "d1564732-d0b7-496e-8755-701e0829d7ec")
+		)
+		(pin "34"
+			(uuid "fd297643-043e-4606-a2ff-51a7ef8f1e02")
+		)
+		(pin "26"
+			(uuid "b6275ceb-8250-4e0e-a674-98120dd04154")
+		)
+		(pin "17"
+			(uuid "dc4de215-7270-45ae-a0ed-f7a805b59fa1")
+		)
+		(pin "22"
+			(uuid "103b17c2-f423-43eb-aade-a2223370755d")
+		)
+		(pin "16"
+			(uuid "8bbcab7d-300a-4da4-958d-89c2b4df91b9")
+		)
+		(pin "9"
+			(uuid "7728baa1-5461-4993-9a76-5f57585e76b2")
+		)
+		(pin "43"
+			(uuid "6c0ecc53-19a2-454a-a884-ccdf00e4c1b5")
+		)
+		(pin "40"
+			(uuid "580009c3-2dab-4d1a-8c7d-079af9ebec57")
+		)
+		(pin "38"
+			(uuid "5b0ef0f8-5721-4bcb-94ac-8c4ac1d0aad2")
+		)
+		(pin "8"
+			(uuid "34e9c32d-5ab7-4cf3-95c3-d34d1e241731")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e9ba96b-e367-4c69-846c-275af79ef105")
+		(property "Reference" "#PWR050"
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efd83ee6-54bf-493d-9553-0d7e3ee6f1e1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61d9d49b-9838-4471-bbec-f88ad8282f4f")
+		(property "Reference" "#PWR048"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98f0b166-fcf5-490f-bd9c-b76ea8181cff")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CL21A106KOQNNNE_1")
+		(lib_id "#inventree:CL21A106KOQNNNE")
+		(at 217.17 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66362f98-3678-45ae-8736-25abf296098b")
+		(property "Reference" "C20"
+			(at 217.932 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 217.932 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 218.1352 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/23/CL21A106KOQNNNE_Spec.pdf"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 16V X5R 0805"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "23"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/23/"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "16V"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "894cad34-719e-4297-8782-29eb3d8a7ffc")
+		)
+		(pin "1"
+			(uuid "1c2c85d4-5868-4cfb-8e87-ed871569c6d2")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:YTS1C0033BBG01")
+		(at 125.73 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7701a0bb-a18c-48ff-8a55-7377b6aac007")
+		(property "Reference" "U7"
+			(at 125.73 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YTS1C0033BBG01"
+			(at 125.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_YIYUAN_YTS1C003XXX"
+			(at 125.73 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5188566"
+			(at 125.73 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "60"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5ef723fc-ef46-47d8-8396-4d23ca6d8b3c")
+		)
+		(pin "3"
+			(uuid "187df6fb-8098-4522-bb2e-1dbfda5dce8d")
+		)
+		(pin "2"
+			(uuid "77719b4e-472f-4040-b204-9b851689d56b")
+		)
+		(pin "1"
+			(uuid "91dbb322-07a9-4367-bdf6-09e074e1c8ad")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-074K7L")
+		(at 139.7 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "773ef646-4144-49b3-ba76-8c96f3ac88e8")
+		(property "Reference" "R8"
+			(at 141.224 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kohm"
+			(at 141.224 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 137.922 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "59"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/59/"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef05c4b6-3cba-4885-adf7-0b01cc359f84")
+		)
+		(pin "2"
+			(uuid "6e3a7ea5-e055-47e6-a51b-2583a7edcdd9")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81d7dc73-5f96-40b0-ab6c-6cdbed43bd3e")
+		(property "Reference" "#PWR081"
+			(at 256.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9489161-6564-4004-81d9-a5c145dda52a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 153.67 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "837ae1af-a325-4d34-b333-a6b41531b2bc")
+		(property "Reference" "#PWR055"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd7a49aa-d6de-446d-b5d6-ff671ab563ba")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RC0603FR-074K7L_1")
+		(lib_id "#inventree:RC0603FR-074K7L")
+		(at 148.59 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8460cce8-8a99-4d5c-9205-e332c65e3d0b")
+		(property "Reference" "R9"
+			(at 148.59 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kohm"
+			(at 146.304 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.812 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "59"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/59/"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "342e3a4e-0e40-42d1-8a7a-57997eff4d8d")
+		)
+		(pin "1"
+			(uuid "71311b88-6d7e-4971-844d-61ba2749436d")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RC0603FR-074K7L_1")
+		(lib_id "#inventree:RC0603FR-074K7L")
+		(at 153.67 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "881fdef8-aa5d-4ce1-b1b1-156e0ba4cb73")
+		(property "Reference" "R10"
+			(at 153.67 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kohm"
+			(at 151.384 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.892 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/59/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "59"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/59/"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b356d57-4406-4d3e-b158-a085f2f33f5d")
+		)
+		(pin "1"
+			(uuid "f1a92423-d598-448e-91ec-a847181e92f6")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cf6f81c-466f-4940-9760-a9de290bb086")
+		(property "Reference" "#PWR038"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9ea36a2-4892-4e9c-9449-75200cb7e325")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21B104KBCNNNC")
+		(at 184.15 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f30af91-196b-456a-a2f5-13fde9f93454")
+		(property "Reference" "C17"
+			(at 184.658 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 184.658 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 185.1152 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "18"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/18/"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1ea34c0-2eab-4c2b-ad5d-3f2a756b6026")
+		)
+		(pin "1"
+			(uuid "0b1eeac6-9fd3-4c16-ac14-f0151e81331b")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21B104KBCNNNC")
+		(at 195.58 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f6c646f-7cd9-435b-ae07-c74fde32f86f")
+		(property "Reference" "C18"
+			(at 196.088 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 196.088 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 196.5452 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "18"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/18/"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e67965cd-be0d-4ae4-80b6-e217cd3d36d1")
+		)
+		(pin "1"
+			(uuid "35605fc4-b771-4854-8a92-f05597d87377")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92f72000-1441-409a-a570-e93654e50143")
+		(property "Reference" "#PWR053"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22e53792-39ec-4319-be44-281b142473ea")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97b63d83-8bcd-48e2-aef4-213947db2fab")
+		(property "Reference" "#PWR073"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cbadb95-4ae5-4810-890e-924f48dfc02f")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21B104KBCNNNC")
+		(at 236.22 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97eb8be5-d015-4a46-bb6f-9036a2926978")
+		(property "Reference" "C21"
+			(at 236.728 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 236.728 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 237.1852 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "18"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/18/"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d0feb87-9e3c-4991-8f91-3367d3ac1e8d")
+		)
+		(pin "1"
+			(uuid "3b0682a1-2b8c-4a40-b3e9-532b6a3f8434")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
+		(at 241.3 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9aefac38-a520-4af0-8fe5-a0fbd60f663c")
+		(property "Reference" "SW2"
+			(at 241.046 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 241.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, dual pole double throw"
+			(at 241.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "62"
+			(at 241.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bb267ee3-ab93-4dd9-85a1-b3b17f2e7659")
+		)
+		(pin "3"
+			(uuid "5c233254-342f-4037-af6c-f366ed089408")
+		)
+		(pin "2"
+			(uuid "5120157f-999a-446c-81a7-0483dcfd25d3")
+		)
+		(pin "6"
+			(uuid "fc4a4db8-b396-406e-ad58-e9cb20ccaab4")
+		)
+		(pin "1"
+			(uuid "d361ce5f-dbe4-4bb5-a412-36fe1ed3fac3")
+		)
+		(pin "5"
+			(uuid "9b92d735-bcb2-4faa-8028-c66442658b4b")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 256.54 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b0d1cac-98c1-466d-8084-ba87e1bb65ce")
+		(property "Reference" "#PWR078"
+			(at 260.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 251.206 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 256.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03fb24dc-b931-4b95-9c48-82bd97782fe1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 165.1 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c413619-d014-438a-a103-e9ceb9d50ab1")
+		(property "Reference" "#PWR058"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 165.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9fc9cf6-af2b-4c75-92d6-9897e7f6e507")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d8b60e2-e7a2-4734-8248-fc6f965f10d2")
+		(property "Reference" "#PWR062"
+			(at 184.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab59901e-8af5-48a2-93ef-3e2bca7df640")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 236.22 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9deaca90-a2c8-40c5-a001-81bb23cd7f0b")
+		(property "Reference" "#PWR074"
+			(at 236.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 236.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "554d0126-8857-490a-9e87-b6b91a5e13c5")
 		)
 		(instances
 			(project "sichergo"
@@ -8005,16 +8538,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 54.61 0)
+		(at 195.58 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf6b71e8-26e5-4651-a72b-015c1e8d6ca1")
-		(property "Reference" "#PWR052"
-			(at 148.59 60.96 0)
+		(uuid "a806b09d-05d1-44d6-999e-6a5c11dbd92a")
+		(property "Reference" "#PWR064"
+			(at 195.58 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,7 +8556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 59.69 0)
+			(at 195.58 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,7 +8565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 54.61 0)
+			(at 195.58 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,7 +8574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 54.61 0)
+			(at 195.58 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +8583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 54.61 0)
+			(at 195.58 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,78 +8592,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "59a33a07-b186-4134-ae02-de2560f22b57")
+			(uuid "ccf7df6d-999a-4800-9bac-4566cf20ad8c")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 200.66 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0307757-5a7f-4084-bca7-7f0e8e72f7c8")
-		(property "Reference" "#PWR063"
-			(at 200.66 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 200.66 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 200.66 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8541471a-3ed5-40a8-8d54-a9b2834e5c0f")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8138,15 +8605,15 @@
 	)
 	(symbol
 		(lib_id "#inventree:CL21B104KBCNNNC")
-		(at 248.92 40.64 0)
+		(at 208.28 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d36e72df-57a1-4490-8fdc-a168a3ab11d0")
-		(property "Reference" "C23"
-			(at 249.428 38.1 0)
+		(uuid "ab6f758c-e627-44a0-a5e1-7c335300625d")
+		(property "Reference" "C19"
+			(at 208.788 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,7 +8622,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 249.428 43.18 0)
+			(at 208.788 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,7 +8631,7 @@
 			)
 		)
 		(property "Footprint" "0805 (2012 Metric)"
-			(at 249.8852 44.45 0)
+			(at 209.2452 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,7 +8640,7 @@
 			)
 		)
 		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
-			(at 248.92 40.64 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +8649,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 248.92 40.64 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,7 +8658,7 @@
 			)
 		)
 		(property "InvenTree" "18"
-			(at 248.92 40.64 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8667,7 @@
 			)
 		)
 		(property "Mounting Type" "Surface Mount, MLCC"
-			(at 248.92 40.64 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +8676,7 @@
 			)
 		)
 		(property "Package Type" "0805 (2012 Metric)"
-			(at 248.92 40.64 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8685,7 @@
 			)
 		)
 		(property "Part URL" "http://10.0.0.41:7333/part/18/"
-			(at 248.92 40.64 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8694,7 @@
 			)
 		)
 		(property "Rated Voltage" "50V"
-			(at 248.92 40.64 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8703,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 248.92 40.64 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8712,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 248.92 40.64 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,15 +8721,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c925b95e-73fa-4f46-83bb-b1494dc13454")
+			(uuid "fcf7efc9-db5d-4f3d-a484-acf3e3964265")
 		)
 		(pin "1"
-			(uuid "06a7ee51-c933-42a5-9dc7-4787b82abf38")
+			(uuid "8eb5c75c-b1f5-4632-b130-7924aea6a363")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "C23")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8270,16 +8737,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 44.45 0)
+		(at 208.28 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d756227f-f798-49b4-94c6-1788d6402f2c")
-		(property "Reference" "#PWR071"
-			(at 248.92 50.8 0)
+		(uuid "abe89506-8ff3-41f3-8eb7-e13874517b42")
+		(property "Reference" "#PWR066"
+			(at 208.28 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 49.53 0)
+			(at 208.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,7 +8764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 44.45 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8306,7 +8773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 44.45 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8315,7 +8782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 44.45 0)
+			(at 208.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8324,277 +8791,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a4632b4-6104-4e80-8e18-80c7006469d7")
+			(uuid "aeabdf4b-a359-47e6-b0a3-9613cca0fc5c")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:CL21B104KBCNNNC")
-		(at 181.61 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9cc9f3d-95fb-421d-9f9e-2bb4ef98ab31")
-		(property "Reference" "C18"
-			(at 185.42 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 185.42 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0805 (2012 Metric)"
-			(at 182.5752 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "18"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "Surface Mount, MLCC"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/18/"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" "50V"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "92332185-ee00-472e-85da-fc784a500f44")
-		)
-		(pin "1"
-			(uuid "5c588d0a-da8d-49ff-8e39-602270aa35d5")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:CL21C100CBANNNC")
-		(at 134.62 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbffb79f-ac3f-4376-a7c3-fe1f4b435c11")
-		(property "Reference" "C16"
-			(at 130.048 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 pF"
-			(at 128.524 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0805 (2012 Metric)"
-			(at 135.5852 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/11/2411272102_Samsung-Electro-Mechanics-CL21C100CBANNNC_C2991182.pdf"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10PF 50V C0G/NP0 0805"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "11"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "Surface Mount, MLCC"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/11/"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" "50V"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "C0G, NP0"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "0.25pF"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cbf945e-88e1-41e9-995f-a27821e3bf07")
-		)
-		(pin "2"
-			(uuid "faf860ee-7dc9-485d-9b50-8456714445d9")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "C16")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8602,421 +8804,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 78.74 0)
+		(at 156.21 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de05d8f1-ce8d-4836-b358-e2df6ffed41c")
-		(property "Reference" "#PWR048"
-			(at 134.62 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d286df74-33e9-45ab-b36c-347e65f7aeaf")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND24")
-		(at 148.59 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea21d258-086e-4103-98e1-f746fcfc226b")
-		(property "Reference" "Y2"
-			(at 143.002 73.152 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal_GND24"
-			(at 144.8114 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "61"
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5623f95-4921-45b9-b298-26e6f1e1dcc1")
-		)
-		(pin "2"
-			(uuid "6de8f3d8-58a2-4d7f-8878-a6cd5cc2802e")
-		)
-		(pin "3"
-			(uuid "7df0370e-3278-4ebb-8a93-03df7593ae2c")
-		)
-		(pin "4"
-			(uuid "d5a33897-be6b-45dd-816b-49a6a3ff47f5")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:CL21C100CBANNNC")
-		(at 134.62 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eae77ee9-df13-4284-9660-5e79e7cd56a7")
-		(property "Reference" "C15"
-			(at 130.302 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 pF"
-			(at 128.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0805 (2012 Metric)"
-			(at 135.5852 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://10.0.0.41/media/attachments/part/11/2411272102_Samsung-Electro-Mechanics-CL21C100CBANNNC_C2991182.pdf"
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10PF 50V C0G/NP0 0805"
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "11"
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "Surface Mount, MLCC"
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/11/"
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" "50V"
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "C0G, NP0"
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "0.25pF"
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "619f89d8-0873-4387-96f1-70ff690c5ba3")
-		)
-		(pin "2"
-			(uuid "c2cefde9-3a4e-44b4-bfd7-0145dc5b5162")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ472V")
-		(at 172.72 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "ecba36d4-8739-4975-a1b5-95217b0f37d3")
-		(property "Reference" "R11"
-			(at 167.894 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 kohm"
-			(at 161.798 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.942 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 4.7K OHM 5% 1/8W 0805"
-			(at 172.72 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "43"
-			(at 172.72 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 172.72 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 172.72 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/43/"
-			(at 172.72 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 172.72 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 172.72 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "82caa216-4dae-4af3-b559-deffc97acfd0")
-		)
-		(pin "1"
-			(uuid "c69108ce-3587-4a6d-ae24-4f7a6bcecd39")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 170.18 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efa0986e-7551-44ca-a9e4-ead84c529491")
+		(uuid "b17c56b0-7e71-4360-99c9-cd126cd10b5f")
 		(property "Reference" "#PWR057"
-			(at 170.18 96.52 0)
+			(at 156.21 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9024,16 +8821,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 170.18 87.63 0)
+		(property "Value" "GND"
+			(at 156.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 92.71 0)
+			(at 156.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +8840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 92.71 0)
+			(at 156.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9050,8 +8848,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 170.18 92.71 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +8858,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "db8a2aee-de7e-4d72-b776-58c40bd1cfb1")
+			(uuid "f0eea23e-a954-41b3-84a3-fcc757b78223")
 		)
 		(instances
 			(project "sichergo"
@@ -9072,34 +8870,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 248.92 33.02 0)
+		(lib_id "#inventree:ERJ-6GEYJ101V")
+		(at 256.54 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f182bba8-5f82-4c61-849e-7fb049ce302b")
-		(property "Reference" "#PWR070"
-			(at 248.92 36.83 0)
+		(uuid "b6bfba3a-3413-4700-be61-35ee26364a64")
+		(property "Reference" "R14"
+			(at 259.08 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 248.92 27.94 0)
+		(property "Value" "100 ohm"
+			(at 259.08 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 248.92 33.02 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 254.762 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,7 +8907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 33.02 0)
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,8 +8915,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 248.92 33.02 0)
+		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,74 +8924,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "328cb875-0f07-4833-ba86-6f02c6f7fcb1")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ472V")
-		(at 172.72 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6416683-b03a-4644-afc8-9f6e6b712783")
-		(property "Reference" "R12"
-			(at 167.64 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 kohm"
-			(at 162.052 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.942 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 4.7K OHM 5% 1/8W 0805"
-			(at 172.72 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "43"
-			(at 172.72 62.23 0)
+		(property "InvenTree" "40"
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,7 +8934,7 @@
 			)
 		)
 		(property "Mounting Type" "0805"
-			(at 172.72 62.23 0)
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9210,7 +8943,7 @@
 			)
 		)
 		(property "Package Type" "0805 (2012 Metric)"
-			(at 172.72 62.23 0)
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,8 +8951,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "http://10.0.0.41:7333/part/43/"
-			(at 172.72 62.23 0)
+		(property "Part URL" "http://10.0.0.41:7333/part/40/"
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,7 +8961,7 @@
 			)
 		)
 		(property "Rated Power" "0.125W, 1/8W"
-			(at 172.72 62.23 0)
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,7 +8970,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 172.72 62.23 0)
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9246,15 +8979,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "912a8527-4a72-4232-a328-3a44215fb5cf")
+			(uuid "90e44cb5-887a-4d47-ab01-2714f2ab27cd")
 		)
 		(pin "1"
-			(uuid "0f4c4996-fd37-4b9b-ba0f-f5930c8829d6")
+			(uuid "7d30934a-e776-4f08-9a82-4eb18ed7f319")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9262,16 +8995,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 45.72 0)
+		(at 182.88 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f7273e78-dfaf-41a8-aac7-542f7d62f3e4")
-		(property "Reference" "#PWR061"
-			(at 181.61 52.07 0)
+		(uuid "ba935bf6-a240-4e77-8110-566396ce161c")
+		(property "Reference" "#PWR060"
+			(at 182.88 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,7 +9013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 50.8 0)
+			(at 182.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +9022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 45.72 0)
+			(at 182.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,7 +9031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 45.72 0)
+			(at 182.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9307,7 +9040,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 45.72 0)
+			(at 182.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,12 +9049,1699 @@
 			)
 		)
 		(pin "1"
-			(uuid "76beaa51-cdc5-4c35-bb2a-dc2cc45be5b3")
+			(uuid "272875f5-4e2c-4d06-9ea0-fdfdb86563bb")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
-					(reference "#PWR061")
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcd6dbc0-1dcf-4872-9950-92d9847761d9")
+		(property "Reference" "#PWR079"
+			(at 256.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb0cad59-c63c-4879-a553-3325a1bc4224")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:SN74LVC1G125DBV")
+		(at 231.14 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf3db811-63a1-46eb-8caf-16db607b052c")
+		(property "Reference" "U10"
+			(at 235.712 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G125DBV"
+			(at 243.586 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 231.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 231.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
+			(at 231.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e3b77e7-b64a-4036-b050-16f2ddaa27c9")
+		)
+		(pin "3"
+			(uuid "95094e0b-20c1-4346-b43c-0a275d30d27e")
+		)
+		(pin "5"
+			(uuid "851239c3-1d5e-4741-bfef-42c7011a875c")
+		)
+		(pin "4"
+			(uuid "5b3495af-86c1-437e-9d31-095881e5cc16")
+		)
+		(pin "2"
+			(uuid "1ea90294-dd86-44f1-809c-2ddc13afd10c")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf644b75-89d0-409b-b399-f888d442a7be")
+		(property "Reference" "#PWR059"
+			(at 165.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42f83397-737d-4ed8-8856-83520f0f6793")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf8193a7-f1ef-48b1-8913-99543cf478eb")
+		(property "Reference" "#PWR056"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 152.4 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0616794b-8c61-4e72-afd1-0eed36976cd9")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:ERJ-6GEYJ472V")
+		(at 156.21 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c04268e1-1285-41a9-9cb5-da6953dc71f3")
+		(property "Reference" "R11"
+			(at 151.384 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kohm"
+			(at 145.288 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.432 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 5% 1/8W 0805"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "43"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0805"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/43/"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.125W, 1/8W"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc46d069-5a3f-4d3a-a69f-7f7011560d81")
+		)
+		(pin "1"
+			(uuid "6eaa1762-7535-4bea-bc4d-1893a9c2372a")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21B105KAFNNNE")
+		(at 245.11 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c06664d3-93ae-49dd-8ec8-81d874c0338c")
+		(property "Reference" "C22"
+			(at 246.126 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 µF"
+			(at 246.38 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 246.0752 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/21/CL21B105KAFNNNE_Spec.pdf"
+			(at 245.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X7R 0805"
+			(at 245.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "21"
+			(at 245.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 245.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 245.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/21/"
+			(at 245.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "25V"
+			(at 245.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 245.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 245.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e7aac7-529a-4644-830d-950e6a3f7780")
+		)
+		(pin "2"
+			(uuid "129c91cb-6491-40c9-bca8-278d94c5afdd")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 226.06 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c12f4ec7-c7f5-4a86-94e4-3137e4800661")
+		(property "Reference" "#PWR068"
+			(at 226.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 226.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 226.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a03a59c-3d91-4c39-a4c6-d6db2bd14161")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 148.59 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7104c10-f950-4dbd-8be3-31df98de1fb0")
+		(property "Reference" "#PWR054"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 148.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f6306eb-2691-44e8-9d3b-011024b0c428")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 195.58 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7749309-2fad-4801-b2e1-3f85a5d7e63b")
+		(property "Reference" "#PWR063"
+			(at 195.58 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 195.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 195.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53b8ee09-beef-4c6a-9ce8-e68d31b1a06e")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CL21B104KBCNNNC_1")
+		(lib_id "#inventree:CL21B104KBCNNNC")
+		(at 139.7 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7ea3dbf-d33a-46b8-b75d-2e28636159c8")
+		(property "Reference" "C15"
+			(at 140.462 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 140.462 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 140.6652 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/18/CL21B104KBCNNN_Spec.pdf"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "18"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/18/"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c5ac998-21d2-4d7a-8597-fbb22d07aabc")
+		)
+		(pin "2"
+			(uuid "495c4f59-547d-45a6-9210-866041db2fad")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:SN74LVC1G125DBV")
+		(at 227.33 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7ec8d64-02e5-4672-9112-a3d635d35bb0")
+		(property "Reference" "U9"
+			(at 222.758 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G125DBV"
+			(at 245.618 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 227.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 227.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
+			(at 227.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23dbbfcb-cf3f-42ab-9336-45a1658dc5cd")
+		)
+		(pin "3"
+			(uuid "486f59bf-00ea-4300-ae15-a9d1c47f2e37")
+		)
+		(pin "5"
+			(uuid "0722854c-7eca-4ca8-9fd3-d9aa366062fc")
+		)
+		(pin "4"
+			(uuid "de6563e9-9a61-4d90-a9c9-79807bb55234")
+		)
+		(pin "2"
+			(uuid "3a2aba44-419d-450e-a039-f39b1a60b578")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb28a747-cf9f-46da-b442-66f1df9ba66b")
+		(property "Reference" "#PWR076"
+			(at 236.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7296e9c2-d1a2-4849-b88f-a990fdbb614c")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5883ead-94a4-4596-bf4d-028685b8edad")
+		(property "Reference" "#PWR069"
+			(at 226.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da7dfb7e-f718-4fb2-b2b8-dfec0e585023")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21C100CBANNNC")
+		(at 118.11 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de1a27a6-dafc-4fbd-b6e4-a391683f5752")
+		(property "Reference" "C13"
+			(at 113.792 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 pF"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 119.0752 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/11/2411272102_Samsung-Electro-Mechanics-CL21C100CBANNNC_C2991182.pdf"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10PF 50V C0G/NP0 0805"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "11"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/11/"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "C0G, NP0"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.25pF"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d98e423-e105-49d7-a5ed-1a554714c004")
+		)
+		(pin "2"
+			(uuid "ed762f70-5ea3-4646-9fc6-4d5984387f05")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 232.41 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e52b1fc0-3f59-4630-8c92-06f54105b699")
+		(property "Reference" "#PWR071"
+			(at 232.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 232.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87581816-b00a-45bc-b06d-b0b94878e36e")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f289eb47-09fa-4ead-ad52-0a1e70775c3c")
+		(property "Reference" "#PWR051"
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cc35d71-64ec-4b27-afb6-e95408e500df")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 139.7 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4bbf488-d017-4a6a-997d-5a551cad4209")
+		(property "Reference" "#PWR052"
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 139.7 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "647e0f44-f6b5-45a8-927b-105df61412f5")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:CL21C100CBANNNC")
+		(at 118.11 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f978ef17-cec3-4736-b00e-c4a836bab2d0")
+		(property "Reference" "C14"
+			(at 113.538 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 pF"
+			(at 112.014 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805 (2012 Metric)"
+			(at 119.0752 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/11/2411272102_Samsung-Electro-Mechanics-CL21C100CBANNNC_C2991182.pdf"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10PF 50V C0G/NP0 0805"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "11"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "Surface Mount, MLCC"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0805 (2012 Metric)"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/11/"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "50V"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "C0G, NP0"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.25pF"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1380e6b5-bbfa-4ecd-b2aa-1e5db249d03d")
+		)
+		(pin "2"
+			(uuid "43494847-6a61-4215-85ef-baaa2dfd6fd8")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 261.62 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc6ae936-1c75-40d8-a319-759886eb8147")
+		(property "Reference" "J2"
+			(at 270.256 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 254 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal"
+			(at 261.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 261.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "53"
+			(at 261.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "74049a16-3a68-477e-902a-0b2e604e86b4")
+		)
+		(pin "2"
+			(uuid "80897f9b-c69a-4ac8-ac3c-068900022c64")
+		)
+		(pin "4"
+			(uuid "938f1770-ee3f-4b6c-b981-55a9558e6937")
+		)
+		(pin "1"
+			(uuid "a03c1375-71bb-449e-866e-05c53f313139")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fec95e02-8fb1-4e3a-b007-c1a03b5aa51d")
+		(property "Reference" "#PWR077"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6406222a-1d17-4d8e-a4c2-6b4e562d8de1")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)

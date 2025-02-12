@@ -1,0 +1,7 @@
+02-11 20:26:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 647:Plugin executed on: 'linux'
+02-11 20:26:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 648:Plugin executed with python version: '3.13.1 (main, Dec 14 2024, 12:44:03) [GCC 13.2.0]'
+02-11 20:26:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 649:KiCad build version: 8.0.8
+02-11 20:26:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 650:Plugin version: 3.0.0
+02-11 20:26:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 651:Frame repr: <wx._core.Frame object at 0x7fdae0af4680>
+02-11 20:26:50 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+02-11 20:26:50 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint REF** on root level
