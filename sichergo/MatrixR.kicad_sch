@@ -11,7 +11,7 @@
 		(company "Daniel Pérez (steewBSD)")
 	)
 	(lib_symbols
-		(symbol "#inventree:ERJ-6GEYJ101V"
+		(symbol "#inventree:RC0603FR-071KL"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -27,7 +27,7 @@
 					)
 				)
 			)
-			(property "Value" "100 ohm"
+			(property "Value" "1 kohm"
 				(at 0 0 90)
 				(effects
 					(font
@@ -44,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
+			(property "Description" "RES 1K OHM 1% 1/10W 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,7 +62,7 @@
 					(hide yes)
 				)
 			)
-			(property "InvenTree" "40"
+			(property "InvenTree" "69"
 				(at 0 0 0)
 				(effects
 					(font
@@ -71,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mounting Type" "0805"
+			(property "Mounting Type" "0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,7 +80,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package Type" "0805 (2012 Metric)"
+			(property "Package Type" "0603 (1608 Metric)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -89,7 +89,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part URL" "http://10.0.0.41:7333/part/40/"
+			(property "Part URL" "http://10.0.0.41:7333/part/69/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -98,7 +98,7 @@
 					(hide yes)
 				)
 			)
-			(property "Rated Power" "0.125W, 1/8W"
+			(property "Rated Power" "0.1W, 1/10W"
 				(at 0 0 0)
 				(effects
 					(font
@@ -107,7 +107,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "5%"
+			(property "Tolerance" "1%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -125,7 +125,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ERJ-6GEYJ101V_0_1"
+			(symbol "RC0603FR-071KL_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -138,7 +138,7 @@
 					)
 				)
 			)
-			(symbol "ERJ-6GEYJ101V_1_1"
+			(symbol "RC0603FR-071KL_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -769,6 +769,12 @@
 		(uuid "06692b44-f336-4fb0-bafa-831673d0e10a")
 	)
 	(junction
+		(at 137.16 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "099160b5-3baa-49f9-ac0c-aaea25a1187f")
+	)
+	(junction
 		(at 177.8 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -779,12 +785,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "226d74a3-aa82-45d0-abf5-0903a6501fb5")
-	)
-	(junction
-		(at 113.03 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a340a99-dbda-4722-8ca3-1bf8498e0a12")
 	)
 	(junction
 		(at 106.68 69.85)
@@ -811,16 +811,22 @@
 		(uuid "389bca3f-7524-40a6-8efa-d1f44ce5c496")
 	)
 	(junction
-		(at 88.9 95.25)
+		(at 90.17 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48bb723b-a891-4513-9867-256068d4ffea")
+		(uuid "440c0e62-cf41-4674-9b87-7e22a2cae10e")
 	)
 	(junction
-		(at 160.02 72.39)
+		(at 160.02 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "514e3653-48ca-48f4-961a-775e594d16fa")
+		(uuid "4952dc34-310c-4eb5-85e3-0e69b3cb7a56")
+	)
+	(junction
+		(at 160.02 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a53af89-bbfa-4c09-a533-86ae87d049fd")
 	)
 	(junction
 		(at 166.37 60.96)
@@ -829,28 +835,10 @@
 		(uuid "5b9aeeaf-4de5-4ee0-8611-e5c77e3ecdd4")
 	)
 	(junction
-		(at 137.16 50.8)
+		(at 137.16 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62369352-3236-4a1a-999e-b405faff2161")
-	)
-	(junction
-		(at 88.9 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6456fa60-7087-4efb-9769-a4d398699a23")
-	)
-	(junction
-		(at 113.03 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "651f3037-2aa2-4363-b016-3114470c73ba")
-	)
-	(junction
-		(at 90.17 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7637f3d6-5a0d-49d6-8a94-42c3d188b183")
+		(uuid "6907fa36-83f6-432f-b017-4402e778277b")
 	)
 	(junction
 		(at 142.24 105.41)
@@ -871,16 +859,16 @@
 		(uuid "82080066-cb4f-46db-9532-402270eb6f20")
 	)
 	(junction
-		(at 137.16 95.25)
+		(at 88.9 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "866b1ce4-fb64-4ca9-9be4-b82df26d1d84")
+		(uuid "83d43801-fa5b-461e-916a-062b4a97de7f")
 	)
 	(junction
-		(at 160.02 50.8)
+		(at 90.17 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b95881a-c7f2-4d14-8f7e-d1232c310e21")
+		(uuid "89584da1-e312-43f5-9259-226c146c0341")
 	)
 	(junction
 		(at 63.5 95.25)
@@ -901,10 +889,10 @@
 		(uuid "960d0027-9bff-4a92-b87d-a089b00fc93a")
 	)
 	(junction
-		(at 90.17 72.39)
+		(at 113.03 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9803ae02-26f7-4a81-9163-9a5a40ed4ece")
+		(uuid "a7c5a426-aeea-4b9a-b5a4-70ec82667cb9")
 	)
 	(junction
 		(at 95.25 82.55)
@@ -913,16 +901,16 @@
 		(uuid "a7efa15e-6f16-4242-8212-87173daf5fdd")
 	)
 	(junction
-		(at 160.02 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0ee465e-706a-4788-94e0-8b74752bf90a")
-	)
-	(junction
 		(at 130.81 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1754664-23db-4576-bb70-4acdd1a1e460")
+	)
+	(junction
+		(at 113.03 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b672079e-bdcc-4409-9dec-c87618f7cd53")
 	)
 	(junction
 		(at 142.24 82.55)
@@ -937,28 +925,28 @@
 		(uuid "b87977ae-1b17-4066-b4e4-9be008f37d56")
 	)
 	(junction
+		(at 113.03 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba42bb37-9db8-4cd8-a547-29ae69877004")
+	)
+	(junction
 		(at 130.81 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd13673b-e743-4b10-b535-ea2534264065")
 	)
 	(junction
-		(at 113.03 50.8)
+		(at 160.02 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bda11f14-180e-4040-835a-889ebfe757d3")
+		(uuid "bf919328-a65c-4d6b-b467-17f01386bac0")
 	)
 	(junction
 		(at 190.5 82.55)
 		(diameter 0)
 		(color 132 0 132 1)
 		(uuid "c4f7b241-0ed6-4d1a-87f6-1c2e1188bc9d")
-	)
-	(junction
-		(at 113.03 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5def940-825e-49eb-be96-989a8c7bddf0")
 	)
 	(junction
 		(at 190.5 60.96)
@@ -973,22 +961,28 @@
 		(uuid "d2ef6635-aa7f-4ea9-a178-187c241fdb93")
 	)
 	(junction
+		(at 88.9 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dacc8a57-4db4-46e2-856a-3bab5b4422f4")
+	)
+	(junction
 		(at 63.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc339635-442a-4a51-a83b-7750def3dcda")
 	)
 	(junction
-		(at 137.16 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4bdd0fc-b481-4611-ada3-93faf7fed0e1")
-	)
-	(junction
 		(at 130.81 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e62d9c01-dd54-4e0f-9800-3dd103bb7132")
+	)
+	(junction
+		(at 113.03 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e98ba733-ec4d-4d19-817b-779c9066848d")
 	)
 	(junction
 		(at 95.25 60.96)
@@ -1014,6 +1008,12 @@
 		(color 132 0 132 1)
 		(uuid "fc0e985f-e939-4e9c-a932-2e3e14b0681e")
 	)
+	(junction
+		(at 137.16 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fef5c7dd-84f2-4301-9180-735dbddcd025")
+	)
 	(wire
 		(pts
 			(xy 106.68 69.85) (xy 130.81 69.85)
@@ -1023,6 +1023,16 @@
 			(type default)
 		)
 		(uuid "0141e979-fdee-4d9b-993c-efc3c3fe24c8")
+	)
+	(wire
+		(pts
+			(xy 113.03 119.38) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047d073d-9ef3-404e-9a14-5d861409852e")
 	)
 	(wire
 		(pts
@@ -1057,16 +1067,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 119.38) (xy 137.16 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6611b0-938d-4ac0-96a5-8f854877c8d2")
-	)
-	(wire
-		(pts
 			(xy 200.66 105.41) (xy 201.93 105.41)
 		)
 		(stroke
@@ -1077,6 +1077,36 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 72.39) (xy 160.02 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d87a798-9849-4b7e-a947-5b34505ed87e")
+	)
+	(wire
+		(pts
+			(xy 113.03 50.8) (xy 137.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dba461d-2d4a-4595-b2e1-73b8fdfa7d3e")
+	)
+	(wire
+		(pts
+			(xy 113.03 72.39) (xy 137.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e357be1-6cd4-4e41-994e-fdbaafe715cb")
+	)
+	(wire
+		(pts
 			(xy 153.67 91.44) (xy 177.8 91.44)
 		)
 		(stroke
@@ -1084,16 +1114,6 @@
 			(type default)
 		)
 		(uuid "109f0834-5409-4444-84ab-4cb048c77593")
-	)
-	(wire
-		(pts
-			(xy 137.16 95.25) (xy 160.02 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114759cd-1361-4e6e-949f-e637ef033137")
 	)
 	(wire
 		(pts
@@ -1190,26 +1210,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 50.8) (xy 137.16 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27428579-b143-4cd2-8382-8f7f8101aec7")
-	)
-	(wire
-		(pts
-			(xy 88.9 119.38) (xy 113.03 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2776f63a-d654-4243-bdad-025079b912f0")
-	)
-	(wire
-		(pts
 			(xy 153.67 69.85) (xy 177.8 69.85)
 		)
 		(stroke
@@ -1250,16 +1250,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 95.25) (xy 88.9 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39c65515-10cb-4278-826a-cd7c0499f1f6")
-	)
-	(wire
-		(pts
 			(xy 177.8 60.96) (xy 177.8 62.23)
 		)
 		(stroke
@@ -1267,16 +1257,6 @@
 			(type default)
 		)
 		(uuid "3ae1f0ce-8bc7-45cd-873c-feb73856f481")
-	)
-	(wire
-		(pts
-			(xy 160.02 72.39) (xy 184.15 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f91b039-a5cc-4a8d-ac1d-8461eaac329e")
 	)
 	(wire
 		(pts
@@ -1333,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 95.25) (xy 184.15 95.25)
+			(xy 63.5 95.25) (xy 88.9 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1385,16 +1365,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 50.8) (xy 184.15 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c335350-aaed-42ed-9562-11ca0f1d9346")
-	)
-	(wire
-		(pts
 			(xy 85.09 114.3) (xy 106.68 114.3)
 		)
 		(stroke
@@ -1405,7 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 72.39) (xy 113.03 72.39)
+			(xy 63.5 72.39) (xy 90.17 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1435,16 +1405,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 137.16 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65bca343-0828-4057-b0f1-3e6e48406883")
-	)
-	(wire
-		(pts
 			(xy 85.09 91.44) (xy 106.68 91.44)
 		)
 		(stroke
@@ -1462,6 +1422,16 @@
 			(type default)
 		)
 		(uuid "664b5938-07f6-4d42-9658-e7f7634ebc37")
+	)
+	(wire
+		(pts
+			(xy 160.02 72.39) (xy 184.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4b3225-0727-4d25-a504-e7344d6dffe8")
 	)
 	(wire
 		(pts
@@ -1496,13 +1466,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 50.8) (xy 113.03 50.8)
+			(xy 90.17 72.39) (xy 113.03 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b4b9fb4-2347-463b-b373-71d7c62fc9c9")
+		(uuid "793fd8c5-1e87-4f9d-ae20-b53ba0cc8a3a")
+	)
+	(wire
+		(pts
+			(xy 160.02 95.25) (xy 184.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aac3ff8-ecb2-4943-97b6-2f13110641f4")
 	)
 	(wire
 		(pts
@@ -1533,16 +1513,6 @@
 			(type default)
 		)
 		(uuid "880ad061-75a6-4c81-b8b0-5e8ea162f42b")
-	)
-	(wire
-		(pts
-			(xy 88.9 95.25) (xy 113.03 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d493817-4c56-48d1-b36d-627011b3af8e")
 	)
 	(wire
 		(pts
@@ -1688,13 +1658,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 137.16 72.39)
+			(xy 90.17 50.8) (xy 113.03 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0883c25-9a50-4fa2-bc84-b1463bbe7c5c")
+		(uuid "ab3284c2-b803-49c5-b093-bdb37f91a95e")
+	)
+	(wire
+		(pts
+			(xy 88.9 119.38) (xy 113.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae53b9a1-ce7c-491f-a624-20e7e15c4ae4")
 	)
 	(wire
 		(pts
@@ -1740,13 +1720,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 72.39) (xy 90.17 72.39)
+			(xy 88.9 95.25) (xy 113.03 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd93f756-7fe5-4ea5-a4e4-906b1efe970d")
+		(uuid "bd61df8c-310d-446b-bcca-3dad05b39e66")
 	)
 	(wire
 		(pts
@@ -1757,26 +1737,6 @@
 			(type default)
 		)
 		(uuid "bee77664-666f-487a-8d1e-1c04df554435")
-	)
-	(wire
-		(pts
-			(xy 137.16 50.8) (xy 160.02 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4874a85-89cf-4ae7-bbc3-9988111b76e4")
-	)
-	(wire
-		(pts
-			(xy 137.16 72.39) (xy 160.02 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c721b7fe-796d-459d-8fd4-5d27545c16b6")
 	)
 	(wire
 		(pts
@@ -1870,6 +1830,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 95.25) (xy 137.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e059b5db-23ac-4299-a341-62021e2cd133")
+	)
+	(wire
+		(pts
 			(xy 95.25 82.55) (xy 95.25 105.41)
 		)
 		(stroke
@@ -1899,6 +1869,16 @@
 			(type default)
 		)
 		(uuid "e58f9200-c659-4b8f-9e9f-d5da182f45b1")
+	)
+	(wire
+		(pts
+			(xy 160.02 50.8) (xy 184.15 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62b8ec0-7211-4511-ad53-c58ace4c0411")
 	)
 	(wire
 		(pts
@@ -1932,6 +1912,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 95.25) (xy 160.02 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf7705a-58d5-493c-8324-99def06bc27f")
+	)
+	(wire
+		(pts
 			(xy 190.5 82.55) (xy 190.5 105.41)
 		)
 		(stroke
@@ -1961,6 +1951,16 @@
 			(type default)
 		)
 		(uuid "f47b2de7-285d-46bc-922e-e916dcea3146")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb41d872-ea4d-4699-88c8-70eb75811089")
 	)
 	(wire
 		(pts
@@ -2464,6 +2464,129 @@
 		)
 	)
 	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 137.16 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a098182-bfa9-4a7f-965b-daed5d82edd1")
+		(property "Reference" "R17"
+			(at 137.16 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 139.446 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 135.382 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a44c55a8-b05f-41db-89d9-3c1983fe1e0e")
+		)
+		(pin "1"
+			(uuid "54088a12-8fb2-46e6-8a3c-3a1ab6e46151")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 113.03 66.04 0)
 		(unit 1)
@@ -2532,15 +2655,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 137.16 62.23 90)
+		(at 113.03 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0d3d0b44-d181-43cc-a7f2-d0464f12dad8")
-		(property "Reference" "D40"
-			(at 134.62 60.198 0)
+		(fields_autoplaced yes)
+		(uuid "0ea100bb-8c83-4f10-842b-a4fec731fd4b")
+		(property "Reference" "D42"
+			(at 110.49 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2673,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 140.97 65.0874 90)
+			(at 116.84 109.5374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2683,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 137.16 62.23 0)
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 62.23 0)
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2701,16 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 137.16 62.23 0)
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,15 +2719,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4df0a42-c0c3-4dde-b536-47b6f1065986")
+			(uuid "c71d9b1a-b35c-4235-898a-31c6097d17ab")
 		)
 		(pin "2"
-			(uuid "8177d598-7056-426f-ae9d-742796b5f05a")
+			(uuid "bfd61650-9c6d-4ce5-ae7a-8250a3aa17d0")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D40")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -2764,6 +2897,129 @@
 		)
 	)
 	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 137.16 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1248ed68-efb2-4e3e-b8a2-c837578803ec")
+		(property "Reference" "R26"
+			(at 137.16 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 139.446 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 135.382 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e2a48c1-ead5-4b98-b91f-654e186670e6")
+		)
+		(pin "1"
+			(uuid "ac988be1-85d1-4e70-9325-97985e366e0e")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 171.45 105.41 0)
 		(unit 1)
@@ -2900,129 +3156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 90.17 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16580b23-2a28-4ddf-b922-f489dff9c71d")
-		(property "Reference" "R15"
-			(at 90.17 56.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 ohm"
-			(at 92.456 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 88.392 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 90.17 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "40"
-			(at 90.17 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 90.17 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 90.17 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 90.17 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 90.17 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 90.17 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e5b5064-0011-43aa-963b-327d73a9f265")
-		)
-		(pin "1"
-			(uuid "c72ab334-1aa6-40e0-a9ce-fa497935d336")
-		)
-		(instances
-			(project ""
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:CD4148W")
 		(at 177.8 110.49 90)
 		(unit 1)
@@ -3119,16 +3252,16 @@
 		)
 	)
 	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 160.02 54.61 0)
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 137.16 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1c05e122-3767-4216-bdfb-49f491f78109")
-		(property "Reference" "R18"
-			(at 160.02 56.388 90)
+		(uuid "1b97d066-9e53-44ef-bde5-e2e64671bdf3")
+		(property "Reference" "R20"
+			(at 137.16 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,8 +3269,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 ohm"
-			(at 162.306 57.658 90)
+		(property "Value" "1 kohm"
+			(at 139.446 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,8 +3278,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 158.242 54.61 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 135.382 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,8 +3287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 54.61 0)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,8 +3296,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 160.02 54.61 0)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,8 +3305,8 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "40"
-			(at 160.02 54.61 0)
+		(property "InvenTree" "69"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,8 +3314,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" "0805"
-			(at 160.02 54.61 0)
+		(property "Mounting Type" "0603"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,8 +3323,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 160.02 54.61 0)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,8 +3332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 160.02 54.61 0)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,8 +3341,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 160.02 54.61 0)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,8 +3350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
-			(at 160.02 54.61 0)
+		(property "Tolerance" "1%"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,49 +3360,51 @@
 			)
 		)
 		(pin "2"
-			(uuid "f562ef7f-8c41-42ec-9b57-957f4e0ccf67")
+			(uuid "eb929d7e-51f8-4991-8156-b6e9bcb08c19")
 		)
 		(pin "1"
-			(uuid "641d5da6-c4f8-4836-a91f-bd630c980eaa")
+			(uuid "7e4e7d43-2bd1-4ea8-9778-23f6702651a7")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 137.16 123.19 0)
+		(lib_id "Device:LED")
+		(at 113.03 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1fc340ce-d5cc-4583-a628-1b13ce55ff42")
-		(property "Reference" "R32"
-			(at 137.16 124.968 90)
+		(fields_autoplaced yes)
+		(uuid "20fe6298-c011-42d4-b358-d977046a0b3d")
+		(property "Reference" "D53"
+			(at 110.49 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100 ohm"
-			(at 139.446 126.238 90)
+		(property "Value" "LED"
+			(at 116.84 65.0874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 135.382 123.19 90)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 113.03 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,8 +3412,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 137.16 123.19 0)
+		(property "Datasheet" "~"
+			(at 113.03 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,8 +3421,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 137.16 123.19 0)
+		(property "Description" "Light emitting diode"
+			(at 113.03 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,193 +3430,25 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "40"
-			(at 137.16 123.19 0)
+		(property "InvenTree" "67"
+			(at 113.03 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Mounting Type" "0805"
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6b6dcfa-b2b4-4a8f-b712-a9f5a7223357")
 		)
 		(pin "1"
-			(uuid "b5ca1207-6082-48f7-a62e-cf9da28b72a8")
+			(uuid "43e09ce4-9ba7-4c7e-8bcb-d86eb7d7cbcc")
+		)
+		(pin "2"
+			(uuid "9ac568d2-958b-47bb-9966-77a66ed0eaf9")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 113.03 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2048a276-e8ae-4bf4-a2ea-ae60e0d517bb")
-		(property "Reference" "R23"
-			(at 113.03 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 ohm"
-			(at 115.316 79.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 111.252 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "40"
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "721794f1-832d-4f40-bae6-f4275a062e89")
-		)
-		(pin "1"
-			(uuid "9e95bfe6-77fb-453a-8c25-48db30abfa9d")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R23")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -3578,6 +3545,129 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
 					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 90.17 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "251f4dd1-d097-478c-beff-edcb96cdbbcb")
+		(property "Reference" "R24"
+			(at 90.17 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 92.456 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 88.392 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92b13800-b342-4eaf-9335-c4ae1cf157fa")
+		)
+		(pin "1"
+			(uuid "11db1593-6783-41f6-86ec-9e980c0dd38e")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3742,199 +3832,6 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
 					(reference "SW28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 160.02 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d4a6fb2-3abd-45e0-a989-3249070239d4")
-		(property "Reference" "R21"
-			(at 160.02 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 ohm"
-			(at 162.306 79.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 158.242 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 160.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "40"
-			(at 160.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 160.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 160.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 160.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 160.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 160.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4ac79a1-b010-41fb-af99-b3af506bca23")
-		)
-		(pin "1"
-			(uuid "03978143-6920-487d-a412-35f6ae9ba3d8")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 88.9 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fb2b1ec-3f76-4760-b395-542c90fc7a10")
-		(property "Reference" "D53"
-			(at 86.36 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 92.71 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de3c7bab-8764-4521-93dc-9e4e2c0470ec")
-		)
-		(pin "2"
-			(uuid "3f65f503-3b5c-49e2-8cf1-28bd1cb2ab6b")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -4133,6 +4030,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 90.17 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3262c2df-ef68-439c-a818-9bfcbcb3f1f1")
+		(property "Reference" "D52"
+			(at 87.63 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 93.98 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e227a54-4ce0-460d-90c8-bc38d0c6bc79")
+		)
+		(pin "2"
+			(uuid "c0366f55-9b1f-4ec7-9fbf-2eaa5029b3ca")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 124.46 82.55 0)
 		(unit 1)
@@ -4195,6 +4172,129 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
 					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 184.15 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35e17d74-ef72-4774-b47c-13b94bcd104b")
+		(property "Reference" "R27"
+			(at 184.15 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 186.436 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 182.372 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3f6cda7-2d8d-449c-acd3-1bab86bc0cb6")
+		)
+		(pin "1"
+			(uuid "48a633fe-0bd5-4278-834f-39a84e01f7f9")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4291,76 +4391,6 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
 					(reference "D37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 137.16 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3654121b-761c-4bd2-942b-a33a02fda3f3")
-		(property "Reference" "D45"
-			(at 134.62 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 140.97 86.6774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6dabca0c-e6d6-41ca-a929-3a9d810cc59f")
-		)
-		(pin "2"
-			(uuid "fcbd1730-33ec-4325-96db-be845d53b2e3")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -4553,6 +4583,86 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
 					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 137.16 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39db3117-438f-4ef9-b72f-9701fdaa8f6e")
+		(property "Reference" "D54"
+			(at 134.62 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 140.97 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b76a7d93-17ed-47c7-bd81-aef1311c8d64")
+		)
+		(pin "2"
+			(uuid "122279b4-69d0-4eb4-85bc-d16d88b0b905")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -4856,6 +4966,209 @@
 		)
 	)
 	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 137.16 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "448348d8-7f35-49e3-8b24-583058ec350b")
+		(property "Reference" "R30"
+			(at 137.16 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 139.446 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 135.382 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69361ef8-52fc-428b-9715-1eec30ef5d07")
+		)
+		(pin "1"
+			(uuid "2a84bd28-db52-4c17-b668-5693c7915035")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 160.02 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45d6fc6d-5efb-4ff9-a761-bd58eb960b2f")
+		(property "Reference" "D48"
+			(at 157.48 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 86.6774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e228e952-4f3d-4399-9be8-12c825407624")
+		)
+		(pin "2"
+			(uuid "b323ad78-27d1-41c7-b667-c09e97103916")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 134.62 0)
 		(unit 1)
@@ -4991,16 +5304,16 @@
 		)
 	)
 	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 88.9 123.19 0)
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 113.03 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4efc2dc8-b100-4a68-9fa7-00653e7f823e")
-		(property "Reference" "R29"
-			(at 88.9 124.968 90)
+		(uuid "4aec4dfe-9c08-40ed-9fd1-ea4832238cf7")
+		(property "Reference" "R22"
+			(at 113.03 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,8 +5321,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 ohm"
-			(at 91.186 126.238 90)
+		(property "Value" "1 kohm"
+			(at 115.316 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,8 +5330,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 87.122 123.19 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 111.252 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,8 +5339,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 123.19 0)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,8 +5348,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 88.9 123.19 0)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,8 +5357,8 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "40"
-			(at 88.9 123.19 0)
+		(property "InvenTree" "69"
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,8 +5366,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" "0805"
-			(at 88.9 123.19 0)
+		(property "Mounting Type" "0603"
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,8 +5375,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 88.9 123.19 0)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,8 +5384,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 88.9 123.19 0)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,8 +5393,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 88.9 123.19 0)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,8 +5402,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
-			(at 88.9 123.19 0)
+		(property "Tolerance" "1%"
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,15 +5412,378 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd0ba240-ef7d-440a-a2c2-2c06ebfd60db")
+			(uuid "97ed7531-5200-46e6-92c5-40d125f105fd")
 		)
 		(pin "1"
-			(uuid "91a3ef84-b6d6-4210-a58d-aa4e1cf18b14")
+			(uuid "b718a5b1-5a23-4b52-9fff-70bae2967d39")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R29")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 160.02 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dbc3c00-5858-43fb-b08f-69dd4d2564fd")
+		(property "Reference" "D55"
+			(at 157.48 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2d7ba4f-db12-44ec-9085-113c9f3d1340")
+		)
+		(pin "2"
+			(uuid "6be603ce-24be-40b9-973f-79065f35dc34")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 184.15 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dc71f8f-923e-4fb3-8679-cd9d92ebf579")
+		(property "Reference" "D46"
+			(at 181.61 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 187.96 86.6774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 184.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 184.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 184.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d698da4d-1fee-4b15-932d-f1b4d2279cb1")
+		)
+		(pin "2"
+			(uuid "44edfb2a-686b-4095-96d7-28d5f2716c18")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 160.02 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e419d08-615f-4efa-bba8-c047f7e73f7d")
+		(property "Reference" "R21"
+			(at 160.02 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 162.306 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 158.242 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c5d261f-8d4c-48bb-8970-7b7edf2a6128")
+		)
+		(pin "1"
+			(uuid "b43dd627-f108-43fc-99da-daea83905406")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 137.16 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e42c538-6212-4c4a-a4b0-4cb6dd6bffd5")
+		(property "Reference" "D49"
+			(at 134.62 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 140.97 86.6774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a37b05b-d149-4d06-b0d7-bf8ae1351d34")
+		)
+		(pin "2"
+			(uuid "3a204d9f-a929-4e4a-b556-5d6e3ac8657f")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -5182,34 +5858,36 @@
 		)
 	)
 	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 88.9 99.06 0)
+		(lib_id "Device:LED")
+		(at 90.17 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5423606c-5108-4564-ad97-b5ab18c72fcc")
-		(property "Reference" "R30"
-			(at 88.9 100.838 90)
+		(fields_autoplaced yes)
+		(uuid "518aa688-b2d8-4c90-89ad-74896f32ee1a")
+		(property "Reference" "D51"
+			(at 87.63 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100 ohm"
-			(at 91.186 102.108 90)
+		(property "Value" "LED"
+			(at 93.98 86.6774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 87.122 99.06 90)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,8 +5895,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 99.06 0)
+		(property "Datasheet" "~"
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,8 +5904,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 88.9 99.06 0)
+		(property "Description" "Light emitting diode"
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,193 +5913,25 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "40"
-			(at 88.9 99.06 0)
+		(property "InvenTree" "67"
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Mounting Type" "0805"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4fc53de5-d272-490f-b78c-b8afc42951b7")
 		)
 		(pin "1"
-			(uuid "30de6dac-b6fe-4138-b8c4-151e0079917d")
+			(uuid "cee8f5da-2eac-462a-b8e3-eb3de9205e08")
+		)
+		(pin "2"
+			(uuid "92551208-3f5d-43a5-a1fb-1c00fd6f2b8d")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 160.02 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5513255c-f4ef-4ce9-8bd6-188d222dc5eb")
-		(property "Reference" "R26"
-			(at 160.02 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 ohm"
-			(at 162.306 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 158.242 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "40"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "019dcc22-775f-4a2c-9af3-da7eaa155c31")
-		)
-		(pin "1"
-			(uuid "0b87db26-194b-4f7b-8f6d-2372e155034b")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R26")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -5593,15 +6103,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 137.16 106.68 90)
+		(at 113.03 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "660b7d8b-6b2c-46da-b9d9-ef0da980f209")
-		(property "Reference" "D50"
-			(at 134.62 104.648 0)
+		(fields_autoplaced yes)
+		(uuid "58cb44d2-32df-4055-9724-7b85cb2c379b")
+		(property "Reference" "D39"
+			(at 110.49 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +6121,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 140.97 109.5374 90)
+			(at 116.84 133.6674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +6131,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 137.16 106.68 0)
+			(at 113.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +6140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 106.68 0)
+			(at 113.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +6149,16 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 137.16 106.68 0)
+			(at 113.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 113.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,31 +6167,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "425ac521-adad-4b20-996f-ca8c09e78694")
+			(uuid "78837387-dfa3-49a3-89f2-8823c5577a00")
 		)
 		(pin "2"
-			(uuid "a02b24e1-d937-4d8a-b00b-9a8abd2243ee")
+			(uuid "0fb3879e-d536-4b54-8631-0edbfef149b6")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D50")
+					(reference "D39")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 184.15 99.06 0)
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 88.9 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "661d10c7-9209-4ef4-a831-f3522d593a48")
-		(property "Reference" "R25"
-			(at 184.15 100.838 90)
+		(uuid "5fcf4e16-3146-4538-8f00-c294d244aa39")
+		(property "Reference" "R15"
+			(at 88.9 125.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,8 +6199,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 ohm"
-			(at 186.436 102.108 90)
+		(property "Value" "1 kohm"
+			(at 91.186 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,8 +6208,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 182.372 99.06 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 87.122 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,8 +6217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 184.15 99.06 0)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 88.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,8 +6226,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 184.15 99.06 0)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 88.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,8 +6235,8 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "40"
-			(at 184.15 99.06 0)
+		(property "InvenTree" "69"
+			(at 88.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,8 +6244,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" "0805"
-			(at 184.15 99.06 0)
+		(property "Mounting Type" "0603"
+			(at 88.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,8 +6253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 184.15 99.06 0)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 88.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,8 +6262,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 184.15 99.06 0)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 88.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,8 +6271,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 184.15 99.06 0)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 88.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,8 +6280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
-			(at 184.15 99.06 0)
+		(property "Tolerance" "1%"
+			(at 88.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,15 +6290,95 @@
 			)
 		)
 		(pin "2"
-			(uuid "d495e6bc-02b0-4924-8632-4a56776cb864")
+			(uuid "a3576b81-156e-4c1e-83b9-333cc70d1eef")
 		)
 		(pin "1"
-			(uuid "84c3b879-22af-4ac1-8ff8-5bfd9c841375")
+			(uuid "8e0f11ba-8dbb-4f75-bdf6-5606ee38fce4")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R25")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 137.16 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "605ea714-f9f1-4e74-a5d2-3932a093e998")
+		(property "Reference" "D40"
+			(at 134.62 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 140.97 133.6674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f232c2c-ea42-4e99-8726-f4a658b17d52")
+		)
+		(pin "2"
+			(uuid "54dc5b72-dfaa-4cb7-b8ee-e6fd5c2a0090")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -5881,252 +6481,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 113.03 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a046360-f76e-49be-9e2c-5919c7a50de5")
-		(property "Reference" "R16"
-			(at 113.03 56.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 ohm"
-			(at 115.316 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 111.252 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "40"
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c735f1ac-7431-4680-b77d-89a4e8f634b6")
-		)
-		(pin "1"
-			(uuid "a6300c92-9ac6-4e96-9e89-de26ace40aae")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 184.15 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b94591f-325c-4e1d-a677-7ef05311f39d")
-		(property "Reference" "R19"
-			(at 184.15 56.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 ohm"
-			(at 186.436 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 182.372 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "40"
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9cf18a40-06f9-4f47-8af0-72316823f8b3")
-		)
-		(pin "1"
-			(uuid "3ec91438-ab85-47ec-8be9-1bbb04718e47")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 113.03 83.82 90)
 		(unit 1)
@@ -6134,8 +6488,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6dab4b1f-7459-4b3c-94b8-fe9368ce725e")
-		(property "Reference" "D46"
+		(fields_autoplaced yes)
+		(uuid "6fb31134-3e38-4613-9e12-61c1fda3622d")
+		(property "Reference" "D50"
 			(at 110.49 81.788 0)
 			(effects
 				(font
@@ -6181,69 +6536,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "d2a27d41-cadc-4e4b-a94a-48288c726c33")
-		)
-		(pin "2"
-			(uuid "7ab43547-3f8f-4c87-a1be-1174f8bab5e6")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 113.03 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6dd4e559-f214-418b-bd4e-8d75763fe1b8")
-		(property "Reference" "D39"
-			(at 110.49 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 116.84 65.0874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 113.03 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 113.03 62.23 0)
+		(property "InvenTree" "67"
+			(at 113.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,85 +6546,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bbab62f-2c9c-4d46-8e94-4d1f66ffb8d7")
+			(uuid "974e77f2-bc46-49d1-9967-17a0137c277d")
 		)
 		(pin "2"
-			(uuid "90724df1-714a-47c8-b7ac-3c8f478b9219")
+			(uuid "1f71fa63-432a-4ef1-b351-ca38c1759fe0")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 160.02 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f91665b-163d-4341-a528-f36f3968b57e")
-		(property "Reference" "D44"
-			(at 157.48 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 163.83 86.6774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 160.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 160.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e345015c-8c62-41d6-9a18-ca551c60eace")
-		)
-		(pin "2"
-			(uuid "88b287d9-9776-4253-aa96-e84036a75100")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D44")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -6398,6 +6622,86 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 184.15 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70fba128-1f90-4085-ba45-c1c10fe266ec")
+		(property "Reference" "D47"
+			(at 181.61 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 187.96 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59f73858-2881-4591-8b6a-a0fa60e8e599")
+		)
+		(pin "2"
+			(uuid "53e2232e-e8fb-42a3-b59d-237ba430fcf3")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -6472,15 +6776,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 184.15 62.23 90)
+		(at 88.9 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "74547c64-6438-4b04-bc15-cfb2afa7fb57")
-		(property "Reference" "D42"
-			(at 181.61 60.198 0)
+		(fields_autoplaced yes)
+		(uuid "72ebd03f-2916-4d91-8fc7-eb5f77424276")
+		(property "Reference" "D41"
+			(at 86.36 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,7 +6794,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 187.96 65.0874 90)
+			(at 92.71 109.5374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,7 +6804,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 184.15 62.23 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,7 +6813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 62.23 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6822,16 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 184.15 62.23 0)
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,15 +6840,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "17251d52-bfd4-4e13-b95e-c114d4941b2f")
+			(uuid "8ab5bb8e-e027-46fd-96c5-e003b5e0f8f9")
 		)
 		(pin "2"
-			(uuid "69f4c033-1dcb-4195-91c4-c541e51fafa1")
+			(uuid "261c0267-ebfc-4c8b-a7c7-99b487de5675")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D42")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -6637,86 +6951,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 137.16 130.81 90)
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 184.15 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7d24de01-56ad-4008-ad48-addcaa5538f1")
-		(property "Reference" "D55"
-			(at 134.62 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 140.97 133.6674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 137.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 137.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d223f8de-3fd7-45b8-aa30-a937136e6c0a")
-		)
-		(pin "2"
-			(uuid "4566ce77-f752-4903-be22-3208e2b9608f")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 137.16 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d5249ef-b384-4376-9c74-d96ad72e3de0")
-		(property "Reference" "R22"
-			(at 137.16 77.978 90)
+		(uuid "795c7ecb-c063-4254-a9ba-b9f940de0392")
+		(property "Reference" "R19"
+			(at 184.15 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,8 +6968,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 ohm"
-			(at 139.446 79.248 90)
+		(property "Value" "1 kohm"
+			(at 186.436 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,8 +6977,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 135.382 76.2 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 182.372 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,8 +6986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 137.16 76.2 0)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 184.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,8 +6995,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 137.16 76.2 0)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 184.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,8 +7004,8 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "40"
-			(at 137.16 76.2 0)
+		(property "InvenTree" "69"
+			(at 184.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,8 +7013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" "0805"
-			(at 137.16 76.2 0)
+		(property "Mounting Type" "0603"
+			(at 184.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,8 +7022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 137.16 76.2 0)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 184.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,8 +7031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 137.16 76.2 0)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 184.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,8 +7040,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 137.16 76.2 0)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 184.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,8 +7049,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
-			(at 137.16 76.2 0)
+		(property "Tolerance" "1%"
+			(at 184.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,15 +7059,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5c2afeb7-aa30-431b-b7d8-c7ea32766d0b")
+			(uuid "20e489ce-edf3-4f9c-b5aa-1d8bfc8c4657")
 		)
 		(pin "1"
-			(uuid "f7bb4387-eaa1-47ee-8544-0d8fca610478")
+			(uuid "b274c2cc-2589-41dd-ad19-bf3665d03416")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R22")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6892,6 +7136,252 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
 					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 113.03 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "810c8284-0d27-450e-8681-524ff811ef16")
+		(property "Reference" "R31"
+			(at 113.03 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 115.316 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 111.252 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46729815-da66-4e84-8af8-3a863093e9ed")
+		)
+		(pin "1"
+			(uuid "e391aab0-0154-4161-800d-b8be54c7e1d4")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 113.03 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83f86330-be9a-4b2e-af5c-8ee082db33aa")
+		(property "Reference" "R16"
+			(at 113.03 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 115.316 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 111.252 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc638593-02f1-492e-b44f-84a3157ca610")
+		)
+		(pin "1"
+			(uuid "9d9bbeeb-1cef-4acb-abf9-386b166ab532")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7158,6 +7648,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 88.9 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f6fd255-a572-4ead-bf9d-634c5a30e6f0")
+		(property "Reference" "D38"
+			(at 86.36 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 92.71 133.6674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49ba166a-44fc-4391-ac7e-75817378bdd9")
+		)
+		(pin "2"
+			(uuid "eae47d9d-3f68-4539-8684-f68fc9f26711")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 171.45 60.96 0)
 		(unit 1)
@@ -7226,44 +7796,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 184.15 83.82 90)
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 184.15 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8fb36618-9cd2-4ff5-bdc1-312e1546f2e9")
-		(property "Reference" "D43"
-			(at 181.61 81.788 0)
+		(uuid "9232be6f-3093-46cf-846f-82540308e10c")
+		(property "Reference" "R28"
+			(at 184.15 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 187.96 86.6774 90)
+		(property "Value" "1 kohm"
+			(at 186.436 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 184.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 83.82 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 182.372 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,8 +7831,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 184.15 83.82 0)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 184.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,16 +7840,79 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8e99bc2d-9436-4f8d-933e-66ce0a4c10cf")
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "22ac2b29-7a10-4e28-ae89-26f1642a718c")
+			(uuid "36f9eda8-b8a7-46ab-8395-ef1fc557a8bc")
+		)
+		(pin "1"
+			(uuid "8b1f1177-42de-4f75-9db3-cff9c522b66c")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D43")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7358,462 +7981,6 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
 					(reference "SW17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 90.17 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96db5e99-f733-446a-a0bf-8e2c1904dd55")
-		(property "Reference" "R24"
-			(at 90.17 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 ohm"
-			(at 92.456 79.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 88.392 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "40"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0a9d4800-f324-4ae9-aa20-9bd6c091b133")
-		)
-		(pin "1"
-			(uuid "56d1fe30-375f-4b84-bc31-6b5b7621481f")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 90.17 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99741758-e636-4ad1-ba5a-021bfa982f52")
-		(property "Reference" "D38"
-			(at 87.63 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 93.98 65.0874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 90.17 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 90.17 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b52b1cd5-e133-4292-a5f5-fc8994b6c24b")
-		)
-		(pin "2"
-			(uuid "07fa529d-0294-4aa4-85d6-28ec1cbffc2c")
-		)
-		(instances
-			(project ""
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 113.03 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d4904ac-4e0b-4232-95ef-2d405524204d")
-		(property "Reference" "D54"
-			(at 110.49 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 116.84 133.6674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 113.03 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 113.03 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d5cf7fe-b95d-4349-976a-4a826a31414e")
-		)
-		(pin "2"
-			(uuid "12549ad2-e9fe-4245-9a9f-3f791c22f821")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 137.16 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9daff794-ed01-4e71-9763-aa84844c8cc3")
-		(property "Reference" "R27"
-			(at 137.16 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 ohm"
-			(at 139.446 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 135.382 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 137.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "40"
-			(at 137.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 137.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 137.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 137.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 137.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 137.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "46458d34-ba03-4999-bff9-1ef33d677558")
-		)
-		(pin "1"
-			(uuid "34d4485d-71ae-4098-bae9-d55b02b72976")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 160.02 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9dbc5b76-f0c3-47dc-933a-e16373eb2de8")
-		(property "Reference" "D41"
-			(at 157.48 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 163.83 65.0874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 160.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 160.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "526798e0-18d8-4726-bbe0-642e9afd4aed")
-		)
-		(pin "2"
-			(uuid "c0011226-5970-489a-bf32-e91407caeba0")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -7955,44 +8122,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 88.9 130.81 90)
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 160.02 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a9365574-bbc5-4cf0-8c90-48e521e75d2d")
-		(property "Reference" "D52"
-			(at 86.36 128.778 0)
+		(uuid "a59b9f01-0949-42f5-a1a0-f13a7da63c2c")
+		(property "Reference" "R29"
+			(at 160.02 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 92.71 133.6674 90)
+		(property "Value" "1 kohm"
+			(at 162.306 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 88.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 130.81 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 158.242 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8000,8 +8157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 88.9 130.81 0)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 160.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,60 +8166,113 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0215efa4-5200-4d25-b7d0-a40a72789006")
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "448318ee-2df2-4290-a016-b5fe742c06b5")
+			(uuid "58dd1fac-7e37-4136-81a6-a5acddbd5ed8")
+		)
+		(pin "1"
+			(uuid "3e5e8076-92b3-4ec6-be11-b24906399321")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D52")
+					(reference "R29")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 184.15 106.68 90)
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 113.03 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a96b8a2d-23ce-4e37-bba5-9a80255ac09d")
-		(property "Reference" "D48"
-			(at 181.61 104.648 0)
+		(uuid "afe238a6-c954-4f31-92ee-9ee19943ae56")
+		(property "Reference" "R25"
+			(at 113.03 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 187.96 109.5374 90)
+		(property "Value" "1 kohm"
+			(at 115.316 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 184.15 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 106.68 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 111.252 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,8 +8280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 184.15 106.68 0)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,16 +8289,79 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "585b7970-860a-4292-9cd6-1f62b0decd28")
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "2dcf33eb-419b-4c28-8ccc-4d46a85a1886")
+			(uuid "3e2f2f31-fe07-40e7-ba28-aac989904f97")
+		)
+		(pin "1"
+			(uuid "e50d0dde-3a20-4ebe-82ea-b9aa19c76262")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D48")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8236,8 +8509,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c402207d-6985-42af-92d1-500c262a0687")
-		(property "Reference" "D49"
+		(fields_autoplaced yes)
+		(uuid "c3854f30-ec35-4e88-ba40-8d48b25fc96a")
+		(property "Reference" "D44"
 			(at 157.48 104.648 0)
 			(effects
 				(font
@@ -8283,32 +8557,41 @@
 				(hide yes)
 			)
 		)
+		(property "InvenTree" "67"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "576c7db9-1d5f-4675-b622-98168ece3a03")
+			(uuid "9c555a75-6f7b-44b9-aeeb-07556caa10cc")
 		)
 		(pin "2"
-			(uuid "3b62fd3d-0c5a-492f-97ad-88d1c047e1e8")
+			(uuid "c46be773-8f38-4bac-85c4-7de1a845c3b3")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D49")
+					(reference "D44")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 113.03 123.19 0)
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 88.9 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c838ecbb-8641-43db-829e-5bf490324699")
-		(property "Reference" "R31"
-			(at 113.03 124.968 90)
+		(uuid "c7465154-b590-4cb9-8cff-310dc5fbc3f4")
+		(property "Reference" "R23"
+			(at 88.9 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,8 +8599,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 ohm"
-			(at 115.316 126.238 90)
+		(property "Value" "1 kohm"
+			(at 91.186 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,8 +8608,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 111.252 123.19 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 87.122 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,8 +8617,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 113.03 123.19 0)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,8 +8626,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 113.03 123.19 0)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,8 +8635,8 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "40"
-			(at 113.03 123.19 0)
+		(property "InvenTree" "69"
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,8 +8644,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" "0805"
-			(at 113.03 123.19 0)
+		(property "Mounting Type" "0603"
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,8 +8653,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 113.03 123.19 0)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,8 +8662,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 113.03 123.19 0)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,8 +8671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 113.03 123.19 0)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,8 +8680,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
-			(at 113.03 123.19 0)
+		(property "Tolerance" "1%"
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8407,15 +8690,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3827c620-caba-4990-89cc-dd1299950404")
+			(uuid "4890fbed-52c4-45af-8817-96cf3467c5a5")
 		)
 		(pin "1"
-			(uuid "1ad36a19-965b-4e68-a3b3-ba2335652f44")
+			(uuid "6df59790-4cdf-406c-882d-4645a740a830")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R31")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8653,199 +8936,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 113.03 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc57c0d9-e7dc-4d62-ab4d-2d2c26618643")
-		(property "Reference" "R28"
-			(at 113.03 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 ohm"
-			(at 115.316 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 111.252 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "40"
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df8a7d8b-342d-4a08-8a7f-806171dfc946")
-		)
-		(pin "1"
-			(uuid "64bf7159-1b08-465f-b7a3-55749dacb7ad")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 113.03 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf321bd9-9adf-4ede-901c-7566c9505465")
-		(property "Reference" "D51"
-			(at 110.49 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 116.84 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 113.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 113.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de97408e-c1aa-4c66-9fc2-1a318b404b87")
-		)
-		(pin "2"
-			(uuid "d78a2a9b-0605-48a5-a795-66b4541554f3")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 124.46 105.41 0)
 		(unit 1)
@@ -8914,16 +9004,16 @@
 		)
 	)
 	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 184.15 76.2 0)
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 160.02 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d5f5bcf1-e2da-499c-ab44-34bb57364ca5")
-		(property "Reference" "R20"
-			(at 184.15 77.978 90)
+		(uuid "db220361-7d7a-43e2-bf79-9d4366c5fa17")
+		(property "Reference" "R18"
+			(at 160.02 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,8 +9021,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 ohm"
-			(at 186.436 79.248 90)
+		(property "Value" "1 kohm"
+			(at 162.306 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8940,8 +9030,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 182.372 76.2 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 158.242 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,8 +9039,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 184.15 76.2 0)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8958,8 +9048,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 184.15 76.2 0)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,8 +9057,8 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "40"
-			(at 184.15 76.2 0)
+		(property "InvenTree" "69"
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,8 +9066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Type" "0805"
-			(at 184.15 76.2 0)
+		(property "Mounting Type" "0603"
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,8 +9075,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 184.15 76.2 0)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8994,8 +9084,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 184.15 76.2 0)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,8 +9093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 184.15 76.2 0)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,8 +9102,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
-			(at 184.15 76.2 0)
+		(property "Tolerance" "1%"
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,208 +9112,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ddb10d4d-591e-4e82-89a2-2ef7801f1af9")
+			(uuid "ee9b7bac-a716-4a53-9334-1192ea183cba")
 		)
 		(pin "1"
-			(uuid "12218580-a054-482a-80bd-91a99969a87f")
+			(uuid "95d66e71-21ae-4248-b698-c11ecea0d6c7")
 		)
 		(instances
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 90.17 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ddf65a0d-6281-42a9-a0bd-bb24fd80a45d")
-		(property "Reference" "D47"
-			(at 87.63 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 93.98 86.6774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 90.17 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 90.17 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44902850-272b-4896-9dd3-7ce881aab144")
-		)
-		(pin "2"
-			(uuid "8198a4d5-9393-467e-8fb9-86697d6acfe5")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "D47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#inventree:ERJ-6GEYJ101V")
-		(at 137.16 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e05f96e5-0f33-40b0-8f2f-14a4ebcd4c82")
-		(property "Reference" "R17"
-			(at 137.16 56.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 ohm"
-			(at 139.446 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 135.382 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 5% 1/8W 0805"
-			(at 137.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "InvenTree" "40"
-			(at 137.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "0805"
-			(at 137.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Type" "0805 (2012 Metric)"
-			(at 137.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "http://10.0.0.41:7333/part/40/"
-			(at 137.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Power" "0.125W, 1/8W"
-			(at 137.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 137.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6b133699-309d-43e9-b127-4302b9da5074")
-		)
-		(pin "1"
-			(uuid "e8d54f50-df1e-4bb9-9d73-b4137aa325c8")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9521,6 +9418,209 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
 					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 137.16 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7dec091-2343-40cd-868d-51bd9dbcdd85")
+		(property "Reference" "D43"
+			(at 134.62 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 140.97 109.5374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ca4d9e3-e454-4b7c-928f-6c0272aae29e")
+		)
+		(pin "2"
+			(uuid "72968155-4de4-4102-a34d-feacf84a86dd")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 90.17 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec419fc5-4bd5-4862-adc8-c5dcbee122bc")
+		(property "Reference" "R32"
+			(at 90.17 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 92.456 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 88.392 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6353bc3b-be94-45be-a1f7-1b5ccd525f21")
+		)
+		(pin "1"
+			(uuid "3b6647cc-f17b-4031-8371-09df75695441")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -9954,6 +10054,86 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 184.15 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fff2e176-4028-4630-932c-2d4f54ce7c84")
+		(property "Reference" "D45"
+			(at 181.61 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 187.96 109.5374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53d46326-e04f-4d9a-8358-325d78f7f893")
+		)
+		(pin "2"
+			(uuid "d61087cb-22cc-44d8-afe9-57aa2f8cd865")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/006ad525-0e9b-4dbe-bfc5-b6bb7b59b94a/d1901edb-f5ad-4981-8b5b-356be458a7e2"
+					(reference "D45")
 					(unit 1)
 				)
 			)
