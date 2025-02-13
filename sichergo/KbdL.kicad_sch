@@ -6937,6 +6937,12 @@
 		(uuid "13f8b2df-7800-4324-b827-fd71fe1f7766")
 	)
 	(junction
+		(at 63.5 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18fa6dff-6e4b-48ec-9217-7c2469cd1561")
+	)
+	(junction
 		(at 147.32 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6995,12 +7001,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd7b0803-eb70-4c46-9bc6-81d549a0ab6a")
-	)
-	(junction
-		(at 59.69 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c79d67b6-fd53-459c-a337-e87c7567ef26")
 	)
 	(junction
 		(at 139.7 76.2)
@@ -8048,7 +8048,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 30.48) (xy 64.77 30.48)
+			(xy 55.88 30.48) (xy 63.5 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8188,16 +8188,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 72.39) (xy 59.69 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bd56a96-53b1-4d8d-b3c9-f7ce1301b1b5")
-	)
-	(wire
-		(pts
 			(xy 115.57 115.57) (xy 115.57 125.73)
 		)
 		(stroke
@@ -8258,7 +8248,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 81.28) (xy 64.77 81.28)
+			(xy 54.61 81.28) (xy 64.77 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8295,16 +8285,6 @@
 			(type default)
 		)
 		(uuid "a03e7367-4b71-47d4-b2de-7d0182c99aef")
-	)
-	(wire
-		(pts
-			(xy 54.61 81.28) (xy 59.69 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a30e403d-4df2-4a6f-9767-e9dc2b8ce388")
 	)
 	(wire
 		(pts
@@ -8365,6 +8345,16 @@
 			(type default)
 		)
 		(uuid "b02dde77-92ff-4af8-8683-bc7409534081")
+	)
+	(wire
+		(pts
+			(xy 63.5 30.48) (xy 64.77 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32f3420-d2a1-47dd-8661-4cd7a10e3fa1")
 	)
 	(wire
 		(pts
@@ -8815,6 +8805,16 @@
 			(type default)
 		)
 		(uuid "e548de97-8bbc-4a8e-83d9-04641d2108fc")
+	)
+	(wire
+		(pts
+			(xy 63.5 24.13) (xy 63.5 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77f6375-5fa8-49cb-92ad-a51b1584752d")
 	)
 	(wire
 		(pts
@@ -10580,6 +10580,72 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21aa02e7-3751-47e4-8d1d-c9e8c3c4d7ed")
+		(property "Reference" "#FLG01"
+			(at 63.5 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fca6b6b-ae1c-446d-aeba-fe7be8ce17eb")
+		)
+		(instances
+			(project "sichergo"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -14969,72 +15035,6 @@
 			(project "sichergo"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 59.69 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d56b02ef-d6a5-42cd-90f8-5864b1ebd057")
-		(property "Reference" "#FLG01"
-			(at 59.69 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 59.69 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 59.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7ada6e5-a80f-41ff-b650-b1eaa98a7d2c")
-		)
-		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
