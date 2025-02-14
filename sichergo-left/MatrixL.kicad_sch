@@ -2336,7 +2336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0141d594-9318-41a2-ae96-cd07c86456a1")
-		(property "Reference" "R37"
+		(property "Reference" "R13"
 			(at 107.95 49.022 90)
 			(effects
 				(font
@@ -2436,15 +2436,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bb254e10-7c55-4962-bb08-bf5010b75f58")
+			(uuid "65419088-a068-43a3-b6d5-dae9f8f23197")
 		)
 		(pin "1"
-			(uuid "66f54027-42bb-4b3a-b2ea-c00513b99f64")
+			(uuid "be6187e1-bc31-4667-a7d8-2f6584eadc2f")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R37")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2459,7 +2459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "035ca9b9-2e74-422a-a296-35bfd7de6c19")
-		(property "Reference" "D11"
+		(property "Reference" "D35"
 			(at 185.674 78.994 90)
 			(effects
 				(font
@@ -2532,15 +2532,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "12ed7d60-f4cd-4268-9cb5-664a8b7e6868")
+			(uuid "9b933edb-c865-4233-ab04-3dcaadaf87ae")
 		)
 		(pin "1"
-			(uuid "fdee6fee-087e-4139-b218-771171ece124")
+			(uuid "cdc22717-b46a-47d5-8e56-d892d95d43ce")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D11")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "038f3790-6c65-4b08-8ef7-c6b84294fa16")
-		(property "Reference" "D3"
+		(property "Reference" "D11"
 			(at 114.554 57.404 90)
 			(effects
 				(font
@@ -2628,15 +2628,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "cf1f98dc-3aaa-4dd1-a928-d24d93953dbe")
+			(uuid "9d66c879-e76b-47f6-b79c-cc17881c3213")
 		)
 		(pin "1"
-			(uuid "cb0d6647-aa56-4f3b-998a-90a8aa527f7a")
+			(uuid "67d19fa3-4e63-428c-a64f-c9f876f9a659")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D3")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -2652,7 +2652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04c55334-2e61-40d8-80f1-3e94c92efead")
-		(property "Reference" "D72"
+		(property "Reference" "D4"
 			(at 82.55 52.578 0)
 			(effects
 				(font
@@ -2708,15 +2708,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "92aba41c-f413-45cb-b2ac-907629bd326a")
+			(uuid "9f9c435f-5b4a-4faf-ae0d-bec8925a6019")
 		)
 		(pin "2"
-			(uuid "62eda80f-e26f-48e2-9388-545f192cdbc1")
+			(uuid "388d4596-0fa0-474c-a129-667018fa1302")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D72")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2731,7 +2731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09846464-ef6a-4be8-b108-f44d54245858")
-		(property "Reference" "SW6"
+		(property "Reference" "SW15"
 			(at 190.5 54.864 0)
 			(effects
 				(font
@@ -2776,15 +2776,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3c29d424-5aba-4ed7-90b6-ce1ed681eae8")
+			(uuid "b9b6b92f-4699-4355-9c6c-75f4c46842a4")
 		)
 		(pin "1"
-			(uuid "c5203397-bd3d-4f90-826d-ac4ec1673943")
+			(uuid "901226d1-6493-4612-a188-b7fb034fba89")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW6")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -2799,7 +2799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0aa3e113-bb3e-4ad2-9477-a173a83309aa")
-		(property "Reference" "D4"
+		(property "Reference" "D18"
 			(at 137.414 57.404 90)
 			(effects
 				(font
@@ -2872,15 +2872,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "74f3479f-b8a9-4e17-834b-bfe64dfb9f4b")
+			(uuid "d29c0676-a28f-40ca-9980-b67df5b20161")
 		)
 		(pin "1"
-			(uuid "98181577-2ab3-4dd9-b229-a6a4255a8c33")
+			(uuid "ef7b9a7a-3d26-46c6-a9e5-4683a5a333e2")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D4")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -2895,7 +2895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cd61be6-3466-412a-9e4f-5332ab9f2d28")
-		(property "Reference" "R46"
+		(property "Reference" "R11"
 			(at 83.82 92.202 90)
 			(effects
 				(font
@@ -2995,15 +2995,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4ef232cf-9390-4136-96fa-dacc69aa161b")
+			(uuid "6b177f28-1ed8-43f3-acd2-9c337187124c")
 		)
 		(pin "1"
-			(uuid "5401fef1-8a06-43e0-ab6a-e71f613572b5")
+			(uuid "e367acee-7c37-4a65-ac5e-47b783fb1029")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R46")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3019,7 +3019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d7a901c-b3b7-456c-9d0a-eabfc7a5244b")
-		(property "Reference" "D67"
+		(property "Reference" "D8"
 			(at 105.41 52.578 0)
 			(effects
 				(font
@@ -3075,15 +3075,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d18dd060-380f-4c4e-9661-67b431345f83")
+			(uuid "c3378e0e-586c-4bc5-bbd7-7a1eec130c29")
 		)
 		(pin "2"
-			(uuid "d7131e5e-02ef-47cc-b61a-888522343d70")
+			(uuid "a4070792-a717-44b8-9dc2-c9ff17067902")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D67")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3099,7 +3099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2292ccbf-2351-4dc8-adcf-38135b9f62d2")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR057"
 			(at 132.08 86.36 0)
 			(effects
 				(font
@@ -3145,12 +3145,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b274d50-f99e-4ae2-aa34-6374d61d0221")
+			(uuid "de3d8b90-ae4e-4169-a82c-b0b52fddb632")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0109")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3165,7 +3165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25086fa2-d18b-4766-9303-06d43dbd69eb")
-		(property "Reference" "R42"
+		(property "Reference" "R21"
 			(at 154.94 70.612 90)
 			(effects
 				(font
@@ -3265,15 +3265,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9aa377c3-9792-4998-83e8-562a9dbf4318")
+			(uuid "dc918b90-792f-4f92-a76b-089f9665b7bb")
 		)
 		(pin "1"
-			(uuid "819f6aa3-1237-47ec-b300-d982c62cc589")
+			(uuid "a402e97b-941d-4b0e-ac52-7f31d2c8a06c")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R42")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3289,7 +3289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "282838a1-babd-40cf-8013-4fe2bb0f4f80")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR056"
 			(at 132.08 64.77 0)
 			(effects
 				(font
@@ -3335,12 +3335,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e209bb5e-be4c-4292-9c28-cd63203d368c")
+			(uuid "a3b8f035-b526-4d41-8d18-12471a371c69")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0104")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a680c3e-2bf7-4599-8072-351c260bbb94")
-		(property "Reference" "R35"
+		(property "Reference" "R27"
 			(at 179.07 115.062 90)
 			(effects
 				(font
@@ -3455,15 +3455,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9b1f885a-62c7-429c-8733-e4105984386a")
+			(uuid "7cc93877-b666-49ed-b589-14f4fea6f516")
 		)
 		(pin "1"
-			(uuid "aaf5a123-5003-4fb7-aefb-ae0117d24c76")
+			(uuid "b1ff30dc-de0e-4091-82c0-cf82ecdd3b51")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R35")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3479,7 +3479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c9c404d-aa8f-4e28-85f9-1e79bde96ebc")
-		(property "Reference" "D59"
+		(property "Reference" "D31"
 			(at 176.53 74.168 0)
 			(effects
 				(font
@@ -3535,15 +3535,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "55936fc3-29c6-4a41-ac8b-e2d82d2a2229")
+			(uuid "388c3c96-7955-4cf6-b6b6-5822f7c1552f")
 		)
 		(pin "2"
-			(uuid "f6df9021-68f8-4363-a30e-92f440de567c")
+			(uuid "308077f8-ad51-4e75-a8d4-51637abaf6e0")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D59")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -3558,7 +3558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ca9b0d1-497f-48e1-bcc1-a8e96eba220b")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 119.126 54.864 0)
 			(effects
 				(font
@@ -3603,15 +3603,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "23ca1174-5cd2-4a01-bbf5-9ae7fc067a81")
+			(uuid "71f6a4f2-afe6-4165-97be-12131ad5fe1d")
 		)
 		(pin "1"
-			(uuid "5f8a21fe-2832-49ba-9260-fdd63f251f85")
+			(uuid "3e40fe3b-e9a0-49d4-8b67-1b4149a1ffb5")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW3")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3626,7 +3626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f801d13-508a-4a3f-8c06-e5ef6fac3ed0")
-		(property "Reference" "D20"
+		(property "Reference" "D29"
 			(at 161.544 124.714 90)
 			(effects
 				(font
@@ -3699,15 +3699,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fef6594b-ed29-43c8-a8c7-df14043f4394")
+			(uuid "cc932a2c-9092-4de5-b8bf-8ec7c9798944")
 		)
 		(pin "1"
-			(uuid "77ef5c76-5829-4688-ba96-5b4e6c8150ed")
+			(uuid "3e67b9be-0fa1-49c5-b69a-b8f3f19fb39b")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D20")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30351521-5c52-4647-9151-021e560e8e3f")
-		(property "Reference" "SW19"
+		(property "Reference" "SW10"
 			(at 142.24 122.682 0)
 			(effects
 				(font
@@ -3767,15 +3767,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ed10aacd-f86d-4b44-af6a-c77a7c8ac5c5")
+			(uuid "be325f2b-7c01-420b-a535-bf42b7c93349")
 		)
 		(pin "1"
-			(uuid "f689928f-3924-474e-ac3c-91fcd8de1b70")
+			(uuid "790a96de-7a2c-45e4-8e92-21a7b3c28a44")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW19")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -3791,7 +3791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32201340-a338-4e61-9bda-9125f1725cdf")
-		(property "Reference" "D60"
+		(property "Reference" "D30"
 			(at 176.53 52.578 0)
 			(effects
 				(font
@@ -3847,15 +3847,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4cba365c-9637-417d-bf1f-2e69c2e4303b")
+			(uuid "8603b6e7-01c0-45c4-9416-7b1eef27afdf")
 		)
 		(pin "2"
-			(uuid "89bd29a6-90b2-4c94-81d6-cb11babd1551")
+			(uuid "ceffcf6f-a3c8-4660-b2f3-ea7cebdff432")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D60")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -3870,7 +3870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33ca1518-0989-42e4-ad7d-19d7959e234d")
-		(property "Reference" "SW11"
+		(property "Reference" "SW16"
 			(at 190.5 76.708 0)
 			(effects
 				(font
@@ -3915,15 +3915,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6d07ec99-4198-4760-a959-e83d5477f9b5")
+			(uuid "706d845e-9312-4bb0-b7a6-281dc9d8e190")
 		)
 		(pin "1"
-			(uuid "57f9e15e-4300-4f78-8abc-aca8e596c918")
+			(uuid "afe9cfec-1710-497a-b150-354e64722695")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW11")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -3938,7 +3938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35876478-db0a-4dbb-9f53-129c0661a5d6")
-		(property "Reference" "R40"
+		(property "Reference" "R24"
 			(at 179.07 49.022 90)
 			(effects
 				(font
@@ -4038,15 +4038,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "26970c45-5d98-4ecb-962f-fd226fd64555")
+			(uuid "c59114d5-9cb9-46db-9afc-b78199ae46bf")
 		)
 		(pin "1"
-			(uuid "b54dd377-906f-4f55-9d65-415186aa042a")
+			(uuid "8fa932bf-3032-4979-b4c4-d51fcbf45c48")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R40")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4061,7 +4061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37965e4c-f688-49fa-a672-06d47f1faa9e")
-		(property "Reference" "SW20"
+		(property "Reference" "SW14"
 			(at 166.37 122.428 0)
 			(effects
 				(font
@@ -4106,15 +4106,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a58ffd8e-37aa-4003-a37a-365068a6341c")
+			(uuid "d864ca55-8c8e-4434-bac7-f19ca0d55bd1")
 		)
 		(pin "1"
-			(uuid "720ae831-8a0f-49be-8bd4-54eb42edb43f")
+			(uuid "c4497330-12d8-4f94-a210-8265fd8c4841")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW20")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c47efc0-0b4c-4b2f-b253-36aaa7f42ffa")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR058"
 			(at 132.08 107.95 0)
 			(effects
 				(font
@@ -4176,12 +4176,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e565b15-4990-43f2-afd7-e905d29422fb")
+			(uuid "7f5c3e75-c3fe-4cc4-8345-dcfba165f834")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0114")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d5292e1-c5c8-42a9-af06-3390d41812f2")
-		(property "Reference" "D56"
+		(property "Reference" "D25"
 			(at 152.4 118.618 0)
 			(effects
 				(font
@@ -4253,15 +4253,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "876b69a9-e83a-4665-a5e4-2172dad3e203")
+			(uuid "7e3f5ec6-b2d9-48e9-9ca8-4323fb6b431a")
 		)
 		(pin "2"
-			(uuid "17e838cd-1f57-4b1f-897b-c11ccbc93587")
+			(uuid "06c5eab2-f176-4d1e-8750-16bae98efc16")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D56")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -4277,7 +4277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e92dbbf-c54e-4d3b-89b0-3fa10176a085")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR066"
 			(at 179.07 107.95 0)
 			(effects
 				(font
@@ -4323,12 +4323,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1521f692-f918-4405-9555-ae6845e35c13")
+			(uuid "3efa71b1-ea9a-42b8-8ff8-d58b14fbcc4a")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0116")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4344,7 +4344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40be1103-a693-465e-9ec8-37d964f1df1b")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR054"
 			(at 107.95 86.36 0)
 			(effects
 				(font
@@ -4390,12 +4390,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "82b7fc3c-d57b-44ab-a2e0-4420cd75f93c")
+			(uuid "7b7fbbc9-30f9-48f3-bda8-e99e51438205")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0110")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4411,7 +4411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40cc71d8-953c-4837-94e8-602e132deec7")
-		(property "Reference" "D73"
+		(property "Reference" "D17"
 			(at 129.54 118.618 0)
 			(effects
 				(font
@@ -4467,15 +4467,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f44c3f10-ec68-457b-b67b-8279166f408d")
+			(uuid "2fdd6d12-c40e-4b2e-9544-2bf58f244a44")
 		)
 		(pin "2"
-			(uuid "c17c6e41-aa64-4911-bc73-f00fad065062")
+			(uuid "9c5249fb-b78e-4dc7-9ef1-f7bc5ad5309f")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D73")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -4490,7 +4490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "448c0347-6595-41e2-ae94-45ca93d75c15")
-		(property "Reference" "SW14"
+		(property "Reference" "SW9"
 			(at 142.24 99.568 0)
 			(effects
 				(font
@@ -4535,15 +4535,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8dc8881a-2c87-43a1-863f-88359c13fcb5")
+			(uuid "f0b7dc04-5ae9-49e4-bb0a-7ddd4fa2533f")
 		)
 		(pin "1"
-			(uuid "3c248575-0f16-4cd4-898d-b0f60c01cda1")
+			(uuid "491b21d9-80a8-4e0f-a815-e9c8154ddcd0")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW14")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -4559,7 +4559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d7edab7-c358-45cb-92ae-e9f2220e606f")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR067"
 			(at 179.07 130.81 0)
 			(effects
 				(font
@@ -4605,12 +4605,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "29c89889-db0a-475f-9595-e34c699b4ed1")
+			(uuid "16efeb68-2194-489a-9eff-69166b8fb70d")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0117")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4626,7 +4626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e89ac1d-3234-48cc-a4ce-059344ed3bca")
-		(property "Reference" "D62"
+		(property "Reference" "D23"
 			(at 152.4 74.168 0)
 			(effects
 				(font
@@ -4682,15 +4682,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "70795418-3857-4b67-b97e-68b0fe588aec")
+			(uuid "951620b7-2fa5-402e-9bae-b853616db6c0")
 		)
 		(pin "2"
-			(uuid "c636d5e2-c184-4bb3-87f2-99787cde4171")
+			(uuid "a4f8ed9c-6d89-48c0-b3ee-a6fed23238d6")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D62")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -4705,7 +4705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "536bfc28-a604-4146-a23d-5341f839f0ce")
-		(property "Reference" "R49"
+		(property "Reference" "R22"
 			(at 154.94 92.202 90)
 			(effects
 				(font
@@ -4805,15 +4805,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "99c5fa81-f4e4-4f80-81ed-d805e47b7b57")
+			(uuid "5701366e-2c9f-4c51-be01-4ff0c3e6d507")
 		)
 		(pin "1"
-			(uuid "4b1300aa-1246-4ed6-8720-f305f4aad660")
+			(uuid "1fcc214f-3067-4b09-b013-68dc87663654")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R49")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4829,7 +4829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "559b90a2-2c0a-409a-a7c1-e91faa20b50a")
-		(property "Reference" "D58"
+		(property "Reference" "D32"
 			(at 176.53 95.758 0)
 			(effects
 				(font
@@ -4885,15 +4885,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "28d4933f-fe8f-4470-9268-f51853aca7cf")
+			(uuid "d7b69827-9c6d-4bc6-9d44-573a5d3c861e")
 		)
 		(pin "2"
-			(uuid "84e7f41d-44b4-4b4b-97c2-937f8b53aca1")
+			(uuid "d177df1b-c904-4000-9783-0832f4419cd2")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D58")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -4908,7 +4908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5faba3bc-564f-401a-9265-839648bdc699")
-		(property "Reference" "D16"
+		(property "Reference" "D36"
 			(at 185.674 101.854 90)
 			(effects
 				(font
@@ -4981,15 +4981,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "01ee07c1-92c8-4874-9a9e-6cbeb7549c7a")
+			(uuid "d56cb1e3-16a2-4a90-8a23-c4cf3426753b")
 		)
 		(pin "1"
-			(uuid "567d73d9-a816-4996-b2f7-8009a199f6e1")
+			(uuid "3e5e6f1e-5a7d-420b-bb58-434f6306d283")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D16")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -5004,7 +5004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "617e4dea-b5a2-48d7-8700-67480ac6ba6b")
-		(property "Reference" "D15"
+		(property "Reference" "D28"
 			(at 161.544 101.854 90)
 			(effects
 				(font
@@ -5077,15 +5077,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7d67b131-000a-44f6-8056-233f540f8b53")
+			(uuid "b3c4993a-75bf-49d9-bb66-5f568cf0de46")
 		)
 		(pin "1"
-			(uuid "161b59d1-9c21-4297-b142-a5ef9877719b")
+			(uuid "2d4956c6-5650-4953-9e97-49822e00c332")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D15")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -5100,7 +5100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "670a73c2-0937-40c1-8243-2ec4513a24a9")
-		(property "Reference" "R36"
+		(property "Reference" "R12"
 			(at 85.09 49.022 90)
 			(effects
 				(font
@@ -5200,15 +5200,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c3d271bd-7a3d-4c15-8ec2-600590e98f75")
+			(uuid "ca3b93b2-a28a-40f8-b79f-b41da56fff60")
 		)
 		(pin "1"
-			(uuid "c9cff182-d1ac-46ab-b281-7c9dea8f36e5")
+			(uuid "7c17c7e1-b52c-4e46-bab4-81074f354bc0")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R36")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5224,7 +5224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "681f17be-a2ed-4a43-a77f-78e2a2cd2b88")
-		(property "Reference" "D68"
+		(property "Reference" "D9"
 			(at 105.41 74.168 0)
 			(effects
 				(font
@@ -5280,15 +5280,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3b2e6f8-dcb5-44df-b13d-a108a7c276d6")
+			(uuid "a8a8b579-4d3d-4cc1-8ccf-560a2fa94753")
 		)
 		(pin "2"
-			(uuid "1037a0ce-e632-4c7c-bc2e-5b80e4def7b4")
+			(uuid "bf9062e0-f849-4cb2-b5ec-ead75831494d")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D68")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5303,7 +5303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b9d3c30-a40f-44d1-ba96-35e391deefb5")
-		(property "Reference" "D9"
+		(property "Reference" "D19"
 			(at 137.414 78.994 90)
 			(effects
 				(font
@@ -5376,15 +5376,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c90c8150-db79-4320-a29c-19d4a46d09dc")
+			(uuid "7e448a19-98ba-4992-9f1b-331b7d926c4c")
 		)
 		(pin "1"
-			(uuid "4c0e6d8e-f86a-4fc2-9a6f-9022b97cbe1d")
+			(uuid "c541a27e-b365-4ca6-a69b-1e143bf70da8")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D9")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -5400,7 +5400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f548138-9a3c-464b-8f1a-82c5ac496f71")
-		(property "Reference" "D66"
+		(property "Reference" "D14"
 			(at 129.54 52.578 0)
 			(effects
 				(font
@@ -5456,15 +5456,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c40a0a57-c02d-4bae-9c02-201610ebe08f")
+			(uuid "3ed454c9-9f84-448d-8a6f-c32a16ad0b63")
 		)
 		(pin "2"
-			(uuid "206d035d-e64d-4356-a0d5-296651c99846")
+			(uuid "3e94f4fb-ffb2-413f-8836-0dc9bf1695f1")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D66")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -5479,7 +5479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fd01314-5cf1-4c3e-9dd0-93426483220f")
-		(property "Reference" "SW5"
+		(property "Reference" "SW11"
 			(at 166.37 54.864 0)
 			(effects
 				(font
@@ -5524,15 +5524,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d962c9ab-7dba-448e-86dc-f30a2b4a6e8a")
+			(uuid "886df3d9-5035-42eb-8f7b-dfd553171d43")
 		)
 		(pin "1"
-			(uuid "b5a02269-71b2-4fd2-b174-6737c6eecb5c")
+			(uuid "1dffb919-8f97-49ed-a14d-8f977c5d83f8")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW5")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -5547,7 +5547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "700fe615-a163-4d5d-81f3-fbec1ee12711")
-		(property "Reference" "SW12"
+		(property "Reference" "SW3"
 			(at 95.25 99.568 0)
 			(effects
 				(font
@@ -5592,15 +5592,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "16674b58-5956-4e45-963c-32b9d1479c40")
+			(uuid "60f99ae0-18c8-4c01-b789-8fa05acb0660")
 		)
 		(pin "1"
-			(uuid "93524961-0783-44fb-be2f-cffaec4460b5")
+			(uuid "1b3ab882-26e1-4a29-aee8-1cea19e91368")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW12")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5616,7 +5616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73dd5eb2-8540-4782-9e7c-30f2efecc697")
-		(property "Reference" "D64"
+		(property "Reference" "D16"
 			(at 129.54 95.758 0)
 			(effects
 				(font
@@ -5672,15 +5672,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "acc38596-2ef6-483c-b103-06b5e850c24b")
+			(uuid "68077dc5-cd97-4470-bc65-303b197a9dce")
 		)
 		(pin "2"
-			(uuid "d3b26a4d-f8ad-4174-912a-7c7cb58008f4")
+			(uuid "3a6f4a40-1774-4f98-90b1-beb3d10c326d")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D64")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -5696,7 +5696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73fcaf21-c35a-4014-87e6-d29cfd6215b4")
-		(property "Reference" "D65"
+		(property "Reference" "D15"
 			(at 129.54 74.168 0)
 			(effects
 				(font
@@ -5752,15 +5752,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb97e57b-f339-4d3f-88a9-6c6aaabc9ded")
+			(uuid "17071d75-6f10-4aa6-a569-c123ca8fcefc")
 		)
 		(pin "2"
-			(uuid "2f5ed4b7-4911-4b22-a873-f1923a49e9fe")
+			(uuid "f0988c12-c62c-471b-a255-4d0ed1c3ebeb")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D65")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5775,7 +5775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74f1098f-1849-4b5b-8e57-f08731320d30")
-		(property "Reference" "D8"
+		(property "Reference" "D12"
 			(at 114.554 78.994 90)
 			(effects
 				(font
@@ -5848,15 +5848,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "74c26657-834f-44de-883d-c6baaf5146bb")
+			(uuid "8e4e6712-c64f-4f21-8f52-f95524abd395")
 		)
 		(pin "1"
-			(uuid "ff11c083-93c4-459c-bfc6-df2b9feb695a")
+			(uuid "0aa28b68-4a87-4769-ba75-6cf341f45bef")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D8")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5872,7 +5872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77c9c1f4-096f-4b65-ae30-0286f4a07c3b")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR055"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -5918,12 +5918,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d236f9b5-1820-47eb-8b29-52a5f4557013")
+			(uuid "22fa1f65-1049-434b-b7b3-97eae4ae54f0")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0113")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5938,7 +5938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c215a15-803b-4bd2-9f4a-756d49f42449")
-		(property "Reference" "SW9"
+		(property "Reference" "SW8"
 			(at 142.24 76.708 0)
 			(effects
 				(font
@@ -5983,15 +5983,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d3881946-4750-46d7-9851-a758bba01ecd")
+			(uuid "a4a19065-f51c-497c-bb6d-04b983187fd7")
 		)
 		(pin "1"
-			(uuid "7fe451f0-7838-4ed3-9b3b-ee38ab20d9a5")
+			(uuid "71d1b05e-e0d9-4d3d-a7da-8881807ebd18")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW9")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -6007,7 +6007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81bdf99a-bf73-4076-9b51-c102952f7048")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR061"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -6053,12 +6053,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c055fa9-8a70-49c7-b204-d8135f76155e")
+			(uuid "56d1c0aa-d9f4-449e-bc27-4b3b24768e2f")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0108")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6074,7 +6074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83678ab4-ff29-45b0-a015-96046efd6818")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR059"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -6120,12 +6120,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bcaf3bd-0db2-4935-8d15-b67453de552b")
+			(uuid "d9b387b1-211d-48df-89b9-bee856b09f2d")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0119")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6141,7 +6141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8446c6a1-a5cd-491d-9ecd-76af2c086b89")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR051"
 			(at 83.82 107.95 0)
 			(effects
 				(font
@@ -6187,12 +6187,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5beab44c-de6f-49ad-bd08-97905e9c6630")
+			(uuid "347f80d3-d7a0-4cfb-967f-42f311e172a8")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0112")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6208,7 +6208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84e389ab-7488-4bf3-815f-96db3fcea341")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR052"
 			(at 85.09 64.77 0)
 			(effects
 				(font
@@ -6254,12 +6254,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4d68c8b-8063-4d79-af0c-5f31bebca636")
+			(uuid "1622206f-badb-4fc7-b8d6-52e32609aa4b")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0102")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6274,7 +6274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87567565-3554-48dc-a306-093b62dcaac1")
-		(property "Reference" "R34"
+		(property "Reference" "R23"
 			(at 154.94 115.062 90)
 			(effects
 				(font
@@ -6374,15 +6374,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f0a83a92-7d42-4181-8ef5-f026b5717bf1")
+			(uuid "b360cbeb-8506-4ea9-88f4-d6062f66eb60")
 		)
 		(pin "1"
-			(uuid "0e93172a-f78e-4ee3-8b11-5c1e7ede8d6b")
+			(uuid "20f56b03-75f3-44e8-8dac-f82651031e9d")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R34")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6398,7 +6398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b0cdfef-d885-471e-832b-d7333cd06c00")
-		(property "Reference" "D57"
+		(property "Reference" "D33"
 			(at 176.53 118.618 0)
 			(effects
 				(font
@@ -6454,15 +6454,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c2311c7-551d-403f-8783-e00758341712")
+			(uuid "3b0e2f56-dec9-4991-848f-f3a9e66b4895")
 		)
 		(pin "2"
-			(uuid "fef7f494-92c4-4179-a9f8-1782ab82f069")
+			(uuid "59addb3a-c0c3-489f-b525-d0e69742a99b")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D57")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -6477,7 +6477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ee28cbf-64b1-4879-82ae-951a3d942256")
-		(property "Reference" "SW10"
+		(property "Reference" "SW12"
 			(at 166.37 76.708 0)
 			(effects
 				(font
@@ -6522,15 +6522,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "94d47bb0-a3e5-4f41-8683-e04febe42121")
+			(uuid "0eb02fd1-6b54-42b1-98a9-2b5861ea1241")
 		)
 		(pin "1"
-			(uuid "f3bcffed-3adf-43f4-841e-128635aae18b")
+			(uuid "94b1d474-4b7c-4080-a5be-bf3793ca6dce")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW10")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -6546,7 +6546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8faee04d-edcb-4e96-bc31-7a5e62abf2bb")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR065"
 			(at 179.07 86.36 0)
 			(effects
 				(font
@@ -6592,12 +6592,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b43129e-cdf8-4f7e-83fd-ba3aa29ad66b")
+			(uuid "aec7431d-a917-4a68-98bd-39baede5f6be")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0107")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6612,7 +6612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fbdc279-4139-4675-9dc3-5e2cc618968b")
-		(property "Reference" "D14"
+		(property "Reference" "D20"
 			(at 137.414 101.854 90)
 			(effects
 				(font
@@ -6685,15 +6685,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "eb757c58-8cc4-4451-91e6-8ec5f3ba6bd5")
+			(uuid "96972f04-3c11-46d2-a44f-15c55ab78ba8")
 		)
 		(pin "1"
-			(uuid "5c1a416e-773f-4977-9b75-5563fcbf9e8a")
+			(uuid "9b878578-9ccc-4a72-914f-b973a7c0aef2")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D14")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -6708,7 +6708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "912f4479-4158-4533-b5c6-d24c226f3167")
-		(property "Reference" "SW4"
+		(property "Reference" "SW7"
 			(at 142.24 54.864 0)
 			(effects
 				(font
@@ -6753,15 +6753,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7393bea4-706d-4463-a70f-d2297fb37c00")
+			(uuid "1aa5df9e-d912-4162-a675-04e1bb4ac6e5")
 		)
 		(pin "1"
-			(uuid "6f49a98f-f5ad-4b07-8a8a-ddfd8a5c114a")
+			(uuid "eb639c51-e2cb-4136-8ff0-c2d42084ae4e")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW4")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -6821,14 +6821,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "3afe5782-5734-4a55-818d-2b66bb9be424")
+			(uuid "69039d5f-6bd7-4b3a-96b8-67e54784b8a0")
 		)
 		(pin "1"
-			(uuid "678ce61e-9dde-45d9-902a-cdacf4fdbdd5")
+			(uuid "7eab17a4-68f1-47d1-a3a4-e88fc485fbac")
 		)
 		(instances
-			(project ""
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -6844,7 +6844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9309b0ed-e7f2-475f-b1df-7da53b9f22e2")
-		(property "Reference" "D19"
+		(property "Reference" "D21"
 			(at 137.414 124.714 90)
 			(effects
 				(font
@@ -6917,15 +6917,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "cec69b13-5b5f-4961-bc2b-308c6ffaa105")
+			(uuid "9b68838a-7edf-412b-9d62-4e2754601592")
 		)
 		(pin "1"
-			(uuid "809befb1-9286-4339-90f0-d52bd01d6222")
+			(uuid "87035818-ba63-467b-9432-8c727a6c28d3")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D19")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -6940,7 +6940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9366c3d5-cb2c-4539-b4e4-c99cdee1f245")
-		(property "Reference" "R48"
+		(property "Reference" "R18"
 			(at 132.08 92.202 90)
 			(effects
 				(font
@@ -7040,15 +7040,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "cd57a884-cdd9-4f09-9f20-7ec141480fd5")
+			(uuid "b5fdf5d6-e936-46f4-a24a-18311db850b4")
 		)
 		(pin "1"
-			(uuid "d3150599-d339-4b45-a697-e414569264ae")
+			(uuid "469df0d6-8fb0-4494-9dee-3834a769c997")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R48")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7064,7 +7064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94344275-2182-4eae-8edf-7ff739991a2e")
-		(property "Reference" "D61"
+		(property "Reference" "D22"
 			(at 152.4 52.578 0)
 			(effects
 				(font
@@ -7120,15 +7120,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bdbf49a-219f-4cd6-8699-388172ecf4fb")
+			(uuid "10fafa5b-a29a-4a9e-98e8-61672a844a4d")
 		)
 		(pin "2"
-			(uuid "81be58a7-4a23-49fa-9276-316fa3bd4630")
+			(uuid "ead526b4-0a66-48e6-a624-093a5debbcab")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D61")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -7143,7 +7143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99330c3b-e69d-4063-9a8e-581448948fc9")
-		(property "Reference" "D10"
+		(property "Reference" "D27"
 			(at 161.544 78.994 90)
 			(effects
 				(font
@@ -7216,15 +7216,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ab202dcb-c260-44ca-8622-c25b2dc2a40d")
+			(uuid "1d5a442b-2f36-4bff-a2e8-96b876ea63df")
 		)
 		(pin "1"
-			(uuid "4139d628-5ead-4ff9-95cc-db0e1d9e5484")
+			(uuid "1beab65c-999f-4328-ac2f-e2ca135940d4")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D10")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -7239,7 +7239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ac31c08-668a-48aa-9b36-ab4a4b8d9605")
-		(property "Reference" "R39"
+		(property "Reference" "R20"
 			(at 154.94 49.022 90)
 			(effects
 				(font
@@ -7339,15 +7339,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "57d1a11b-c7b7-44ee-8c65-781b0a71fca0")
+			(uuid "8ff0f5c9-4daf-4c32-956c-e49cd48cb1ab")
 		)
 		(pin "1"
-			(uuid "9cd14f9f-dfd8-43cf-887a-501257c2c3f1")
+			(uuid "faafb67e-770f-495d-9d58-5a6bc61eb9e6")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R39")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7362,7 +7362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b9dbc0e-8758-4c55-97ff-75c42506ae36")
-		(property "Reference" "D21"
+		(property "Reference" "D37"
 			(at 185.674 124.714 90)
 			(effects
 				(font
@@ -7435,15 +7435,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "26f5964d-2abd-469d-89a4-9dc76c724517")
+			(uuid "5424846d-4025-4533-86ba-9c1f6da8e6f5")
 		)
 		(pin "1"
-			(uuid "70839a0f-258c-4cb9-9b10-cd5ef4663f7c")
+			(uuid "3d855262-c017-4069-b06d-63641eafde63")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D21")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -7458,7 +7458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ffe92ee-2f18-483c-a7b0-38cd52ce8ff3")
-		(property "Reference" "R44"
+		(property "Reference" "R14"
 			(at 107.95 70.612 90)
 			(effects
 				(font
@@ -7558,15 +7558,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1ce7c995-5239-4c7c-9ac3-ea9d91d48a65")
+			(uuid "f9448cab-4d61-40ab-93b0-4e8861a54089")
 		)
 		(pin "1"
-			(uuid "d434ee9c-5810-46ed-b9ba-62d53ac58547")
+			(uuid "8e69e748-0a9d-4f75-91b0-c45b3d5f05f3")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R44")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7581,7 +7581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0622544-4d24-4a8a-afa7-482e954339eb")
-		(property "Reference" "R33"
+		(property "Reference" "R19"
 			(at 132.08 115.062 90)
 			(effects
 				(font
@@ -7681,15 +7681,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e09391b4-df27-4d29-9568-58005666d992")
+			(uuid "6f85a48a-5235-4af7-98e2-83c6f0db784f")
 		)
 		(pin "1"
-			(uuid "92e25110-13a6-4150-b135-37d31e308611")
+			(uuid "9d2703b0-c5d9-4ef3-9d55-b45a6cbe8a87")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R33")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7704,7 +7704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a65aa6f1-91de-4205-a18a-4b1d07f0e02e")
-		(property "Reference" "R47"
+		(property "Reference" "R15"
 			(at 107.95 92.202 90)
 			(effects
 				(font
@@ -7804,15 +7804,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e334d655-a02f-4a43-93dd-056e0d7dbc4d")
+			(uuid "2e16fe51-810a-45ba-be42-bd1bb3aa1d79")
 		)
 		(pin "1"
-			(uuid "9a23d6a1-4949-450d-9097-de8b39af0332")
+			(uuid "e854b6b1-601f-4a86-b46a-ef70fe260956")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R47")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7828,7 +7828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad1052a1-aa34-44f4-a859-3951a728ae73")
-		(property "Reference" "D69"
+		(property "Reference" "D10"
 			(at 105.41 95.758 0)
 			(effects
 				(font
@@ -7884,15 +7884,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e226182-e87c-4428-9b7b-5f654fc73270")
+			(uuid "e6bb8329-4d41-4554-9adf-ea9a2a83a288")
 		)
 		(pin "2"
-			(uuid "234cb4dd-7555-4d91-8acf-3c27806a4f6e")
+			(uuid "74c0c142-ef6b-4e65-b49c-c7621d3bd3d4")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D69")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7908,7 +7908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5d36933-cbc4-4bdb-af0f-29f63d4267c7")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR064"
 			(at 179.07 64.77 0)
 			(effects
 				(font
@@ -7954,12 +7954,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9457cf6d-e219-4ec4-9ee2-e8a142f3ca04")
+			(uuid "f250dc1b-c025-4b9e-a002-25a59be08fbe")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0106")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7974,7 +7974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7a3c503-817f-4bd6-a435-6f52488a7faf")
-		(property "Reference" "SW8"
+		(property "Reference" "SW5"
 			(at 119.38 76.708 0)
 			(effects
 				(font
@@ -8019,15 +8019,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3d74bf61-a8d5-49a9-bc14-319c2ace5cc7")
+			(uuid "7bd3f586-a728-4d2c-af7b-cf6bd271d018")
 		)
 		(pin "1"
-			(uuid "1c04e47a-e753-45eb-aa48-0103b8feb682")
+			(uuid "dd309f03-343f-4f03-8e2e-930350d941c8")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW8")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -8043,7 +8043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba6d6a12-faa3-43d6-aa9f-d4276d9ba647")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR050"
 			(at 83.82 86.36 0)
 			(effects
 				(font
@@ -8089,12 +8089,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "60488035-a577-4c51-87de-9ce640fa557b")
+			(uuid "db4234e3-0341-43e4-b733-376fd653a5cc")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0111")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8109,7 +8109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bee08513-3867-423f-8e02-0401b4765a18")
-		(property "Reference" "R41"
+		(property "Reference" "R25"
 			(at 179.07 70.612 90)
 			(effects
 				(font
@@ -8209,15 +8209,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd0bdc1a-c90b-467d-9693-44e1a8dbb9ba")
+			(uuid "44b55f54-61c1-4b8f-86a0-1cbd54201357")
 		)
 		(pin "1"
-			(uuid "671f31e0-9663-4399-89a3-1efca8cfc1a5")
+			(uuid "c5963b11-d528-4b34-a5bb-b3401e77d3ec")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R41")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8233,7 +8233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf613930-7b53-4403-963c-8f9f54cff8e7")
-		(property "Reference" "D63"
+		(property "Reference" "D24"
 			(at 152.4 95.758 0)
 			(effects
 				(font
@@ -8289,15 +8289,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3c97e69-000d-41da-ab77-cc1fd1f13df9")
+			(uuid "9a58b2a1-17aa-496b-8a4f-24c62ca9b3d9")
 		)
 		(pin "2"
-			(uuid "4a45c5ed-5b9e-4062-bdf4-54e5ec5204f3")
+			(uuid "bb57a98d-262f-45e4-9960-e97e3e0e55e2")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D63")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -8313,7 +8313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0a74f3f-e15a-4b8a-9128-dc1a9db0e58f")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR060"
 			(at 154.94 64.77 0)
 			(effects
 				(font
@@ -8359,12 +8359,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f313219f-9b7b-4ae9-b90c-f9fa2218986c")
+			(uuid "7312c311-0136-4927-8e23-131f16638d82")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0105")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8379,7 +8379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1c6efeb-f382-41fe-b5c5-371c26bddc45")
-		(property "Reference" "SW13"
+		(property "Reference" "SW6"
 			(at 119.38 99.568 0)
 			(effects
 				(font
@@ -8424,15 +8424,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "74f3a0fb-8591-4dd4-93d6-9f3735178461")
+			(uuid "6a2dc366-9ee6-49e0-afb4-ab6150b6ef0f")
 		)
 		(pin "1"
-			(uuid "031bcf0c-c700-49e4-8192-738ef3f2417a")
+			(uuid "45326e88-f653-4158-8283-c1b7713ec1df")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW13")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -8447,7 +8447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3039ea9-4a73-4268-bab2-17f80189055a")
-		(property "Reference" "R45"
+		(property "Reference" "R10"
 			(at 83.82 70.612 90)
 			(effects
 				(font
@@ -8547,15 +8547,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2bbbcda3-a7cb-470d-a4b5-09aa8c75daf3")
+			(uuid "d5e3f49c-9c58-439e-948d-17d9683e6329")
 		)
 		(pin "1"
-			(uuid "1a33e9f3-e7a4-4191-b1a6-c6dea90ea467")
+			(uuid "4e36411f-0304-426f-8d93-435512ebef01")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R45")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8570,7 +8570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca88675c-c38b-42ec-a8a2-8059af30329d")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 90.424 78.994 90)
 			(effects
 				(font
@@ -8643,15 +8643,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1b8c86ae-db55-4c23-af4a-c76dc5455f13")
+			(uuid "eefd428e-160e-4666-ac20-dd998ee163f7")
 		)
 		(pin "1"
-			(uuid "eeac8d73-8617-4847-b5a2-3c2c708fcc56")
+			(uuid "19151093-7946-4aee-8746-0955d978cf1d")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D7")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8666,7 +8666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb0aafe5-9603-4493-bc10-c1aa8c9d1716")
-		(property "Reference" "D6"
+		(property "Reference" "D34"
 			(at 185.674 57.404 90)
 			(effects
 				(font
@@ -8739,15 +8739,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5203890b-aa4e-4301-9e5b-c7eccf536bcb")
+			(uuid "3a589db7-eb11-413e-bef5-91fd78675e14")
 		)
 		(pin "1"
-			(uuid "0240266c-770f-457c-b605-16300d810caf")
+			(uuid "1e693d92-76b2-4fe0-9098-40b813ec9e69")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D6")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -8762,7 +8762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf57f007-6ebf-4e39-8249-c4fe8cc54621")
-		(property "Reference" "R38"
+		(property "Reference" "R16"
 			(at 132.08 49.022 90)
 			(effects
 				(font
@@ -8862,15 +8862,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "efbcbf5e-e09b-405c-9508-43a265a8b67e")
+			(uuid "14802cd4-c813-4140-a676-e770f71b609d")
 		)
 		(pin "1"
-			(uuid "30419f23-bc59-4f6d-9b41-5dec23dfaee5")
+			(uuid "926d54af-3d81-42bc-a0f9-4cbb3698fc06")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R38")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8958,14 +8958,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "785556e1-df97-43d2-89f8-2a28aecd531c")
+			(uuid "5343dfa4-2fce-477e-b05f-30c7078bb58c")
 		)
 		(pin "1"
-			(uuid "d51ace83-8a7c-4f3f-847c-09df90338c46")
+			(uuid "dfd885ae-fa75-4faf-80fb-3735a86e8227")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
 					(reference "D13")
 					(unit 1)
 				)
@@ -8981,7 +8981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d00c7afe-e6f1-4925-8c09-7c5b3bd99741")
-		(property "Reference" "R43"
+		(property "Reference" "R17"
 			(at 132.08 70.612 90)
 			(effects
 				(font
@@ -9081,15 +9081,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b296204a-f8d2-4b5c-9fee-1a9686daf07a")
+			(uuid "980158b0-6751-469d-80f2-5f9159e50664")
 		)
 		(pin "1"
-			(uuid "752cdb38-26cd-4b81-ba12-6e64361da243")
+			(uuid "527839d0-acc3-49a2-95c9-789c9ebff755")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R43")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9105,7 +9105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d06fab3b-dcaa-4c38-8b0a-da0ce9b58e8c")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR062"
 			(at 154.94 107.95 0)
 			(effects
 				(font
@@ -9151,12 +9151,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d58f9126-a85f-44af-8e49-f2e573725ae4")
+			(uuid "6680b263-3109-4bcf-871d-6d8a6176ce33")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0115")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9172,7 +9172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1c69ba9-0cfd-43eb-85e3-c3cc9fc1f62e")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR053"
 			(at 107.95 64.77 0)
 			(effects
 				(font
@@ -9218,12 +9218,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1c17484-90e2-4cad-9d0b-bae27946c2cf")
+			(uuid "5d2f63a3-bb51-4855-9293-f33e44c49e65")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0103")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9238,7 +9238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2c4714b-c946-4dd9-9825-3cdc32c4ba7e")
-		(property "Reference" "SW15"
+		(property "Reference" "SW13"
 			(at 166.37 99.568 0)
 			(effects
 				(font
@@ -9283,15 +9283,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ca75a27a-9797-478d-99f7-77ef119f7c60")
+			(uuid "65ecd8c8-fcef-47f8-b1fd-fbda1dd6dbca")
 		)
 		(pin "1"
-			(uuid "4c670773-0618-4ea3-b410-c296c37e7158")
+			(uuid "23b775b9-981f-40b9-a20b-741e7721d835")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW15")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -9307,7 +9307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d86ea0a2-ab82-42ce-afae-ff15b1c3aadf")
-		(property "Reference" "D70"
+		(property "Reference" "D3"
 			(at 81.28 95.758 0)
 			(effects
 				(font
@@ -9363,15 +9363,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "90f9a97a-be60-4904-9030-ef020557f19f")
+			(uuid "47f35b70-fb02-46c7-8ce0-e3c5d3e27563")
 		)
 		(pin "2"
-			(uuid "54b86917-dd81-4c12-b7cd-0030423106b9")
+			(uuid "7f262227-c8dd-413d-9e50-595a162e6b58")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D70")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9386,7 +9386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc2d0932-e2a8-4498-bce8-cbd41c3031c8")
-		(property "Reference" "SW21"
+		(property "Reference" "SW18"
 			(at 190.5 122.428 0)
 			(effects
 				(font
@@ -9431,15 +9431,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0816cae5-fda0-4b94-b028-e7757f17dc6a")
+			(uuid "05270d39-c53a-4b88-bf25-86c41ed273e5")
 		)
 		(pin "1"
-			(uuid "fd144555-12ce-481a-925e-814eb5d2f169")
+			(uuid "6073c89e-7428-47f3-87cc-0cf515195d39")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW21")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -9454,7 +9454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd5f9e87-d47c-4e03-9f89-4d6e7a86f756")
-		(property "Reference" "SW7"
+		(property "Reference" "SW2"
 			(at 95.25 76.708 0)
 			(effects
 				(font
@@ -9499,15 +9499,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f6cc94f0-9ab4-458f-bf5c-e4e8eec97e80")
+			(uuid "7473175f-5e31-4207-b1c4-d66fb6413f9f")
 		)
 		(pin "1"
-			(uuid "b3de793f-54a3-4f05-baca-c7d61bbfa3cc")
+			(uuid "24f28afc-8da2-4839-b046-3f87ff1015d1")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW7")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9522,7 +9522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e29d2f14-da14-40b7-be44-21190ef47de8")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 90.424 57.404 90)
 			(effects
 				(font
@@ -9595,15 +9595,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c064d5ec-1b0f-4bbc-8860-7103670c2b4f")
+			(uuid "a0a6f945-38ef-4e67-b332-a4ff34004667")
 		)
 		(pin "1"
-			(uuid "fb8f72e1-da63-46d8-85c4-6e94442dbb43")
+			(uuid "6558328a-4515-4e3d-b0d2-9f9ead8dcd8c")
 		)
 		(instances
-			(project ""
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D2")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9618,7 +9618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed0a9678-5fb4-43b0-8216-0fb1137ef375")
-		(property "Reference" "D5"
+		(property "Reference" "D26"
 			(at 161.544 57.404 90)
 			(effects
 				(font
@@ -9691,15 +9691,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9c84a964-851d-404d-94ca-08f0cbbc0fa9")
+			(uuid "51f3859c-0923-44cc-a38f-d83080e79954")
 		)
 		(pin "1"
-			(uuid "692ee1cd-2650-4b71-9595-022c189efbdc")
+			(uuid "d517fd10-16f4-4aea-aadc-4085d48c93cd")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D5")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -9714,7 +9714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f28147f4-b8d8-4434-956f-6a0a1943247f")
-		(property "Reference" "R50"
+		(property "Reference" "R26"
 			(at 179.07 92.202 90)
 			(effects
 				(font
@@ -9814,15 +9814,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "34d07744-f2fd-4746-aed1-b6b2f23aa44c")
+			(uuid "3d6da303-7e22-4b3c-bcd4-d3a45c7dced4")
 		)
 		(pin "1"
-			(uuid "9ed435b3-63d9-40a9-aaa7-42adefc9fbfa")
+			(uuid "6a36294b-b961-457c-9f31-d1dad8d06664")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "R50")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9838,7 +9838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f38488ec-2771-4bc0-8a62-e025fe316279")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR063"
 			(at 154.94 130.81 0)
 			(effects
 				(font
@@ -9884,12 +9884,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "68152d5e-bd4d-4088-b8c3-1bf6fbd11b0c")
+			(uuid "95187119-1a85-4ad4-bfc0-ac4293b1c92e")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "#PWR0118")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9905,7 +9905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe71f522-0368-485f-aea6-f9f05bfc7f62")
-		(property "Reference" "D71"
+		(property "Reference" "D2"
 			(at 81.28 74.168 0)
 			(effects
 				(font
@@ -9961,15 +9961,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a7ce60a-1ded-47af-a393-ffed71debbef")
+			(uuid "02b1abf4-c8e1-46ff-88ff-8675c9cb8dad")
 		)
 		(pin "2"
-			(uuid "5a4ce196-b490-448a-b4c0-1c27313f3a5d")
+			(uuid "22475674-73a6-469a-a5a7-b2f045afcf2c")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D71")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9984,7 +9984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fee71fd9-6f3f-4051-9560-494039144759")
-		(property "Reference" "SW16"
+		(property "Reference" "SW17"
 			(at 190.5 99.568 0)
 			(effects
 				(font
@@ -10029,15 +10029,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d4ea09a8-8957-4da9-ab61-a039e828a22b")
+			(uuid "d5a62b4d-2add-415b-9eb1-2277411bf071")
 		)
 		(pin "1"
-			(uuid "b2df88fc-eb5d-4bea-8620-a594065ba4e6")
+			(uuid "7d052d5f-acfa-4158-87ad-fed5a0d2eb7a")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "SW16")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -10052,7 +10052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fff3b3e7-1827-4ba7-90b6-c3a5ca69d605")
-		(property "Reference" "D12"
+		(property "Reference" "D7"
 			(at 90.424 101.854 90)
 			(effects
 				(font
@@ -10125,15 +10125,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "194184a9-158d-425f-a060-515340680024")
+			(uuid "d274cf4f-b643-4dea-9bb8-e883050dbe48")
 		)
 		(pin "1"
-			(uuid "fb7a04c2-0888-4c4e-a739-923789dbd591")
+			(uuid "ac46b493-2bea-445e-8eab-a62db065b9f4")
 		)
 		(instances
-			(project "sichergo"
-				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/83708fae-998d-4c1d-8b4c-c5f78cd3524c/966e4203-91c7-4d4e-8ebf-9f93e31d03ee"
-					(reference "D12")
+			(project "sichergo-left"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd/baca505e-2583-4504-9fa7-6a775b5ebe69"
+					(reference "D7")
 					(unit 1)
 				)
 			)
