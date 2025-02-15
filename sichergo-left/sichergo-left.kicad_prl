@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "All Layers",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -10,6 +10,7 @@
       "",
       "Net-(Audio1-Pad4)",
       "Net-(Audio1-Pad1)",
+      "+3V3",
       "Net-(Audio1-Pad3)",
       "/VBUS",
       "/KB_ROW_0",
