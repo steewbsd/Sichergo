@@ -81,7 +81,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x00011fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -91,7 +91,7 @@
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
-			(plotframeref yes)
+			(plotframeref no)
 			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
@@ -111,7 +111,7 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 4)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -31002,7 +31002,7 @@
 	)
 	(gr_text "Daniel (steewBSD)"
 		(at 127.61 127.88 0)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "af680962-8142-4a5d-a2ab-2e580001a3e3")
 		(effects
 			(font
