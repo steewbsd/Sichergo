@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "75f4b9a7-7702-4bda-abed-1a55a1b17359")
 	(paper "A4")
 	(title_block
@@ -12,7 +12,9 @@
 	)
 	(lib_symbols
 		(symbol "#inventree:RC0603FR-071KL"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -176,11 +178,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -248,10 +255,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -272,7 +291,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -284,22 +303,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -345,10 +352,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:CD4148W"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -446,10 +458,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -458,10 +470,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -507,11 +519,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -592,10 +609,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -604,9 +620,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -652,12 +669,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -748,7 +770,252 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 135.382 50.292)
+		(end 150.876 65.024)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 1799d61d-d38a-4dc3-aa3e-bb92d1d6d05d)
+	)
+	(rectangle
+		(start 88.646 94.488)
+		(end 104.14 109.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 2062cab7-18d5-4439-ae40-4b84be9080df)
+	)
+	(rectangle
+		(start 183.642 117.348)
+		(end 199.136 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 424e355c-e874-4dd5-8145-e8e2416e54ed)
+	)
+	(rectangle
+		(start 112.522 94.234)
+		(end 128.016 108.966)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 4f6a40b1-fc76-4d01-a3f7-77a0e6a326b1)
+	)
+	(rectangle
+		(start 88.646 50.292)
+		(end 104.14 65.024)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 6e7826af-7e7f-4e82-8406-59f47fa4b0d1)
+	)
+	(rectangle
+		(start 159.258 94.234)
+		(end 174.752 108.966)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 6e7f1b9c-5a48-45d7-8926-2c4ed5fb54f1)
+	)
+	(rectangle
+		(start 159.258 117.348)
+		(end 174.752 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 6f14f003-8ec6-4408-8ca5-b0262016ac5f)
+	)
+	(rectangle
+		(start 135.382 71.628)
+		(end 150.876 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 79049c4a-36a7-4fa8-a3cd-c6ccf35183b6)
+	)
+	(rectangle
+		(start 135.382 117.602)
+		(end 150.876 132.334)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 8da206c2-40e8-42de-a83e-66ac02df7fbb)
+	)
+	(rectangle
+		(start 183.642 50.038)
+		(end 199.136 64.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid ab1c774f-22c7-455d-aa3a-364a0a438725)
+	)
+	(rectangle
+		(start 183.642 94.234)
+		(end 199.136 108.966)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid aef3705c-1f02-4d75-aba5-5035a32ee8be)
+	)
+	(rectangle
+		(start 135.382 94.488)
+		(end 150.876 109.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid bc85461c-5216-47e3-beb1-7127cb1a4ac1)
+	)
+	(rectangle
+		(start 183.642 71.374)
+		(end 199.136 86.106)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid bdcb6df4-6450-4d55-81ba-9b7150033b70)
+	)
+	(rectangle
+		(start 88.646 71.628)
+		(end 104.14 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid dc25894b-9099-42cd-9dd1-0e99e91f1e2f)
+	)
+	(rectangle
+		(start 112.522 50.038)
+		(end 128.016 64.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid dfa5d56b-5e68-4d8f-8692-a32b9092e367)
+	)
+	(rectangle
+		(start 112.522 71.374)
+		(end 128.016 86.106)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid e018e8fc-ff40-4238-85b1-29957cdaf055)
+	)
+	(rectangle
+		(start 159.258 50.038)
+		(end 174.752 64.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid f2c41035-d3b3-4f5f-83dd-fcd4c45cbf12)
+	)
+	(rectangle
+		(start 159.258 71.374)
+		(end 174.752 86.106)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid fa023a55-4a91-4957-960b-44d60266dbb6)
+	)
+	(text "Matrix Left"
+		(exclude_from_sim no)
+		(at 204.216 146.304 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "f86ee659-5c90-47e4-bfd8-af0d019fae8b")
 	)
 	(junction
 		(at 148.59 62.23)
@@ -1971,250 +2238,6 @@
 			(type default)
 		)
 		(uuid "facf79e0-b075-461b-a8db-02379c7859e5")
-	)
-	(rectangle
-		(start 135.382 50.292)
-		(end 150.876 65.024)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid 1799d61d-d38a-4dc3-aa3e-bb92d1d6d05d)
-	)
-	(rectangle
-		(start 88.646 94.488)
-		(end 104.14 109.22)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid 2062cab7-18d5-4439-ae40-4b84be9080df)
-	)
-	(rectangle
-		(start 183.642 117.348)
-		(end 199.136 132.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid 424e355c-e874-4dd5-8145-e8e2416e54ed)
-	)
-	(rectangle
-		(start 112.522 94.234)
-		(end 128.016 108.966)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid 4f6a40b1-fc76-4d01-a3f7-77a0e6a326b1)
-	)
-	(rectangle
-		(start 88.646 50.292)
-		(end 104.14 65.024)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid 6e7826af-7e7f-4e82-8406-59f47fa4b0d1)
-	)
-	(rectangle
-		(start 159.258 94.234)
-		(end 174.752 108.966)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid 6e7f1b9c-5a48-45d7-8926-2c4ed5fb54f1)
-	)
-	(rectangle
-		(start 159.258 117.348)
-		(end 174.752 132.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid 6f14f003-8ec6-4408-8ca5-b0262016ac5f)
-	)
-	(rectangle
-		(start 135.382 71.628)
-		(end 150.876 86.36)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid 79049c4a-36a7-4fa8-a3cd-c6ccf35183b6)
-	)
-	(rectangle
-		(start 135.382 117.602)
-		(end 150.876 132.334)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid 8da206c2-40e8-42de-a83e-66ac02df7fbb)
-	)
-	(rectangle
-		(start 183.642 50.038)
-		(end 199.136 64.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid ab1c774f-22c7-455d-aa3a-364a0a438725)
-	)
-	(rectangle
-		(start 183.642 94.234)
-		(end 199.136 108.966)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid aef3705c-1f02-4d75-aba5-5035a32ee8be)
-	)
-	(rectangle
-		(start 135.382 94.488)
-		(end 150.876 109.22)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid bc85461c-5216-47e3-beb1-7127cb1a4ac1)
-	)
-	(rectangle
-		(start 183.642 71.374)
-		(end 199.136 86.106)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid bdcb6df4-6450-4d55-81ba-9b7150033b70)
-	)
-	(rectangle
-		(start 88.646 71.628)
-		(end 104.14 86.36)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid dc25894b-9099-42cd-9dd1-0e99e91f1e2f)
-	)
-	(rectangle
-		(start 112.522 50.038)
-		(end 128.016 64.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid dfa5d56b-5e68-4d8f-8692-a32b9092e367)
-	)
-	(rectangle
-		(start 112.522 71.374)
-		(end 128.016 86.106)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid e018e8fc-ff40-4238-85b1-29957cdaf055)
-	)
-	(rectangle
-		(start 159.258 50.038)
-		(end 174.752 64.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid f2c41035-d3b3-4f5f-83dd-fcd4c45cbf12)
-	)
-	(rectangle
-		(start 159.258 71.374)
-		(end 174.752 86.106)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 132 132 1)
-		)
-		(uuid fa023a55-4a91-4957-960b-44d60266dbb6)
-	)
-	(text "Matrix Left"
-		(exclude_from_sim no)
-		(at 204.216 146.304 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-		)
-		(uuid "f86ee659-5c90-47e4-bfd8-af0d019fae8b")
 	)
 	(hierarchical_label "KB_ROW_0"
 		(shape output)

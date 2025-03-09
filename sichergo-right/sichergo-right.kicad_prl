@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -12,6 +12,7 @@
       "unconnected-(U2-PA12-Pad33)",
       "+3V3",
       "Net-(Audio1-Pad3)",
+      "GND",
       "Net-(D2-A)",
       "Net-(D3-A)",
       "Net-(D4-A)",

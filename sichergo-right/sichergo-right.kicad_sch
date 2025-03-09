@@ -5301,6 +5301,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 140.97) (xy 264.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0afdd0-1554-4d01-a310-b511100f354e")
+	)
+	(wire
+		(pts
 			(xy 213.36 33.02) (xy 222.25 33.02)
 		)
 		(stroke
@@ -6238,6 +6248,16 @@
 			(type default)
 		)
 		(uuid "dbef7bc5-f2ff-4190-befc-1d191eb18f51")
+	)
+	(wire
+		(pts
+			(xy 264.16 140.97) (xy 264.16 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6489a0-eebe-4c7a-9428-72a0e5b127b6")
 	)
 	(wire
 		(pts
@@ -9788,6 +9808,73 @@
 			(project "sichergo-right"
 				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83306fb8-8123-4f66-b088-c91515a0d995")
+		(property "Reference" "TP2"
+			(at 257.302 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 261.62 138.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28e02718-a9de-46a0-a92d-1971d08fd133")
+		)
+		(instances
+			(project "sichergo-right"
+				(path "/7d6715fb-1e77-4b7f-bc05-ec156d7f2ccd"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
