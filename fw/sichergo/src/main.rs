@@ -1,81 +1,56 @@
-//! Testing PWM output for pre-defined pin combination: all pins for default mapping
-
-#![deny(unsafe_code)]
-#![allow(clippy::empty_loop)]
-#![no_main]
 #![no_std]
+#![no_main]
 
+use core::any::Any;
+
+use cortex_m::Peripherals;
+use stm32f1;
 use panic_halt as _;
+// use nb::block;
 
-use cortex_m::asm;
 use cortex_m_rt::entry;
-use stm32f1xx_hal::{
-    pac,
-    prelude::*,
-    time::ms,
-    timer::{Channel, Tim1NoRemap},
-};
 
 #[entry]
-fn main() -> ! {
-    let p = pac::Peripherals::take().unwrap();
+fn main () -> ! {
+    let per = stm32f1::stm32f103::Peripherals::take().unwrap();
 
-    let mut flash = p.FLASH.constrain();
-    let rcc = p.RCC.constrain();
+    let rcc = per.RCC;
 
-    let clocks = rcc.cfgr.freeze(&mut flash.acr);
+    // Enable HSE (External Oscillator)
+    rcc.cr.modify(|_, w| w.hseon().set_bit());
+    while rcc.cr.read().hserdy().bit_is_clear() {}
+    // Enable Peripheral clocks (TIM1 and GPIOB)
+    rcc.apb2enr.write(|w| {
+        w.iopben().set_bit().tim1en().set_bit()
+    });
 
-    let mut afio = p.AFIO.constrain();
+    // Clear gate output by default
+    per.GPIOB.crh.write(|w| w.cnf13().push_pull().mode13().output());
+    per.GPIOB.odr.write(|w| w.odr13().set_bit());
 
-    let mut gpiob = p.GPIOB.split();
-    // let mut gpiob = p.GPIOB.split();
+    // Set PB13 (Gate Pin) as default alternate mode push pull, default speed
+    per.GPIOB.crh.write(|w| w.mode13().output().cnf13().alt_push_pull());
 
-    // TIM1
-    let c1 = gpiob.pb13.into_alternate_push_pull(&mut gpiob.crh);
-    let pins = c1;
+    // Activate Timer output compare with PWM mode 1 (0b110)
+    // Activate Channel 1 Output (0b00)
+    per.TIM1.ccmr1_output().write(|w| unsafe {
+        w.oc1m().bits(0b110).cc1s().bits(0b00)
+    });
 
-    //let mut pwm =
-    //    Timer::new(p.TIM2, &clocks).pwm_hz::<Tim2NoRemap, _, _>(pins, &mut afio.mapr, 1.kHz());
-    // or
-    let mut pwm = p
-        .TIM1
-        .pwm_hz::<Tim1NoRemap, _, _>(pins, &mut afio.mapr, 1.Hz(), &clocks);
+    // Activate Main Output Enable (MOE) for CC1N
+    per.TIM1.bdtr.write(|w| w.moe().set_bit().ossr().clear_bit());
 
-    // Enable clock on each of the channels
-    pwm.enable(Channel::C1);
+    // Set a count of 1.25s (1/8MHz * 1000 * 10000 = 1.25s)
+    per.TIM1.psc.write(|w| w.psc().bits(1000));
+    per.TIM1.arr.write(|w| w.arr().bits(10000));
+    per.TIM1.ccr1().write(|w| w.ccr().bits(5000));
 
-    //// Operations affecting all defined channels on the Timer
+    // Activate the Timer (duh!)
+    per.TIM1.cr1.modify(|_, w| w.cen().set_bit());
 
-    // Adjust period to 0.5 seconds
-    // pwm.set_period(ms(500).into_rate());
-    // // Return to the original frequency
-    // pwm.set_period(1.kHz());
-
-    let max = pwm.get_max_duty();
-
-    //// Operations affecting single channels can be accessed through
-    //// the Pwm object or via dereferencing to the pin.
-
-    // Use the Pwm object to set C3 to full strength
-    // pwm.set_duty(Channel::C1, max);
-
-    // // Use the Pwm object to set C3 to be dim
-    // pwm.set_duty(Channel::C1, max / 4);
-
-    // // Use the Pwm object to set C3 to be zero
-    // pwm.set_duty(Channel::C1, 0);
-
-    // // Extract the PwmChannel for C3
-    // let mut pwm_channel = pwm.split().2;
-
-    // // Use the PwmChannel object to set C3 to be full strength
-    // pwm_channel.set_duty(max);
-
-    // // Use the PwmChannel object to set C3 to be dim
-    // pwm_channel.set_duty(max / 4);
-
-    // // Use the PwmChannel object to set C3 to be zero
-    // pwm_channel.set_duty(0);
-
+    // Activate complementary output (CC1NE) and disable primary output (CC1E)
+    per.TIM1.ccer.write(|w| w.cc1ne().set_bit().cc1e().clear_bit());
+    
+    /* ! promise loop */
     loop {}
 }
