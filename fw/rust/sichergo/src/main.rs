@@ -3,6 +3,20 @@
 
 use panic_halt as _;
 
+use cortex_m::asm::delay;
+use keyberon::{debounce::Debouncer, layout::Layout, matrix::Matrix};
+
+use stm32f1xx_hal::{
+    gpio::{ErasedPin, Input, Output, PullDown, PushPull},
+    prelude::*,
+    serial::*,
+    timer::{CounterHz, Event},
+    usb::{Peripheral, UsbBus, UsbBusType},
+};
+
+type KUsbClass = keyberon::Class<'static, UsbBusType, ()>;
+type KUsbDevice = usb_device::device::UsbDevice<'static, UsbBusType>;
+
 pub static LAYERS: keyberon::layout::Layers<10, 4, 1, ()> = keyberon::layout::layout! {
     { //[+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+],
         [Q       W       E       R       T       Y       U       I       O       P],
@@ -33,25 +47,8 @@ enum PwmBreathDuty {
 #[rtic::app(device = stm32f1xx_hal::pac, peripherals = true)]
 mod app {
 
-    use core::future::poll_fn;
-
-    use cortex_m::asm::{self, delay};
-    use keyberon::{debounce::Debouncer, layout::Layout, matrix::Matrix};
-
-    use stm32f1::stm32f103::usb;
-    use stm32f1xx_hal::{
-        gpio::{ErasedPin, Input, Output, PullDown, PushPull},
-        prelude::*,
-        rcc::{AdcPre, Config, HPre, UsbPre},
-        serial::*,
-        timer::{CounterHz, Event},
-        usb::{Peripheral, UsbBus, UsbBusType},
-    };
-    use usb_device::{
-        bus::UsbBusAllocator,
-        device::{StringDescriptors, UsbDevice, UsbDeviceBuilder, UsbVidPid},
-    };
-    use usbd_serial::{SerialPort, USB_CLASS_CDC};
+    use keyberon::key_code::KbHidReport;
+    use usb_device::class::UsbClass;
 
     use super::*;
 
@@ -61,7 +58,8 @@ mod app {
         matrix: Matrix<ErasedPin<Output<PushPull>>, ErasedPin<Input<PullDown>>, 5, 4>,
         debouncer: Debouncer<[[bool; 4]; 5]>,
         layout: Layout<10, 4, 1, ()>,
-        usb_dev: UsbDevice<'static, UsbBusType>,
+        usb_dev: KUsbDevice,
+        usb_class: KUsbClass,
         serial: usbd_serial::SerialPort<'static, UsbBusType>,
     }
 
@@ -152,7 +150,7 @@ mod app {
             .write(|w| w.cc1ne().set_bit().cc1e().clear_bit());
 
         // Set TIM2 as a base counter for loop delay
-        c.device.TIM2.arr().write(|w| unsafe { w.arr().bits(400) });
+        c.device.TIM2.arr().write(|w| unsafe { w.arr().bits(1750) });
         c.device.TIM2.psc().write(|w| unsafe { w.psc().bits(200) });
 
         // Enable UF/OF interrupt flag
@@ -191,17 +189,22 @@ mod app {
 
         c.local.usb_bus.replace(UsbBus::new(usb));
         let usb_bus = c.local.usb_bus.as_ref().unwrap();
-        let _serial = usbd_serial::SerialPort::new(usb_bus);
 
-        // 0x16c0 0x27dd
-        let _usb_dev = UsbDeviceBuilder::new(usb_bus, UsbVidPid(0x16c0, 0x27dd))
-            .device_class(usbd_serial::USB_CLASS_CDC)
-            .strings(&[StringDescriptors::default()
-                .manufacturer("Fake Company")
-                .product("Serial port")
-                .serial_number("TEST")])
-            .unwrap()
-            .build();
+        let _serial = usbd_serial::SerialPort::new(usb_bus);
+        
+        let _usb_class = keyberon::new_class(usb_bus, ());
+        let _usb_dev = keyberon::new_device(usb_bus);
+
+
+        // // 0x16c0 0x27dd
+        // let _usb_dev = UsbDeviceBuilder::new(usb_bus, UsbVidPid(0x16c0, 0x27dd))
+        //     .device_class(usbd_serial::USB_CLASS_CDC)
+        //     .strings(&[StringDescriptors::default()
+        //         .manufacturer("steewBSD")
+        //         .product("Serial port")
+        //         .serial_number("STEEWBSD")])
+        //     .unwrap()
+        //     .build();
 
 
         // Initialize I2C for OLED
@@ -282,6 +285,7 @@ mod app {
                 layout: Layout::new(&crate::LAYERS),
                 serial: _serial,
                 usb_dev: _usb_dev,
+                usb_class: _usb_class,
             },
             Local {
                 breath_cycle: 0,
@@ -294,69 +298,39 @@ mod app {
         )
     }
 
-    #[idle]
+    #[idle(shared = [serial])]
     fn idle(mut c: idle::Context) -> ! {
-        loop {}
-    }
-
-    #[task(binds = USB_HP_CAN_TX, shared = [usb_dev, serial])]
-    fn usb_tx(cx: usb_tx::Context) {
-        let mut usb_dev = cx.shared.usb_dev;
-        let mut serial = cx.shared.serial;
-
-        (&mut usb_dev, &mut serial).lock(|usb_dev, serial| {
-            usb_poll(usb_dev, serial);
-        });
-    }
-
-    #[task(binds = USB_LP_CAN_RX0, shared = [usb_dev, serial])]
-    fn usb_rx0(cx: usb_rx0::Context) {
-        let mut usb_dev = cx.shared.usb_dev;
-        let mut serial = cx.shared.serial;
-
-        (&mut usb_dev, &mut serial).lock(|usb_dev, serial| {
-            usb_poll(usb_dev, serial);
-        });
-    }
-
-    fn usb_poll<B: usb_device::bus::UsbBus>(
-        usb_dev: &mut usb_device::prelude::UsbDevice<'static, B>,
-        serial: &mut usbd_serial::SerialPort<'static, B>,
-    ) {
-        if !usb_dev.poll(&mut [serial]) {
-            return;
+        loop {
         }
+    }
 
-        let mut buf = [0u8; 8];
-
-        match serial.read(&mut buf) {
-            Ok(count) if count > 0 => {
-                // Echo back in upper case
-                for c in buf[0..count].iter_mut() {
-                    if 0x61 <= *c && *c <= 0x7a {
-                        *c &= !0x20;
-                    }
-                }
-
-                serial.write(&buf[0..count]).ok();
+    #[task(binds = USB_LP_CAN_RX0, shared = [usb_dev, usb_class])]
+    fn usb_rx0(c: usb_rx0::Context) {
+        (c.shared.usb_dev, c.shared.usb_class).lock(|usb_dev, usb_class| {
+            if usb_dev.poll(&mut [usb_class]) {
+                usb_class.poll();
             }
-            _ => {}
-        }
+        });
     }
+
     #[task(binds = TIM3,
-           shared = [matrix, debouncer, layout],
+           shared = [matrix, debouncer, layout, usb_class],
            local = [timer3])]
     fn kbtick(mut c: kbtick::Context) {
-        c.shared.debouncer.lock(|d| {
-            c.shared.matrix.lock(|m| {
-                for event in d.events(m.get().unwrap()) {
-                    // TODO
-                    c.shared.layout.lock(|l| {
-                        l.event(event);
-                    });
-                }
-            });
-        });
+        (c.shared.debouncer, c.shared.matrix, c.shared.layout, c.shared.usb_class).lock(|d, m, l, k| {
+            for event in d.events(m.get().unwrap()) {
+                // TODO
+                l.event(event);
+            }
+            // Tick the layout
+            l.tick();
+            let report: KbHidReport = l.keycodes().collect();
+            k.device_mut().set_keyboard_report(report.clone());
+
+            unsafe {k.write(report.as_bytes()).unwrap_unchecked()};
+        }
+        );
+        
     }
 
     #[task(binds = TIM2,
