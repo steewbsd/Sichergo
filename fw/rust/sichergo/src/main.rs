@@ -3,6 +3,15 @@
 
 use panic_halt as _;
 
+pub static LAYERS: keyberon::layout::Layers<10, 4, 1, ()> = keyberon::layout::layout! {
+    { //[+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+],
+        [Q       W       E       R       T       Y       U       I       O       P],
+        [A       S       D       F       G       H       J       K       L       -],
+        [Z       X       C       V       B       N       M       ,       .       /],
+        [n       n    LShift   Space     n       n   RShift    RAlt     n       n],
+    }
+};
+
 #[derive(Clone, Copy)]
 enum PwmBreathDuty {
     MAX = 0,
@@ -23,15 +32,26 @@ enum PwmBreathDuty {
 
 #[rtic::app(device = stm32f1xx_hal::pac, peripherals = true)]
 mod app {
-    use core::{fmt::Write, iter::Enumerate};
 
-    use keyberon::{debounce::Debouncer, matrix::Matrix};
-    use stm32f1::stm32f103::TIM3;
+    use core::future::poll_fn;
+
+    use cortex_m::asm::{self, delay};
+    use keyberon::{debounce::Debouncer, layout::Layout, matrix::Matrix};
+
+    use stm32f1::stm32f103::usb;
     use stm32f1xx_hal::{
         gpio::{ErasedPin, Input, Output, PullDown, PushPull},
         prelude::*,
-        serial::{Config, *}, timer::{CounterHz, Event, Timer},
+        rcc::{AdcPre, Config, HPre, UsbPre},
+        serial::*,
+        timer::{CounterHz, Event},
+        usb::{Peripheral, UsbBus, UsbBusType},
     };
+    use usb_device::{
+        bus::UsbBusAllocator,
+        device::{StringDescriptors, UsbDevice, UsbDeviceBuilder, UsbVidPid},
+    };
+    use usbd_serial::{SerialPort, USB_CLASS_CDC};
 
     use super::*;
 
@@ -39,20 +59,23 @@ mod app {
     struct Shared {
         duty_cycle: usize,
         matrix: Matrix<ErasedPin<Output<PushPull>>, ErasedPin<Input<PullDown>>, 5, 4>,
-        debouncer: Debouncer<[[bool; 5]; 4]>,
+        debouncer: Debouncer<[[bool; 4]; 5]>,
+        layout: Layout<10, 4, 1, ()>,
+        usb_dev: UsbDevice<'static, UsbBusType>,
+        serial: usbd_serial::SerialPort<'static, UsbBusType>,
     }
 
     #[local]
     struct Local {
         breath_cycle: usize,
-        timer1: stm32f1::stm32f103::TIM1,
-        timer2: stm32f1::stm32f103::TIM2,
-        timer3: CounterHz<TIM3>,
+        timer1: stm32f1xx_hal::pac::TIM1,
+        timer2: stm32f1xx_hal::pac::TIM2,
+        timer3: CounterHz<stm32f1xx_hal::pac::TIM3>,
         repetition: usize,
         breath_pattern: [(PwmBreathDuty, usize); 27],
     }
 
-    #[init]
+    #[init(local = [usb_bus: Option<usb_device::bus::UsbBusAllocator<UsbBusType>> = None])]
     fn init(c: init::Context) -> (Shared, Local) {
         // Enable HSE (External Oscillator)
         // c.device.RCC.cr.modify(|_, w| w.hseon().set_bit());
@@ -61,18 +84,43 @@ mod app {
         // Enable Peripheral clocks (TIM1, GPIOA and GPIOB)
         c.device
             .RCC
-            .apb2enr
+            .apb2enr()
             .write(|w| w.iopben().set_bit().tim1en().set_bit().iopaen().set_bit());
         // Enable Peripheral clock (TIM2)
-        c.device.RCC.apb1enr.write(|w| w.tim2en().set_bit());
+        c.device.RCC.apb1enr().write(|w| w.tim2en().set_bit());
 
         // Activate Timer output compare with PWM mode 1 (0b110)
         // Activate Channel 1 Output (0b00)
 
         let rcc = c.device.RCC.constrain();
-
         let mut flash = c.device.FLASH.constrain();
-        let clocks = rcc.cfgr.sysclk(8.MHz()).freeze(&mut flash.acr);
+        // let presc_config = Config::default();
+        // let presc_config = Config {
+        //     hse: None,
+        //     pllmul: Some(4),
+        //     hpre: HPre::Div1,
+        //     ppre1: stm32f1xx_hal::rcc::PPre::Div2,
+        //     ppre2: stm32f1xx_hal::rcc::PPre::Div1,
+        //     usbpre: UsbPre::Div1,
+        //     adcpre: AdcPre::Div2,
+        //     hse_bypass: false,
+        //     allow_overclock: false,
+        // };
+
+        let clocks = rcc
+            .cfgr
+            .use_hse(12.MHz())
+            .sysclk(72.MHz())
+            .pclk1(24.MHz())
+            .pclk2(48.MHz())
+            .freeze(&mut flash.acr);
+        //            .freeze_with_config(presc_config, &mut flash.acr);
+
+        if clocks.usbclk_valid() {
+            //            asm::bkpt();
+        }
+
+        // let clocks = rcc.cfgr.sysclk(8.MHz()).freeze(&mut flash.acr);
 
         // Manual PAC initialization of the PWM Complementary channel as a
         // workaround for the lack of it on the HAL
@@ -84,33 +132,33 @@ mod app {
         // Activate Main Output Enable (MOE) for CC1N
         c.device
             .TIM1
-            .bdtr
+            .bdtr()
             .write(|w| w.moe().set_bit().ossr().clear_bit());
 
         // Set a count of 1.25s (1/8MHz * 1000 * 10000 = 1.25s)
         let psc = 10;
         let cnt = 5000;
-        c.device.TIM1.psc.write(|w| w.psc().bits(psc));
-        c.device.TIM1.arr.write(|w| w.arr().bits(cnt));
-        c.device.TIM1.ccr1().write(|w| w.ccr().bits(0));
+        c.device.TIM1.psc().write(|w| unsafe { w.psc().bits(psc) });
+        c.device.TIM1.arr().write(|w| unsafe { w.arr().bits(cnt) });
+        c.device.TIM1.ccr1().write(|w| unsafe { w.ccr().bits(0) });
 
         // Activate the Timer (duh!)
-        c.device.TIM1.cr1.modify(|_, w| w.cen().set_bit());
+        c.device.TIM1.cr1().modify(|_, w| w.cen().set_bit());
 
         // Activate complementary output (CC1NE) and disable primary output (CC1E)
         c.device
             .TIM1
-            .ccer
+            .ccer()
             .write(|w| w.cc1ne().set_bit().cc1e().clear_bit());
 
         // Set TIM2 as a base counter for loop delay
-        c.device.TIM2.arr.write(|w| w.arr().bits(400));
-        c.device.TIM2.psc.write(|w| w.psc().bits(200));
+        c.device.TIM2.arr().write(|w| unsafe { w.arr().bits(400) });
+        c.device.TIM2.psc().write(|w| unsafe { w.psc().bits(200) });
 
         // Enable UF/OF interrupt flag
-        c.device.TIM2.dier.write(|w| w.uie().set_bit());
+        c.device.TIM2.dier().write(|w| w.uie().set_bit());
 
-        c.device.TIM2.cr1.write(|w| w.cen().set_bit());
+        c.device.TIM2.cr1().write(|w| w.cen().set_bit());
         // Finish PWM init
 
         // Set up the event tick timer
@@ -126,6 +174,36 @@ mod app {
 
         let mut gpa = c.device.GPIOA.split();
 
+        // USB device initialization
+        let mut usb_dp = gpa.pa12.into_push_pull_output(&mut gpa.crh);
+        // Startup pull down
+        usb_dp.set_low();
+        delay(clocks.sysclk().raw() / 100);
+
+        let usb_dm = gpa.pa11;
+        //let usb_dm = usb_dm.into_floating_input(&mut gpa.crh);
+
+        let usb = Peripheral {
+            usb: c.device.USB,
+            pin_dm: usb_dm,
+            pin_dp: usb_dp.into_floating_input(&mut gpa.crh),
+        };
+
+        c.local.usb_bus.replace(UsbBus::new(usb));
+        let usb_bus = c.local.usb_bus.as_ref().unwrap();
+        let _serial = usbd_serial::SerialPort::new(usb_bus);
+
+        // 0x16c0 0x27dd
+        let _usb_dev = UsbDeviceBuilder::new(usb_bus, UsbVidPid(0x16c0, 0x27dd))
+            .device_class(usbd_serial::USB_CLASS_CDC)
+            .strings(&[StringDescriptors::default()
+                .manufacturer("Fake Company")
+                .product("Serial port")
+                .serial_number("TEST")])
+            .unwrap()
+            .build();
+
+
         // Initialize I2C for OLED
         let _scl = gpa.pa13;
         let _sda = gpa.pa14;
@@ -134,13 +212,12 @@ mod app {
         let tx = gpa.pa9.into_alternate_push_pull(&mut gpa.crh);
         let rx = gpa.pa10;
 
-        let mut afio = c.device.AFIO.constrain();
+        let afio = c.device.AFIO.constrain();
 
-        let mut serial = Serial::new(
+        let serial = Serial::new(
             c.device.USART1,
             (tx, rx),
-            &mut afio.mapr,
-            Config::default()
+            stm32f1xx_hal::serial::Config::default()
                 .baudrate(9600.bps())
                 .wordlength_9bits()
                 .parity_none(),
@@ -165,7 +242,7 @@ mod app {
             ],
         );
 
-        let debnc = Debouncer::new([[false; 5]; 4], [[false; 5]; 4], 5);
+        let debnc = Debouncer::new([[false; 4]; 5], [[false; 4]; 5], 5);
 
         let bp = [
             (PwmBreathDuty::MAX, 70),
@@ -202,6 +279,9 @@ mod app {
                 duty_cycle: 0,
                 matrix: kmat.unwrap(),
                 debouncer: debnc,
+                layout: Layout::new(&crate::LAYERS),
+                serial: _serial,
+                usb_dev: _usb_dev,
             },
             Local {
                 breath_cycle: 0,
@@ -215,13 +295,68 @@ mod app {
     }
 
     #[idle]
-    fn idle(_: idle::Context) -> ! {
+    fn idle(mut c: idle::Context) -> ! {
         loop {}
     }
 
+    #[task(binds = USB_HP_CAN_TX, shared = [usb_dev, serial])]
+    fn usb_tx(cx: usb_tx::Context) {
+        let mut usb_dev = cx.shared.usb_dev;
+        let mut serial = cx.shared.serial;
+
+        (&mut usb_dev, &mut serial).lock(|usb_dev, serial| {
+            usb_poll(usb_dev, serial);
+        });
+    }
+
+    #[task(binds = USB_LP_CAN_RX0, shared = [usb_dev, serial])]
+    fn usb_rx0(cx: usb_rx0::Context) {
+        let mut usb_dev = cx.shared.usb_dev;
+        let mut serial = cx.shared.serial;
+
+        (&mut usb_dev, &mut serial).lock(|usb_dev, serial| {
+            usb_poll(usb_dev, serial);
+        });
+    }
+
+    fn usb_poll<B: usb_device::bus::UsbBus>(
+        usb_dev: &mut usb_device::prelude::UsbDevice<'static, B>,
+        serial: &mut usbd_serial::SerialPort<'static, B>,
+    ) {
+        if !usb_dev.poll(&mut [serial]) {
+            return;
+        }
+
+        let mut buf = [0u8; 8];
+
+        match serial.read(&mut buf) {
+            Ok(count) if count > 0 => {
+                // Echo back in upper case
+                for c in buf[0..count].iter_mut() {
+                    if 0x61 <= *c && *c <= 0x7a {
+                        *c &= !0x20;
+                    }
+                }
+
+                serial.write(&buf[0..count]).ok();
+            }
+            _ => {}
+        }
+    }
     #[task(binds = TIM3,
-           shared = [matrix, debouncer])]
+           shared = [matrix, debouncer, layout],
+           local = [timer3])]
     fn kbtick(mut c: kbtick::Context) {
+        c.shared.debouncer.lock(|d| {
+            c.shared.matrix.lock(|m| {
+                for event in d.events(m.get().unwrap()) {
+                    // TODO
+                    c.shared.layout.lock(|l| {
+                        l.event(event);
+                    });
+                }
+            });
+        });
     }
 
     #[task(binds = TIM2,
@@ -243,9 +378,12 @@ mod app {
         let dc = c.shared.duty_cycle.lock(|dc| *dc);
 
         // Set the new duty cycle
-        c.local.timer1.ccr1().write(|w| w.ccr().bits(dc as u16));
+        c.local
+            .timer1
+            .ccr1()
+            .write(|w| unsafe { w.ccr().bits(dc as u16) });
 
         // Clean the timer 2 interrupt flag
-        c.local.timer2.sr.write(|w| w.uif().clear_bit());
+        c.local.timer2.sr().write(|w| w.uif().clear_bit());
     }
 }
