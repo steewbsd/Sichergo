@@ -56,7 +56,7 @@ mod app {
     struct Shared {
         duty_cycle: usize,
         matrix: Matrix<ErasedPin<Output<PushPull>>, ErasedPin<Input<PullDown>>, 5, 4>,
-        debouncer: Debouncer<[[bool; 4]; 5]>,
+        debouncer: Debouncer<[[bool; 5]; 4]>,
         layout: Layout<10, 4, 1, ()>,
         usb_dev: KUsbDevice,
         usb_class: KUsbClass,
@@ -245,7 +245,7 @@ mod app {
             ],
         );
 
-        let debnc = Debouncer::new([[false; 4]; 5], [[false; 4]; 5], 5);
+        let debnc = Debouncer::new([[false; 5]; 4], [[false; 5]; 4], 5);
 
         let bp = [
             (PwmBreathDuty::MAX, 70),
@@ -319,7 +319,6 @@ mod app {
     fn kbtick(mut c: kbtick::Context) {
         (c.shared.debouncer, c.shared.matrix, c.shared.layout, c.shared.usb_class).lock(|d, m, l, k| {
             for event in d.events(m.get().unwrap()) {
-                // TODO
                 l.event(event);
             }
             // Tick the layout

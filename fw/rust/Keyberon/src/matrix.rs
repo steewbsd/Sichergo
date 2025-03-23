@@ -56,19 +56,19 @@ where
     /// Scans the pins and checks which keys are pressed (state is "high").
     ///
     /// Delay function allows pause to let input pins settle
-    pub fn get_with_delay<F: FnMut(), E>(&mut self, mut delay: F) -> Result<[[bool; RS]; CS], E>
+    pub fn get_with_delay<F: FnMut(), E>(&mut self, mut delay: F) -> Result<[[bool; CS]; RS], E>
     where
         C: OutputPin<Error = E>,
         R: InputPin<Error = E>,
     {
-        let mut keys = [[false; RS]; CS];
+        let mut keys = [[false; CS]; RS];
 
         for (ci, col) in self.cols.iter_mut().enumerate() {
             col.set_high()?;
             delay();
             for (ri, row) in self.rows.iter_mut().enumerate() {
                 if row.is_high()? {
-                    keys[ci][ri] = true;
+                    keys[ri][ci] = true;
                 }
             }
             col.set_low()?;
@@ -81,7 +81,7 @@ where
     /// Every row pin in order is pulled low, and then each column
     /// pin is tested; if it's low, the key is marked as pressed.
     /// Scans the pins and checks which keys are pressed (state is "low").
-    pub fn get<E>(&mut self) -> Result<[[bool; RS]; CS], E>
+    pub fn get<E>(&mut self) -> Result<[[bool; CS]; RS], E>
     where
         C: OutputPin<Error = E>,
         R: InputPin<Error = E>,
@@ -118,17 +118,17 @@ where
     }
 
     /// Scans the pins and checks which keys are pressed (state is "low").
-    pub fn get<E>(&mut self) -> Result<[[bool; RS]; CS], E>
+    pub fn get<E>(&mut self) -> Result<[[bool; CS]; RS], E>
     where
         P: InputPin<Error = E>,
     {
-        let mut keys = [[false; RS]; CS];
+        let mut keys = [[false; CS]; RS];
 
         for (ci, col) in self.pins.iter_mut().enumerate() {
             for (ri, row_option) in col.iter_mut().enumerate() {
                 if let Some(row) = row_option {
                     if row.is_high()? {
-                        keys[ci][ri] = true;
+                        keys[ri][ci] = true;
                     }
                 }
             }
