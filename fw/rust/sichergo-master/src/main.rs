@@ -25,13 +25,19 @@ use ssd1306::*;
 type KUsbClass = keyberon::Class<'static, UsbBusType, ()>;
 type KUsbDevice = usb_device::device::UsbDevice<'static, UsbBusType>;
 
-pub static LAYERS: keyberon::layout::Layers<10, 4, 1, ()> = keyberon::layout::layout! {
+pub static LAYERS: keyberon::layout::Layers<10, 4, 2, ()> = keyberon::layout::layout! {
     { //[+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+],
         [Q       W       E       R       T       Y       U       I       O       P],
         [A       S       D       F       G       H       J       K       L       Enter],
         [Z       X       C       V       B       N       M       ,       .       -],
-        [n       n    LShift     n     Space   BSpace   RCtrl    RAlt     n       n],
+        [n       n    LShift    (1)    Space   BSpace   RCtrl    LAlt     n       n],
     }
+    {//[+· ···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+··· ···+],
+        [1        2       3       4       5       6       7       8       9       n ],
+        [LGui    LAlt    LCtrl  LShift    n       n    RShift   RCtrl   LAlt    RGui],
+        [F11     F12      n       n       n       n       n       n       n       n  ],
+        [ n       t       n       t       n       n       t       t       t       n  ],
+    } 
 };
 
 #[derive(Clone, Copy)]
@@ -52,14 +58,19 @@ enum PwmBreathDuty {
     MIN = 5000,
 }
 
-#[rtic::app(device = stm32f1xx_hal::pac, peripherals = true)]
+#[rtic::app(device = stm32f1xx_hal::pac, peripherals = true, dispatchers = [FSMC])]
 mod app {
 
+    use core::{fmt::Write};
+
     use command::AddrMode;
-    use keyberon::key_code::KbHidReport;
+    use heapless::String;
+    use keyberon::{key_code::KbHidReport};
+    use mode::BufferedGraphicsMode;
+    use prelude::I2CInterface;
     use size::DisplaySize128x64;
     use stm32f1xx_hal::{
-        i2c::{DutyCycle, Mode},
+        i2c::{BlockingI2c, DutyCycle, Mode},
         serial,
     };
     use usb_device::class::UsbClass;
@@ -71,7 +82,7 @@ mod app {
         duty_cycle: usize,
         matrix: Matrix<ErasedPin<Output<PushPull>>, ErasedPin<Input<PullDown>>, 5, 4>,
         debouncer: Debouncer<[[bool; 5]; 4]>,
-        layout: Layout<10, 4, 1, ()>,
+        layout: Layout<10, 4, 2, ()>,
         usb_dev: KUsbDevice,
         usb_class: KUsbClass,
         serial: usbd_serial::SerialPort<'static, UsbBusType>,
@@ -87,6 +98,13 @@ mod app {
         breath_pattern: [(PwmBreathDuty, usize); 27],
         rx: serial::Rx<stm32f1xx_hal::pac::USART1>,
         buf: [u8; 4],
+        display: Option<
+            Ssd1306<
+                I2CInterface<BlockingI2c<stm32f1xx_hal::pac::I2C1>>,
+                DisplaySize128x64,
+                BufferedGraphicsMode<DisplaySize128x64>,
+            >,
+        >,
     }
 
     #[init(local = [usb_bus: Option<usb_device::bus::UsbBusAllocator<UsbBusType>> = None])]
@@ -254,22 +272,32 @@ mod app {
         )
         .into_buffered_graphics_mode();
 
+        let text_style = MonoTextStyleBuilder::new()
+            .font(&FONT_6X10)
+            .text_color(BinaryColor::On)
+            .build();
+
+        let mut opt_display: Option<
+            Ssd1306<
+                I2CInterface<BlockingI2c<stm32f1xx_hal::pac::I2C1>>,
+                DisplaySize128x64,
+                BufferedGraphicsMode<DisplaySize128x64>,
+            >,
+        > = None;
+
         // Display starting text only if init succesful
         let init_ok = display.init_with_addr_mode(AddrMode::Horizontal);
         match init_ok {
             Ok(_) => {
                 display.flush().unwrap();
+                display.clear_buffer();
 
-                let text_style = MonoTextStyleBuilder::new()
-                    .font(&FONT_6X10)
-                    .text_color(BinaryColor::On)
-                    .build();
-
-                Text::with_baseline("Hello world!", Point::zero(), text_style, Baseline::Top)
+                Text::with_baseline("By Daniel :)", Point::zero(), text_style, Baseline::Top)
                     .draw(&mut display)
                     .unwrap();
 
                 display.flush().unwrap();
+                opt_display = Some(display);                
             }
             Err(_) => {}
         }
@@ -359,12 +387,13 @@ mod app {
                 breath_pattern: bp,
                 rx: _rx.rx,
                 buf: [0; 4],
+                display: opt_display,
             },
         )
     }
 
     #[idle(shared = [serial])]
-    fn idle(c: idle::Context) -> ! {
+    fn idle(_c: idle::Context) -> ! {
         loop {}
     }
 
@@ -402,6 +431,28 @@ mod app {
         }
     }
 
+    #[task(priority = 2, local = [display], shared = [duty_cycle])]
+    async fn oled_info_set(mut c: oled_info_set::Context) {
+        
+        let text_style = MonoTextStyleBuilder::new()
+            .font(&FONT_6X10)
+            .text_color(BinaryColor::On)
+            .build();
+
+        c.local.display.as_mut().unwrap().flush().unwrap();
+        c.local.display.as_mut().unwrap().clear_buffer();
+
+        c.shared.duty_cycle.lock(|dc| {
+            let mut buffer: String<8> = String::new(); // Buffer for text (max 8 chars)
+            buffer.write_fmt(format_args!("{dc}")).unwrap();
+            Text::with_baseline(buffer.as_str(), Point::zero(), text_style, Baseline::Top)
+                .draw(c.local.display.as_mut().unwrap())
+                .unwrap();
+        });
+        c.local.display.as_mut().unwrap().flush().unwrap();
+
+    }
+
     #[task(binds = TIM3,
            shared = [matrix, debouncer, layout, usb_class],
            local = [timer3])]
@@ -420,6 +471,8 @@ mod app {
                 l.tick();
                 let report: KbHidReport = l.keycodes().collect();
                 k.device_mut().set_keyboard_report(report.clone());
+                // Spawn after setting report for LED state
+                // oled_info_set::spawn().unwrap();
 
                 unsafe { k.write(report.as_bytes()).unwrap_unchecked() };
             });
