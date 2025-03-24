@@ -14,15 +14,23 @@ use stm32f1xx_hal::{
     usb::{Peripheral, UsbBus, UsbBusType},
 };
 
+use embedded_graphics::{
+    mono_font::{ascii::FONT_6X10, MonoTextStyleBuilder},
+    pixelcolor::BinaryColor,
+    prelude::*,
+    text::{Baseline, Text},
+};
+use ssd1306::*;
+
 type KUsbClass = keyberon::Class<'static, UsbBusType, ()>;
 type KUsbDevice = usb_device::device::UsbDevice<'static, UsbBusType>;
 
 pub static LAYERS: keyberon::layout::Layers<10, 4, 1, ()> = keyberon::layout::layout! {
     { //[+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+],
         [Q       W       E       R       T       Y       U       I       O       P],
-        [A       S       D       F       G       H       J       K       L       -],
-        [Z       X       C       V       B       N       M       ,       .       /],
-        [n       n    LShift   Space     n       n   RShift    RAlt     n       n],
+        [A       S       D       F       G       H       J       K       L       Enter],
+        [Z       X       C       V       B       N       M       ,       .       -],
+        [n       n    LShift     n     Space   BSpace   RCtrl    RAlt     n       n],
     }
 };
 
@@ -47,7 +55,13 @@ enum PwmBreathDuty {
 #[rtic::app(device = stm32f1xx_hal::pac, peripherals = true)]
 mod app {
 
+    use command::AddrMode;
     use keyberon::key_code::KbHidReport;
+    use size::DisplaySize128x64;
+    use stm32f1xx_hal::{
+        i2c::{DutyCycle, Mode},
+        serial,
+    };
     use usb_device::class::UsbClass;
 
     use super::*;
@@ -71,10 +85,12 @@ mod app {
         timer3: CounterHz<stm32f1xx_hal::pac::TIM3>,
         repetition: usize,
         breath_pattern: [(PwmBreathDuty, usize); 27],
+        rx: serial::Rx<stm32f1xx_hal::pac::USART1>,
+        buf: [u8; 4],
     }
 
     #[init(local = [usb_bus: Option<usb_device::bus::UsbBusAllocator<UsbBusType>> = None])]
-    fn init(c: init::Context) -> (Shared, Local) {
+    fn init(mut c: init::Context) -> (Shared, Local) {
         // Enable HSE (External Oscillator)
         // c.device.RCC.cr.modify(|_, w| w.hseon().set_bit());
         // while c.device.RCC.cr.read().hserdy().bit_is_clear() {}
@@ -133,6 +149,12 @@ mod app {
             .bdtr()
             .write(|w| w.moe().set_bit().ossr().clear_bit());
 
+        // Activate complementary output (CC1NE) and disable primary output (CC1E)
+        c.device
+            .TIM1
+            .ccer()
+            .write(|w| w.cc1ne().set_bit().cc1e().clear_bit());
+
         // Set a count of 1.25s (1/8MHz * 1000 * 10000 = 1.25s)
         let psc = 10;
         let cnt = 5000;
@@ -142,12 +164,6 @@ mod app {
 
         // Activate the Timer (duh!)
         c.device.TIM1.cr1().modify(|_, w| w.cen().set_bit());
-
-        // Activate complementary output (CC1NE) and disable primary output (CC1E)
-        c.device
-            .TIM1
-            .ccer()
-            .write(|w| w.cc1ne().set_bit().cc1e().clear_bit());
 
         // Set TIM2 as a base counter for loop delay
         c.device.TIM2.arr().write(|w| unsafe { w.arr().bits(1750) });
@@ -191,10 +207,9 @@ mod app {
         let usb_bus = c.local.usb_bus.as_ref().unwrap();
 
         let _serial = usbd_serial::SerialPort::new(usb_bus);
-        
+
         let _usb_class = keyberon::new_class(usb_bus, ());
         let _usb_dev = keyberon::new_device(usb_bus);
-
 
         // // 0x16c0 0x27dd
         // let _usb_dev = UsbDeviceBuilder::new(usb_bus, UsbVidPid(0x16c0, 0x27dd))
@@ -206,18 +221,64 @@ mod app {
         //     .unwrap()
         //     .build();
 
-
         // Initialize I2C for OLED
-        let _scl = gpa.pa13;
-        let _sda = gpa.pa14;
+        //        let mut afio = c.device.AFIO.constrain();
+        c.core.DCB.enable_trace();
+        c.core.DWT.enable_cycle_counter();
+
+        let _scl = gpb.pb6.into_alternate_open_drain(&mut gpb.crl);
+        let _sda = gpb.pb7.into_alternate_open_drain(&mut gpb.crl);
+
+        let i2c = c
+            .device
+            .I2C1
+            //.remap(&mut afio.mapr) // add this if want to use PB8, PB9 instead
+            .blocking_i2c(
+                (_scl, _sda),
+                Mode::Fast {
+                    frequency: 400.kHz(),
+                    duty_cycle: DutyCycle::Ratio16to9,
+                },
+                &clocks,
+                1000,
+                10,
+                1000,
+                1000,
+            );
+
+        let interface = I2CDisplayInterface::new(i2c);
+        let mut display = Ssd1306::new(
+            interface,
+            DisplaySize128x64,
+            prelude::DisplayRotation::Rotate180,
+        )
+        .into_buffered_graphics_mode();
+
+        // Display starting text only if init succesful
+        let init_ok = display.init_with_addr_mode(AddrMode::Horizontal);
+        match init_ok {
+            Ok(_) => {
+                display.flush().unwrap();
+
+                let text_style = MonoTextStyleBuilder::new()
+                    .font(&FONT_6X10)
+                    .text_color(BinaryColor::On)
+                    .build();
+
+                Text::with_baseline("Hello world!", Point::zero(), text_style, Baseline::Top)
+                    .draw(&mut display)
+                    .unwrap();
+
+                display.flush().unwrap();
+            }
+            Err(_) => {}
+        }
 
         // Initialize UART pins
         let tx = gpa.pa9.into_alternate_push_pull(&mut gpa.crh);
         let rx = gpa.pa10;
 
-        let afio = c.device.AFIO.constrain();
-
-        let serial = Serial::new(
+        let mut _rx = Serial::new(
             c.device.USART1,
             (tx, rx),
             stm32f1xx_hal::serial::Config::default()
@@ -226,6 +287,8 @@ mod app {
                 .parity_none(),
             &clocks,
         );
+
+        _rx.listen(serial::Event::Rxne);
 
         // serial.tx.write_str("Initialized device\n").unwrap();
 
@@ -294,14 +357,15 @@ mod app {
                 timer3: tick_timer,
                 repetition: 0,
                 breath_pattern: bp,
+                rx: _rx.rx,
+                buf: [0; 4],
             },
         )
     }
 
     #[idle(shared = [serial])]
-    fn idle(mut c: idle::Context) -> ! {
-        loop {
-        }
+    fn idle(c: idle::Context) -> ! {
+        loop {}
     }
 
     #[task(binds = USB_LP_CAN_RX0, shared = [usb_dev, usb_class])]
@@ -313,23 +377,52 @@ mod app {
         });
     }
 
+    #[task(binds = USART1, priority = 4, local = [rx, buf], shared = [layout])]
+    fn rx(mut c: rx::Context) {
+        if let Ok(b) = c.local.rx.read() {
+            c.local.buf.rotate_left(1);
+            c.local.buf[3] = b;
+
+            if c.local.buf[3] == b'\n' {
+                if let Ok(event) = de(&c.local.buf[..]) {
+                    c.shared.layout.lock(|e| {
+                        e.event(event);
+                        e.tick();
+                    });
+                }
+            }
+        }
+    }
+
+    fn de(bytes: &[u8]) -> Result<keyberon::layout::Event, ()> {
+        match *bytes {
+            [b'P', i, j, b'\n'] => Ok(keyberon::layout::Event::Press(i, j)),
+            [b'R', i, j, b'\n'] => Ok(keyberon::layout::Event::Release(i, j)),
+            _ => Err(()),
+        }
+    }
+
     #[task(binds = TIM3,
            shared = [matrix, debouncer, layout, usb_class],
            local = [timer3])]
-    fn kbtick(mut c: kbtick::Context) {
-        (c.shared.debouncer, c.shared.matrix, c.shared.layout, c.shared.usb_class).lock(|d, m, l, k| {
-            for event in d.events(m.get().unwrap()) {
-                l.event(event);
-            }
-            // Tick the layout
-            l.tick();
-            let report: KbHidReport = l.keycodes().collect();
-            k.device_mut().set_keyboard_report(report.clone());
+    fn kbtick(c: kbtick::Context) {
+        (
+            c.shared.debouncer,
+            c.shared.matrix,
+            c.shared.layout,
+            c.shared.usb_class,
+        )
+            .lock(|d, m, l, k| {
+                for event in d.events(m.get().unwrap()) {
+                    l.event(event);
+                }
+                // Tick the layout
+                l.tick();
+                let report: KbHidReport = l.keycodes().collect();
+                k.device_mut().set_keyboard_report(report.clone());
 
-            unsafe {k.write(report.as_bytes()).unwrap_unchecked()};
-        }
-        );
-        
+                unsafe { k.write(report.as_bytes()).unwrap_unchecked() };
+            });
     }
 
     #[task(binds = TIM2,
