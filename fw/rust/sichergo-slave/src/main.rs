@@ -58,16 +58,18 @@ mod app {
         debouncer: Debouncer<[[bool; 5]; 4]>,
         layout: Layout<10, 4, 1, ()>,
         serial: Serial<stm32f1xx_hal::pac::USART1>,
+        timer1: stm32f1xx_hal::pac::TIM1,
+        pressed: bool,        
     }
 
     #[local]
     struct Local {
         breath_cycle: usize,
-        timer1: stm32f1xx_hal::pac::TIM1,
         timer2: stm32f1xx_hal::pac::TIM2,
         timer3: CounterHz<stm32f1xx_hal::pac::TIM3>,
         repetition: usize,
         breath_pattern: [(PwmBreathDuty, usize); 27],
+        sequencing: bool,        
     }
 
     #[init]
@@ -138,9 +140,6 @@ mod app {
         c.device.TIM1.arr().write(|w| unsafe { w.arr().bits(cnt) });
         c.device.TIM1.ccr1().write(|w| unsafe { w.ccr().bits(0) });
 
-        // Activate the Timer (duh!)
-        c.device.TIM1.cr1().modify(|_, w| w.cen().set_bit());
-
 
         // Set TIM2 as a base counter for loop delay
         c.device.TIM2.arr().write(|w| unsafe { w.arr().bits(1750) });
@@ -174,7 +173,7 @@ mod app {
         let rx = gpa.pa10;
 
 
-        let _serial = Serial::new(
+        let mut _serial = Serial::new(
             c.device.USART1,
             (tx, rx),
             stm32f1xx_hal::serial::Config::default()
@@ -183,8 +182,6 @@ mod app {
                 .parity_none(),
             &clocks,
         );
-
-        // serial.tx.write_str("Initialized device\n").unwrap();
 
         let kmat = keyberon::matrix::Matrix::new(
             [
@@ -234,6 +231,13 @@ mod app {
             (PwmBreathDuty::MAX, 70),
         ];
 
+        // Start LEDs last for sync
+        
+        _serial.tx.write_u8(0b10101010).unwrap();
+        // Activate the Timer (duh!)
+        c.device.TIM1.cr1().modify(|_, w| w.cen().set_bit());
+
+
         (
             Shared {
                 duty_cycle: 0,
@@ -241,14 +245,16 @@ mod app {
                 debouncer: debnc,
                 layout: Layout::new(&crate::LAYERS),
                 serial: _serial,
+                timer1: c.device.TIM1,
+                pressed: false,
             },
             Local {
                 breath_cycle: 0,
-                timer1: c.device.TIM1,
                 timer2: c.device.TIM2,
                 timer3: tick_timer,
                 repetition: 0,
                 breath_pattern: bp,
+                sequencing: false,
             },
         )
     }
@@ -267,14 +273,18 @@ mod app {
     }
 
     #[task(binds = TIM3,
-           shared = [matrix, debouncer, layout, serial],
+           shared = [matrix, debouncer, layout, serial, pressed],
            local = [timer3])]
     fn kbtick(mut c: kbtick::Context) {
         (c.shared.debouncer, c.shared.matrix, c.shared.layout).lock(|d, m, l| {
             for event in d.events(m.get().unwrap()) {
-                // l.event(event);
+                l.event(event);
                 for ev in &ser(event) {
                     c.shared.serial.lock(|s| { unsafe {block!(s.write(*ev)).unwrap_unchecked()}});
+                }
+                l.tick();
+                if m.get().iter().any(|row| row.iter().any(|&value| value.iter().any(|&v| v))) {
+                    c.shared.pressed.lock(|p| {*p = true});                    
                 }
             }
         }
@@ -283,30 +293,48 @@ mod app {
     }
 
     #[task(binds = TIM2,
-           local = [breath_cycle, repetition, breath_pattern, timer1, timer2],
-           shared = [duty_cycle])]
+           local = [breath_cycle, repetition, breath_pattern, sequencing,
+                    timer2],
+           shared = [duty_cycle, timer1, pressed])]
     fn gate_drive(mut c: gate_drive::Context) {
         let current = c.local.breath_pattern[*c.local.breath_cycle];
 
         // Iterate over breathing pattern
-        if *c.local.repetition < current.1 {
-            *c.local.repetition += 1;
-        } else {
-            *c.local.breath_cycle = (*c.local.breath_cycle + 1) % c.local.breath_pattern.len();
-            *c.local.repetition = 0;
+        c.shared.pressed.lock(|p|  {
+            if *p {
+                *c.local.sequencing = true;
+                *c.local.breath_cycle = 0;
+                *c.local.repetition = 0;
+                *p = false; 
+            }
+        });
+        if *c.local.sequencing {
+            if *c.local.repetition < current.1 {
+                *c.local.repetition += 1;
+            } else {
+                *c.local.breath_cycle = *c.local.breath_cycle + 1;
+                if *c.local.breath_cycle == c.local.breath_pattern.len() {
+                    *c.local.sequencing = false;
+                    *c.local.breath_cycle = 0;
+                    *c.local.repetition = 0;
+                    return;
+                }
+                *c.local.repetition = 0;
+            }
+            c.shared.duty_cycle.lock(|v| *v = current.0 as usize);
+
+            // Lock and read the current dutycycle value
+            let dc = c.shared.duty_cycle.lock(|dc| *dc);
+
+            // Set the new duty cycle
+            c.shared
+                .timer1.lock(|timer1| {
+                    timer1.ccr1()
+                        .write(|w| unsafe { w.ccr().bits(dc as u16) })
+                });
+
+            // Clean the timer 2 interrupt flag
+            c.local.timer2.sr().write(|w| w.uif().clear_bit());
         }
-        c.shared.duty_cycle.lock(|v| *v = current.0 as usize);
-
-        // Lock and read the current dutycycle value
-        let dc = c.shared.duty_cycle.lock(|dc| *dc);
-
-        // Set the new duty cycle
-        c.local
-            .timer1
-            .ccr1()
-            .write(|w| unsafe { w.ccr().bits(dc as u16) });
-
-        // Clean the timer 2 interrupt flag
-        c.local.timer2.sr().write(|w| w.uif().clear_bit());
     }
 }

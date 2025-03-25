@@ -25,18 +25,33 @@ use ssd1306::*;
 type KUsbClass = keyberon::Class<'static, UsbBusType, ()>;
 type KUsbDevice = usb_device::device::UsbDevice<'static, UsbBusType>;
 
+// pub static LAYERS: keyberon::layout::Layers<10, 4, 2, ()> = keyberon::layout::layout! {
+//     { //[+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+],
+//         [Q       W       E       R       T       Y       U       I       O       P],
+//         [A       S       D       F       G       H       J       K       L       Enter],
+//         [Z       X       C       V       B       N       M       ,       .       KpMinus],
+//         [n       n    LShift    (1)    Space   BSpace   RCtrl    LAlt     n       n],
+//     }
+//     {//[+· ···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+··· ···+],
+//         [1        2       3       4       5       6       7       8       9       KpMinus ],
+//         [Tab    LAlt    LCtrl     Kb9     n       n       4       5       6       KpPlus],
+//         [F11     F12      n       n       n       n       1       2       3       Enter  ],
+//         [ n       t       n       t       n       Escape       0       Down       Right       n  ],
+//     } 
+// };
+
 pub static LAYERS: keyberon::layout::Layers<10, 4, 2, ()> = keyberon::layout::layout! {
     { //[+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+],
         [Q       W       E       R       T       Y       U       I       O       P],
         [A       S       D       F       G       H       J       K       L       Enter],
-        [Z       X       C       V       B       N       M       ,       .       -],
+        [Z       X       C       V       B       N       M       ,       .       KpMinus],
         [n       n    LShift    (1)    Space   BSpace   RCtrl    LAlt     n       n],
     }
     {//[+· ···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+··· ···+],
-        [1        2       3       4       5       6       7       8       9       n ],
-        [LGui    LAlt    LCtrl  LShift    n       n    RShift   RCtrl   LAlt    RGui],
-        [F11     F12      n       n       n       n       n       n       n       n  ],
-        [ n       t       n       t       n       n       t       t       t       n  ],
+        [1        2       3       4       5       6       7       8       9       KpMinus ],
+        [Tab    LAlt    LCtrl     Kb9     n       n       4       5       6       KpPlus],
+        [F11     F12      n       n       n       n       1       2       3       Enter  ],
+        [ n       t       n       t       n       Escape       0       Down       Right       n  ],
     } 
 };
 
@@ -86,18 +101,20 @@ mod app {
         usb_dev: KUsbDevice,
         usb_class: KUsbClass,
         serial: usbd_serial::SerialPort<'static, UsbBusType>,
+        timer1: stm32f1xx_hal::pac::TIM1,
+        pressed: bool,
     }
 
     #[local]
     struct Local {
         breath_cycle: usize,
-        timer1: stm32f1xx_hal::pac::TIM1,
         timer2: stm32f1xx_hal::pac::TIM2,
         timer3: CounterHz<stm32f1xx_hal::pac::TIM3>,
         repetition: usize,
         breath_pattern: [(PwmBreathDuty, usize); 27],
         rx: serial::Rx<stm32f1xx_hal::pac::USART1>,
         buf: [u8; 4],
+        sequencing: bool,
         display: Option<
             Ssd1306<
                 I2CInterface<BlockingI2c<stm32f1xx_hal::pac::I2C1>>,
@@ -377,10 +394,11 @@ mod app {
                 serial: _serial,
                 usb_dev: _usb_dev,
                 usb_class: _usb_class,
+                timer1: c.device.TIM1,
+                pressed: false,
             },
             Local {
                 breath_cycle: 0,
-                timer1: c.device.TIM1,
                 timer2: c.device.TIM2,
                 timer3: tick_timer,
                 repetition: 0,
@@ -388,6 +406,7 @@ mod app {
                 rx: _rx.rx,
                 buf: [0; 4],
                 display: opt_display,
+                sequencing: false,
             },
         )
     }
@@ -406,9 +425,15 @@ mod app {
         });
     }
 
-    #[task(binds = USART1, priority = 4, local = [rx, buf], shared = [layout])]
+    #[task(binds = USART1, priority = 4, local = [rx, buf], shared = [layout, timer1])]
     fn rx(mut c: rx::Context) {
         if let Ok(b) = c.local.rx.read() {
+            // Enable LEDs after sync
+            if b == 0b10101010 {
+                c.shared.timer1.lock(|timer1| {
+                    timer1.cr1().modify(|_, w| w.cen().set_bit());
+                });
+            }
             c.local.buf.rotate_left(1);
             c.local.buf[3] = b;
 
@@ -454,9 +479,9 @@ mod app {
     }
 
     #[task(binds = TIM3,
-           shared = [matrix, debouncer, layout, usb_class],
+           shared = [matrix, debouncer, layout, usb_class, pressed],
            local = [timer3])]
-    fn kbtick(c: kbtick::Context) {
+    fn kbtick(mut c: kbtick::Context) {
         (
             c.shared.debouncer,
             c.shared.matrix,
@@ -466,9 +491,13 @@ mod app {
             .lock(|d, m, l, k| {
                 for event in d.events(m.get().unwrap()) {
                     l.event(event);
-                }
+                };
                 // Tick the layout
                 l.tick();
+                if m.get().iter().any(|row| row.iter().any(|&value| value.iter().any(|&v| v))) {
+                    c.shared.pressed.lock(|p| {*p = true});                    
+                }
+
                 let report: KbHidReport = l.keycodes().collect();
                 k.device_mut().set_keyboard_report(report.clone());
                 // Spawn after setting report for LED state
@@ -479,30 +508,48 @@ mod app {
     }
 
     #[task(binds = TIM2,
-           local = [breath_cycle, repetition, breath_pattern, timer1, timer2],
-           shared = [duty_cycle])]
+           local = [breath_cycle, repetition, breath_pattern, sequencing,
+                    timer2],
+           shared = [duty_cycle, timer1, pressed])]
     fn gate_drive(mut c: gate_drive::Context) {
         let current = c.local.breath_pattern[*c.local.breath_cycle];
 
         // Iterate over breathing pattern
-        if *c.local.repetition < current.1 {
-            *c.local.repetition += 1;
-        } else {
-            *c.local.breath_cycle = (*c.local.breath_cycle + 1) % c.local.breath_pattern.len();
-            *c.local.repetition = 0;
+        c.shared.pressed.lock(|p|  {
+            if *p {
+                *c.local.sequencing = true;
+                *c.local.breath_cycle = 0;
+                *c.local.repetition = 0;
+                *p = false; 
+            }
+        });
+        if *c.local.sequencing {
+            if *c.local.repetition < current.1 {
+                *c.local.repetition += 1;
+            } else {
+                *c.local.breath_cycle = *c.local.breath_cycle + 1;
+                if *c.local.breath_cycle == c.local.breath_pattern.len() {
+                    *c.local.sequencing = false;
+                    *c.local.breath_cycle = 0;
+                    *c.local.repetition = 0;
+                    return;
+                }
+                *c.local.repetition = 0;
+            }
+            c.shared.duty_cycle.lock(|v| *v = current.0 as usize);
+
+            // Lock and read the current dutycycle value
+            let dc = c.shared.duty_cycle.lock(|dc| *dc);
+
+            // Set the new duty cycle
+            c.shared
+                .timer1.lock(|timer1| {
+                    timer1.ccr1()
+                        .write(|w| unsafe { w.ccr().bits(dc as u16) })
+                });
+
+            // Clean the timer 2 interrupt flag
+            c.local.timer2.sr().write(|w| w.uif().clear_bit());
         }
-        c.shared.duty_cycle.lock(|v| *v = current.0 as usize);
-
-        // Lock and read the current dutycycle value
-        let dc = c.shared.duty_cycle.lock(|dc| *dc);
-
-        // Set the new duty cycle
-        c.local
-            .timer1
-            .ccr1()
-            .write(|w| unsafe { w.ccr().bits(dc as u16) });
-
-        // Clean the timer 2 interrupt flag
-        c.local.timer2.sr().write(|w| w.uif().clear_bit());
     }
 }
