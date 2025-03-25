@@ -142,7 +142,7 @@ mod app {
 
 
         // Set TIM2 as a base counter for loop delay
-        c.device.TIM2.arr().write(|w| unsafe { w.arr().bits(1750) });
+        c.device.TIM2.arr().write(|w| unsafe { w.arr().bits(500) });
         c.device.TIM2.psc().write(|w| unsafe { w.psc().bits(200) });
 
         // Enable UF/OF interrupt flag

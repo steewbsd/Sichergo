@@ -73,6 +73,25 @@ enum PwmBreathDuty {
     MIN = 5000,
 }
 
+#[derive(Clone, Copy)]
+enum PwmBreathDutyRev {
+    MAX = 5000,
+    STATE1 = 4500,
+    STATE2 = 4000,
+    STATE3 = 3600,
+    STATE4 = 3300,
+    STATE5 = 3000,
+    STATE6 = 2600,
+    STATE7 = 2300,
+    STATE8 = 2000,
+    STATE9 = 1700,
+    STATE10 = 1500,
+    STATE11 = 1200,
+    STATE12 = 1000,
+    MIN = 0,
+}
+
+
 #[rtic::app(device = stm32f1xx_hal::pac, peripherals = true, dispatchers = [FSMC])]
 mod app {
 
@@ -201,7 +220,7 @@ mod app {
         c.device.TIM1.cr1().modify(|_, w| w.cen().set_bit());
 
         // Set TIM2 as a base counter for loop delay
-        c.device.TIM2.arr().write(|w| unsafe { w.arr().bits(1750) });
+        c.device.TIM2.arr().write(|w| unsafe { w.arr().bits(500) });
         c.device.TIM2.psc().write(|w| unsafe { w.psc().bits(200) });
 
         // Enable UF/OF interrupt flag
