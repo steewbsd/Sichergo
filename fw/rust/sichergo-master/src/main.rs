@@ -40,19 +40,34 @@ type KUsbDevice = usb_device::device::UsbDevice<'static, UsbBusType>;
 //     } 
 // };
 
-pub static LAYERS: keyberon::layout::Layers<10, 4, 2, ()> = keyberon::layout::layout! {
+use keyberon::action::{k, m, Action::*, HoldTapAction, HoldTapConfig};
+type Action = keyberon::action::Action<()>;
+use keyberon::key_code::KeyCode::*;
+
+
+const LPAREN: Action = m(&[LShift, Kb8].as_slice());
+const RPAREN: Action = m(&[LShift, Kb9].as_slice());
+const EQUAL : Action = m(&[LShift, Kb0].as_slice());
+
+pub static LAYERS: keyberon::layout::Layers<10, 4, 3, ()> = keyberon::layout::layout! {
     { //[+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+],
-        [Q       W       E       R       T       Y       U       I       O       P],
-        [A       S       D       F       G       H       J       K       L       Enter],
-        [Z       X       C       V       B       N       M       ,       .       KpMinus],
-        [n       n    LShift    (1)    Space   BSpace   RCtrl    LAlt     n       n],
+        [Q       W       F       P       B       J       L       U       Y       Enter],
+        [A       R       S       T       G       M       N       E       I       O],
+        [Z       X       C       D       V       K       H       ,       .       LAlt],
+        [n       n    LShift    (1)    Space   BSpace   RCtrl   (2)      n       n],
     }
     {//[+· ···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+··· ···+],
-        [1        2       3       4       5       6       7       8       9       KpMinus ],
-        [Tab    LAlt    LCtrl     Kb9     n       n       4       5       6       KpPlus],
-        [F11     F12      n       n       n       n       1       2       3       Enter  ],
-        [ n       t       n       t       n       Escape       0       Down       Right       n  ],
-    } 
+        [Escape  '\\'     Up      n     '['     ']'     7       8       9       KpMinus ],
+        [Tab      Left   Down   Right   '('     ')'     4       5       6       KpPlus],
+        [ n       t       n      n      '{'     '}'     1       2       3       KpEqual ],
+        [ n       t       n      t       n       n      0     Slash     n       n  ],
+    }
+    {//[+· ···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+··· ···+],
+        [n     n      Up     n      n     n      n       n       n       n  ],
+        [n     Left  Down   Right   n     |     '`'      n       n      '"'  ],
+        [~     !      @      #      $     %      ^       &       *      '\''  ],
+        [n     n      n      n      n     n      n       n       n       n  ],
+    }
 };
 
 #[derive(Clone, Copy)]
@@ -116,7 +131,7 @@ mod app {
         duty_cycle: usize,
         matrix: Matrix<ErasedPin<Output<PushPull>>, ErasedPin<Input<PullDown>>, 5, 4>,
         debouncer: Debouncer<[[bool; 5]; 4]>,
-        layout: Layout<10, 4, 2, ()>,
+        layout: Layout<10, 4, 3, ()>,
         usb_dev: KUsbDevice,
         usb_class: KUsbClass,
         serial: usbd_serial::SerialPort<'static, UsbBusType>,
@@ -328,7 +343,7 @@ mod app {
                 display.flush().unwrap();
                 display.clear_buffer();
 
-                Text::with_baseline("By Daniel :)", Point::zero(), text_style, Baseline::Top)
+                Text::with_baseline("E \\ U   [ | ] 7 8 9 -\nT L D R ( | ) 4 5 6 +\n~ ! @ # $ | % & . ' \"\n          |     , . -", Point::zero(), text_style, Baseline::Top)
                     .draw(&mut display)
                     .unwrap();
 

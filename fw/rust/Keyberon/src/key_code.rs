@@ -215,7 +215,7 @@ pub enum KeyCode {
     ExSel,
 
     // According to QMK, 0xA5-0xDF are not usable on modern keyboards
-
+    Accute = 0xB4,
     // Modifiers
     /// Left Control.
     LCtrl = 0xE0,
