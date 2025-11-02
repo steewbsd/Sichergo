@@ -1,0 +1,26 @@
+[package]
+name = "sichergo-master"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-hal = "1.0.0"
+nb = "1"
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.5"
+panic-halt = "0.2.0"
+keyberon = {path = "../Keyberon"}
+rtic = {version = "2.1.2", features=["thumbv7-backend"]}
+ssd1306 = "0.10.0"
+embedded-graphics = "0.8.1"
+usb-device = "0.3.2"
+usbd-serial = "0.2.2"
+heapless = "0.8.0"
+
+[dependencies.stm32f1]
+features = ["stm32f103", "rt"]
+version = "0.15.1"
+
+[dependencies.stm32f1xx-hal]
+git = "https://github.com/stm32-rs/stm32f1xx-hal.git"
+features = ["stm32f103", "medium", "stm32-usbd"]
