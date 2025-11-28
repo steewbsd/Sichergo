@@ -37,18 +37,18 @@ macro_rules! hold_tap {
     };
 }
 
-const FLY : Action = m(&[LCtrl, Space].as_slice());
+// const FLY : Action = m(&[LCtrl, Space].as_slice());
 
 // Colemak-DH
 pub static LAYERS: keyberon::layout::Layers<10, 4, 3, ()> = keyberon::layout::layout! {
     { //[+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+],
         [Q       W       F       P       B        J       L       U       Y    Enter],
         [A       R       S       T       G        M       N       E       I      O  ],
-        [Z       X       C       D       V        K       H       ,       .    LAlt ],
+        [Z       X       C       D       V        K       H       ,       .    LGui ],
         [n       n    LShift    (1)    Space   BSpace    (2)    RCtrl     n      n  ],
     }
     {//[+· ···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+··· ···+],
-        [Escape  '\\'     Up    {FLY}   '['      ']'     7       8       9   KpMinus],
+        [Escape  '\\'     Up    LAlt    '['      ']'     7       8       9   KpMinus],
         [Tab      Left   Down   Right   '('      ')'     4       5       6   KpPlus ],
         [ n       t       n      n      '{'      '}'     1       2       3   KpEqual],
         [ n       t       n      t       <        >      0     Slash     n       n  ],
